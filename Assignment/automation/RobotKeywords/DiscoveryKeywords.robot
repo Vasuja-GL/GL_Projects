@@ -9,6 +9,11 @@ Library    Collections
 I open the web page with ${url}
     Run Keyword      Open Url     ${url}
 
+Login to home page
+    [Arguments]  &{login_info}
+    ${result} =    Run Keyword    euro_login  &{login_info}
+    Should be true  ${result}
+
 Close The Browsers
 	Run Keyword     Close The Browser
 

@@ -23,31 +23,14 @@ Library  String
 Verify the favorites status in Discovery.com
     [Tags]    Discovery
     Given I open the web page with ${URL}
-    When I switch to "see_all_shows" page
-    Set to Dictionary    ${show_details}    show_name    ${show_name}
-    And I select the show and return title  &{show_details}
-    Then I verify favorites status
-
-    #To verify the favorites shows in Discovery.com
-    @{favorite_show_list}=  copy list  ${favorite_show_list}
-    :FOR    ${show}    IN    @{favorite_show_list}
-    \    When I switch to "see_all_shows" page
-    \    Set to Dictionary    ${show_details}    show_name    ${show}
-    \    ${show_title_list}=    Then I add show to favorite list    &{show_details}
-    \    @{favorite_selected_list}=    Combine Lists    ${favorite_selected_list}    ${show_title_list}
-    log  ${favorite_selected_list}
-
-    When I switch to "my_vedios" page
-    :FOR    ${show}    IN    @{favorite_show_list}
-    \    Set to Dictionary    ${show_details}    show_name    ${show}
-    \    I verify favorites shows    &{show_details}
-
+    Set to Dictionary    ${login_details}    cookie_policy    True
+    Set to Dictionary    ${login_details}    Username    ${Username}
+    Set to Dictionary    ${login_details}    Password    ${Password}
+    When Login to home page  &{login_details}
 
 
 *** Keywords ***
 Set Init Env
-    ${show_details}=    create dictionary
-    ${favorite_selected_list}=    Create list
+    ${login_details}=    create dictionary
 
-    Set suite variable    ${show_details}
-    Set suite variable    ${favorite_selected_list}
+    Set suite variable    ${logindetails}

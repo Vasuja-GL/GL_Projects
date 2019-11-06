@@ -47,7 +47,7 @@ class Disc_CommonFunctionality(object):
         self._browser.go_to(url)
         log.mjLog.LogReporter("Disc_CommonFunctionality", "info", "Open URL successful")
 
-    def euro_login(self, **params):
+    def euro_login(self, params):
         """
         `Description:` Login for Eurosport portal
 
@@ -57,20 +57,25 @@ class Disc_CommonFunctionality(object):
 
         `Created by:` Vasuja K
         """
-        params = defaultdict(lambda: None, params)
         try:
+            params = defaultdict(lambda: None, params)
+            import pdb;
+            pdb.Pdb(stdout=sys.__stdout__).set_trace()
             status = True
             if params["cookie_policy"]:
-                    self.action_ele.click_element("LoginSubmit")
+                self.action_ele.click_element("Global_EuroSport_Cookie_Policy_Accept_Button_xpath")
+            self.action_ele.click_element("Global_EuroSport_Sign_In_Link_xpath")
 
-                self.action_ele.clear_input_text("LoginUserName")
-                self.action_ele.clear_input_text("LoginPassword")
-                self.action_ele.input_text("LoginUserName", username)
-                self.action_ele.input_text("LoginPassword", password[0])
-                self.action_ele.click_element("LoginSubmit")
+            # self.action_ele.clear_input_text("Global_EuroSport_locator_Discovery_Email_ID_css")
+            # self.action_ele.clear_input_text("Global_EuroSport_Discovery_Password_css")
+            self.action_ele.input_text("Global_EuroSport_locator_Discovery_Email_ID_css", params["Username"])
+            self.action_ele.input_text("Global_EuroSport_Discovery_Password_css", params["Password"])
+            self.action_ele.click_element("Global_Eurosport_Sign_In_Button_xpath")
+
         except Exception as err:
             print(err.message)
             self.action_ele.takeScreenshot(inspect.currentframe().f_code.co_name)
+            raise Exception("Login failed!!")
 
     def close_browser(self):
         """

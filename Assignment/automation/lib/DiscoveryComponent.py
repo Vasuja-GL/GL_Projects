@@ -2,6 +2,7 @@
 """
 import time
 import stafenv
+import sys
 
 from web_wrappers.selenium_wrappers import LocalBrowser
 from page.DiscoveryComponent import DiscoveryPage
@@ -43,6 +44,24 @@ class DiscoveryComponent():
             self.discovery_page.commonfun.open_url(url)
         except Exception as e:
             print(e)
+
+    def euro_login(self, **params):
+        """
+        `Description:` Login for Eurosport portal
+
+        `:params` Dictionary contains login details
+
+        `:return:` status - True/False
+
+        `Created by:` Vasuja K
+        """
+        try:
+            import pdb;
+            pdb.Pdb(stdout=sys.__stdout__).set_trace()
+            status = self.discovery_page.commonfun.euro_login(params)
+            return status
+        except:
+            raise AssertionError("Login Failed!!")
 
     def switch_page(self, **params):
         """

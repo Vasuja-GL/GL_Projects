@@ -21912,3 +21912,333 @@ urllib3.connectionpool | DEBUG | http://127.0.0.1:41163 "GET /session/8fe39d8ed6
 urllib3.connectionpool | DEBUG | http://127.0.0.1:41163 "GET /session/8fe39d8ed6438fccbca671a4b1d1756e/screenshot HTTP/1.1" 200 321412
 urllib3.connectionpool | DEBUG | http://127.0.0.1:41163 "DELETE /session/8fe39d8ed6438fccbca671a4b1d1756e HTTP/1.1" 200 14
 urllib3.connectionpool | DEBUG | http://127.0.0.1:41163 "DELETE /session/8fe39d8ed6438fccbca671a4b1d1756e HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54961 "POST /session/c4e961bb9492d70e6c9a4fd31b72b151/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:50865
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50865 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50865 "POST /session/601fb731672e41e9db6ae66a0bfc4ec8/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50865 "POST /session/601fb731672e41e9db6ae66a0bfc4ec8/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50865 "POST /session/601fb731672e41e9db6ae66a0bfc4ec8/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50865 "POST /session/601fb731672e41e9db6ae66a0bfc4ec8/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50865 "POST /session/601fb731672e41e9db6ae66a0bfc4ec8/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50865 "DELETE /session/601fb731672e41e9db6ae66a0bfc4ec8 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50865 "DELETE /session/601fb731672e41e9db6ae66a0bfc4ec8 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53695 "POST /session/80cfdc749b8860cf695d1b8804157755/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:60873
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60873 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60873 "POST /session/e2f55a45a1516ad3e90af4d4ff3bada3/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60873 "POST /session/e2f55a45a1516ad3e90af4d4ff3bada3/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60873 "POST /session/e2f55a45a1516ad3e90af4d4ff3bada3/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60873 "POST /session/e2f55a45a1516ad3e90af4d4ff3bada3/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60873 "POST /session/e2f55a45a1516ad3e90af4d4ff3bada3/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60873 "DELETE /session/e2f55a45a1516ad3e90af4d4ff3bada3 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60873 "DELETE /session/e2f55a45a1516ad3e90af4d4ff3bada3 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60385 "POST /session/96165d180106c475e3070598cbc5bb91/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:49251
+urllib3.connectionpool | DEBUG | http://127.0.0.1:49251 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:49251 "POST /session/9f4770b3ccd561c7e8a009e2ded91077/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:49251 "POST /session/9f4770b3ccd561c7e8a009e2ded91077/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:49251 "POST /session/9f4770b3ccd561c7e8a009e2ded91077/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:49251 "POST /session/9f4770b3ccd561c7e8a009e2ded91077/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:49251 "POST /session/9f4770b3ccd561c7e8a009e2ded91077/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:49251 "DELETE /session/9f4770b3ccd561c7e8a009e2ded91077 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:49251 "DELETE /session/9f4770b3ccd561c7e8a009e2ded91077 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41157 "POST /session/4f67277dfe2bc06cde932fa1c622d5f4/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:51431
+urllib3.connectionpool | DEBUG | http://127.0.0.1:51431 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:51431 "POST /session/fd32a260060078f3a5cfb2f156c1a0cf/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:51431 "POST /session/fd32a260060078f3a5cfb2f156c1a0cf/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:51431 "POST /session/fd32a260060078f3a5cfb2f156c1a0cf/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:51431 "POST /session/fd32a260060078f3a5cfb2f156c1a0cf/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:51431 "POST /session/fd32a260060078f3a5cfb2f156c1a0cf/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:39699 "POST /session/66ab851e6a6ba728eafcdf372041248a/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:40625
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40625 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40625 "POST /session/b7e5950c4f2e41ad0cec0a09e0f7caa5/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40625 "POST /session/b7e5950c4f2e41ad0cec0a09e0f7caa5/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40625 "POST /session/b7e5950c4f2e41ad0cec0a09e0f7caa5/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40625 "POST /session/b7e5950c4f2e41ad0cec0a09e0f7caa5/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40625 "POST /session/b7e5950c4f2e41ad0cec0a09e0f7caa5/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'accept')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'accept')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40625 "POST /session/b7e5950c4f2e41ad0cec0a09e0f7caa5/elements HTTP/1.1" 200 12
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40625 "POST /session/b7e5950c4f2e41ad0cec0a09e0f7caa5/elements HTTP/1.1" 200 12
+Browser | ERROR | element_finder - No or more than 1 element returned for provided locator(<type 'exceptions.Exception'>, Exception('0 elements found.',), <traceback object at 0x7f0284911bd8>)
+Browser | ERROR | element_finder - No or more than 1 element returned for provided locator(<type 'exceptions.Exception'>, Exception('0 elements found.',), <traceback object at 0x7f0284911bd8>)
+urllib3.connectionpool | DEBUG | Resetting dropped connection: 127.0.0.1
+urllib3.connectionpool | DEBUG | Resetting dropped connection: 127.0.0.1
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/b7e5950c4f2e41ad0cec0a09e0f7caa5/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/b7e5950c4f2e41ad0cec0a09e0f7caa5/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0284949410>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/b7e5950c4f2e41ad0cec0a09e0f7caa5/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f0284949410>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/b7e5950c4f2e41ad0cec0a09e0f7caa5/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (2): 127.0.0.1:40625
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (2): 127.0.0.1:40625
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/b7e5950c4f2e41ad0cec0a09e0f7caa5/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/b7e5950c4f2e41ad0cec0a09e0f7caa5/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02841bb0d0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/b7e5950c4f2e41ad0cec0a09e0f7caa5/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02841bb0d0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/b7e5950c4f2e41ad0cec0a09e0f7caa5/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (3): 127.0.0.1:40625
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (3): 127.0.0.1:40625
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/b7e5950c4f2e41ad0cec0a09e0f7caa5/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/b7e5950c4f2e41ad0cec0a09e0f7caa5/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02841bb290>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/b7e5950c4f2e41ad0cec0a09e0f7caa5/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f02841bb290>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/b7e5950c4f2e41ad0cec0a09e0f7caa5/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (4): 127.0.0.1:40625
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (4): 127.0.0.1:40625
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60141 "POST /session/4f358e634ed5fe07a6adc44af9a79ec9/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:38503
+urllib3.connectionpool | DEBUG | http://127.0.0.1:38503 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:38503 "POST /session/08ff85769a15724aaef9a99209db631e/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:38503 "POST /session/08ff85769a15724aaef9a99209db631e/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:38503 "POST /session/08ff85769a15724aaef9a99209db631e/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:38503 "POST /session/08ff85769a15724aaef9a99209db631e/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:38503 "POST /session/08ff85769a15724aaef9a99209db631e/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'accept')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'accept')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:38503 "POST /session/08ff85769a15724aaef9a99209db631e/elements HTTP/1.1" 200 12
+urllib3.connectionpool | DEBUG | http://127.0.0.1:38503 "POST /session/08ff85769a15724aaef9a99209db631e/elements HTTP/1.1" 200 12
+Browser | ERROR | element_finder - No or more than 1 element returned for provided locator(<type 'exceptions.Exception'>, Exception('0 elements found.',), <traceback object at 0x7f5bd9f62b90>)
+Browser | ERROR | element_finder - No or more than 1 element returned for provided locator(<type 'exceptions.Exception'>, Exception('0 elements found.',), <traceback object at 0x7f5bd9f62b90>)
+urllib3.connectionpool | DEBUG | http://127.0.0.1:36261 "POST /session/dd54ba7360e7d1aa6e245d3d1aecff8a/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:47407
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47407 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47407 "POST /session/7d4846262aa7cf11e90e835066cbc8aa/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47407 "POST /session/7d4846262aa7cf11e90e835066cbc8aa/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47407 "POST /session/7d4846262aa7cf11e90e835066cbc8aa/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47407 "POST /session/7d4846262aa7cf11e90e835066cbc8aa/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47407 "POST /session/7d4846262aa7cf11e90e835066cbc8aa/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47407 "POST /session/7d4846262aa7cf11e90e835066cbc8aa/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47407 "POST /session/7d4846262aa7cf11e90e835066cbc8aa/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47407 "POST /session/7d4846262aa7cf11e90e835066cbc8aa/element/8e7a6943-7d0e-4430-bf58-7aff4b0acc3b/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47407 "POST /session/7d4846262aa7cf11e90e835066cbc8aa/element/8e7a6943-7d0e-4430-bf58-7aff4b0acc3b/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//a[contains(text(),'Sign in')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//a[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47407 "POST /session/7d4846262aa7cf11e90e835066cbc8aa/elements HTTP/1.1" 200 12
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47407 "POST /session/7d4846262aa7cf11e90e835066cbc8aa/elements HTTP/1.1" 200 12
+Browser | ERROR | element_finder - No or more than 1 element returned for provided locator(<type 'exceptions.Exception'>, Exception('0 elements found.',), <traceback object at 0x7f492111b6c8>)
+Browser | ERROR | element_finder - No or more than 1 element returned for provided locator(<type 'exceptions.Exception'>, Exception('0 elements found.',), <traceback object at 0x7f492111b6c8>)
+urllib3.connectionpool | DEBUG | Resetting dropped connection: 127.0.0.1
+urllib3.connectionpool | DEBUG | Resetting dropped connection: 127.0.0.1
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/7d4846262aa7cf11e90e835066cbc8aa/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/7d4846262aa7cf11e90e835066cbc8aa/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f492114ca50>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/7d4846262aa7cf11e90e835066cbc8aa/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f492114ca50>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/7d4846262aa7cf11e90e835066cbc8aa/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (2): 127.0.0.1:47407
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (2): 127.0.0.1:47407
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/7d4846262aa7cf11e90e835066cbc8aa/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/7d4846262aa7cf11e90e835066cbc8aa/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f49209c1690>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/7d4846262aa7cf11e90e835066cbc8aa/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f49209c1690>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/7d4846262aa7cf11e90e835066cbc8aa/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (3): 127.0.0.1:47407
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (3): 127.0.0.1:47407
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/7d4846262aa7cf11e90e835066cbc8aa/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/7d4846262aa7cf11e90e835066cbc8aa/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f49209c1850>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/7d4846262aa7cf11e90e835066cbc8aa/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f49209c1850>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/7d4846262aa7cf11e90e835066cbc8aa/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (4): 127.0.0.1:47407
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (4): 127.0.0.1:47407
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41599 "POST /session/24cc2679e5e3c2cebabbd269c6143caf/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:32803
+urllib3.connectionpool | DEBUG | http://127.0.0.1:32803 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:32803 "POST /session/9de8f548f90fb95aad981466b4ad79f1/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:32803 "POST /session/9de8f548f90fb95aad981466b4ad79f1/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:32803 "POST /session/9de8f548f90fb95aad981466b4ad79f1/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:32803 "POST /session/9de8f548f90fb95aad981466b4ad79f1/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:32803 "POST /session/9de8f548f90fb95aad981466b4ad79f1/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:32803 "POST /session/9de8f548f90fb95aad981466b4ad79f1/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:32803 "POST /session/9de8f548f90fb95aad981466b4ad79f1/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:32803 "POST /session/9de8f548f90fb95aad981466b4ad79f1/element/00834e74-dd3c-4b4b-8653-5d7e8df954fb/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:32803 "POST /session/9de8f548f90fb95aad981466b4ad79f1/element/00834e74-dd3c-4b4b-8653-5d7e8df954fb/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//a[contains(text(),'styles-iconLabel-25LQNt_a styles-authButtonText-358bYW8K styles-details-2E91cOzx styles-unset-35VUJCJ5 styles-span-33jXfBUc styles-unset-2qFRxvJS styles-typeface-2kCzl40W styles-lineHeight-2WZSkdD- styles-regular-2QBMZXwm')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//a[contains(text(),'styles-iconLabel-25LQNt_a styles-authButtonText-358bYW8K styles-details-2E91cOzx styles-unset-35VUJCJ5 styles-span-33jXfBUc styles-unset-2qFRxvJS styles-typeface-2kCzl40W styles-lineHeight-2WZSkdD- styles-regular-2QBMZXwm')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:32803 "POST /session/9de8f548f90fb95aad981466b4ad79f1/elements HTTP/1.1" 200 12
+urllib3.connectionpool | DEBUG | http://127.0.0.1:32803 "POST /session/9de8f548f90fb95aad981466b4ad79f1/elements HTTP/1.1" 200 12
+Browser | ERROR | element_finder - No or more than 1 element returned for provided locator(<type 'exceptions.Exception'>, Exception('0 elements found.',), <traceback object at 0x7fdf712383f8>)
+Browser | ERROR | element_finder - No or more than 1 element returned for provided locator(<type 'exceptions.Exception'>, Exception('0 elements found.',), <traceback object at 0x7fdf712383f8>)
+urllib3.connectionpool | DEBUG | Resetting dropped connection: 127.0.0.1
+urllib3.connectionpool | DEBUG | Resetting dropped connection: 127.0.0.1
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/9de8f548f90fb95aad981466b4ad79f1/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/9de8f548f90fb95aad981466b4ad79f1/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdf71269a50>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/9de8f548f90fb95aad981466b4ad79f1/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdf71269a50>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/9de8f548f90fb95aad981466b4ad79f1/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (2): 127.0.0.1:32803
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (2): 127.0.0.1:32803
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/9de8f548f90fb95aad981466b4ad79f1/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/9de8f548f90fb95aad981466b4ad79f1/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdf70ade6d0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/9de8f548f90fb95aad981466b4ad79f1/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdf70ade6d0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/9de8f548f90fb95aad981466b4ad79f1/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (3): 127.0.0.1:32803
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (3): 127.0.0.1:32803
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/9de8f548f90fb95aad981466b4ad79f1/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/9de8f548f90fb95aad981466b4ad79f1/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdf70ade890>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/9de8f548f90fb95aad981466b4ad79f1/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdf70ade890>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/9de8f548f90fb95aad981466b4ad79f1/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (4): 127.0.0.1:32803
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (4): 127.0.0.1:32803
+urllib3.connectionpool | DEBUG | http://127.0.0.1:42465 "POST /session/f9c955080025768ede77f5cb3ff83618/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:34921
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34921 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34921 "POST /session/5054fc4e4947dacaf3c121374f8afc8b/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34921 "POST /session/5054fc4e4947dacaf3c121374f8afc8b/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34921 "POST /session/5054fc4e4947dacaf3c121374f8afc8b/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34921 "POST /session/5054fc4e4947dacaf3c121374f8afc8b/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34921 "POST /session/5054fc4e4947dacaf3c121374f8afc8b/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34921 "POST /session/5054fc4e4947dacaf3c121374f8afc8b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34921 "POST /session/5054fc4e4947dacaf3c121374f8afc8b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34921 "POST /session/5054fc4e4947dacaf3c121374f8afc8b/element/0a22a43f-b887-430b-b71d-ddfd389129ac/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34921 "POST /session/5054fc4e4947dacaf3c121374f8afc8b/element/0a22a43f-b887-430b-b71d-ddfd389129ac/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34921 "POST /session/5054fc4e4947dacaf3c121374f8afc8b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34921 "POST /session/5054fc4e4947dacaf3c121374f8afc8b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34921 "POST /session/5054fc4e4947dacaf3c121374f8afc8b/element/fcf38413-09d8-4765-adb9-c137dbcfbafb/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34921 "POST /session/5054fc4e4947dacaf3c121374f8afc8b/element/fcf38413-09d8-4765-adb9-c137dbcfbafb/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53329 "POST /session/c4f1ce207a935c17fb65084c900a0b4a/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:48277
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48277 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48277 "POST /session/0525ab623f94aed9b77b09684bc90a63/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48277 "POST /session/0525ab623f94aed9b77b09684bc90a63/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48277 "POST /session/0525ab623f94aed9b77b09684bc90a63/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48277 "POST /session/0525ab623f94aed9b77b09684bc90a63/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48277 "POST /session/0525ab623f94aed9b77b09684bc90a63/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48277 "POST /session/0525ab623f94aed9b77b09684bc90a63/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48277 "POST /session/0525ab623f94aed9b77b09684bc90a63/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48277 "POST /session/0525ab623f94aed9b77b09684bc90a63/element/635f865a-fce0-4201-9496-54349b4d25ab/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48277 "POST /session/0525ab623f94aed9b77b09684bc90a63/element/635f865a-fce0-4201-9496-54349b4d25ab/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48277 "POST /session/0525ab623f94aed9b77b09684bc90a63/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48277 "POST /session/0525ab623f94aed9b77b09684bc90a63/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48277 "POST /session/0525ab623f94aed9b77b09684bc90a63/element/044c5231-15a3-4a65-a581-dd81b1c376a5/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48277 "POST /session/0525ab623f94aed9b77b09684bc90a63/element/044c5231-15a3-4a65-a581-dd81b1c376a5/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+urllib3.connectionpool | DEBUG | http://127.0.0.1:36747 "POST /session/058fa1901142d61d159ca892ca7a70d1/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:56185
+urllib3.connectionpool | DEBUG | http://127.0.0.1:56185 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:56185 "POST /session/201a3894ea325c74b34a229dbdd406bb/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:56185 "POST /session/201a3894ea325c74b34a229dbdd406bb/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:56185 "POST /session/201a3894ea325c74b34a229dbdd406bb/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:56185 "POST /session/201a3894ea325c74b34a229dbdd406bb/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:56185 "POST /session/201a3894ea325c74b34a229dbdd406bb/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:56185 "POST /session/201a3894ea325c74b34a229dbdd406bb/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:56185 "POST /session/201a3894ea325c74b34a229dbdd406bb/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:56185 "POST /session/201a3894ea325c74b34a229dbdd406bb/element/395d86c0-21f1-41fa-88be-b8c9a6f02ae3/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:56185 "POST /session/201a3894ea325c74b34a229dbdd406bb/element/395d86c0-21f1-41fa-88be-b8c9a6f02ae3/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:56185 "POST /session/201a3894ea325c74b34a229dbdd406bb/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:56185 "POST /session/201a3894ea325c74b34a229dbdd406bb/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:56185 "POST /session/201a3894ea325c74b34a229dbdd406bb/element/6749570a-59f2-4a3f-8fe9-e222372c529c/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:56185 "POST /session/201a3894ea325c74b34a229dbdd406bb/element/6749570a-59f2-4a3f-8fe9-e222372c529c/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+urllib3.connectionpool | DEBUG | Resetting dropped connection: 127.0.0.1
+urllib3.connectionpool | DEBUG | Resetting dropped connection: 127.0.0.1
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/201a3894ea325c74b34a229dbdd406bb/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/201a3894ea325c74b34a229dbdd406bb/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7effc58c93d0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/201a3894ea325c74b34a229dbdd406bb/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7effc58c93d0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/201a3894ea325c74b34a229dbdd406bb/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (2): 127.0.0.1:56185
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (2): 127.0.0.1:56185
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/201a3894ea325c74b34a229dbdd406bb/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/201a3894ea325c74b34a229dbdd406bb/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7effc51390d0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/201a3894ea325c74b34a229dbdd406bb/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7effc51390d0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/201a3894ea325c74b34a229dbdd406bb/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (3): 127.0.0.1:56185
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (3): 127.0.0.1:56185
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/201a3894ea325c74b34a229dbdd406bb/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/201a3894ea325c74b34a229dbdd406bb/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7effc5139290>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/201a3894ea325c74b34a229dbdd406bb/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7effc5139290>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/201a3894ea325c74b34a229dbdd406bb/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (4): 127.0.0.1:56185
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (4): 127.0.0.1:56185
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34219 "POST /session/11ad1b33904370ef0d02cb96642195fa/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:54125
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54125 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54125 "POST /session/d7282fc2204b7f5c3af557ae09b1aada/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54125 "POST /session/d7282fc2204b7f5c3af557ae09b1aada/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54125 "POST /session/d7282fc2204b7f5c3af557ae09b1aada/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54125 "POST /session/d7282fc2204b7f5c3af557ae09b1aada/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54125 "POST /session/d7282fc2204b7f5c3af557ae09b1aada/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54125 "POST /session/d7282fc2204b7f5c3af557ae09b1aada/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54125 "POST /session/d7282fc2204b7f5c3af557ae09b1aada/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54125 "POST /session/d7282fc2204b7f5c3af557ae09b1aada/element/6cec88a2-3986-4c2d-8399-b1e1cd7f672c/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54125 "POST /session/d7282fc2204b7f5c3af557ae09b1aada/element/6cec88a2-3986-4c2d-8399-b1e1cd7f672c/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54125 "POST /session/d7282fc2204b7f5c3af557ae09b1aada/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54125 "POST /session/d7282fc2204b7f5c3af557ae09b1aada/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54125 "POST /session/d7282fc2204b7f5c3af557ae09b1aada/element/6fb24aec-e026-45a9-a3df-3497837a4741/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54125 "POST /session/d7282fc2204b7f5c3af557ae09b1aada/element/6fb24aec-e026-45a9-a3df-3497837a4741/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath

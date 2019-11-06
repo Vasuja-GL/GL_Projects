@@ -5,6 +5,7 @@
 #####Automation setup#####
 #${URL}                    https://go.discovery.com/
 ${URL}                     https://www.eurosportplayer.com/
-${show_name}              APOLLO
+${Username}                ch@test.com
+${Password}                testES1
 ${BROWSER}                chrome  #canary
 @{favorite_show_list}=    APOLLO    SAVAGE_BUILDS  #  SERENGETI
