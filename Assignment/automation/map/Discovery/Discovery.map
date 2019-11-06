@@ -1,6 +1,6 @@
 shows==span#xpath#//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
 see_all_shows==div#xpath#//div[@id="show-drop-desktop"]
-see_all_shows_link==a#xpath#//div[@id="show-drop-desktop"]/ul/li[12]/div/a
+see_all_shows_link==a#xpath#(//div/a[contains(text(),'See All Shows')])[1]
 tv_shows==h1#xpath#//h1[@class='allShowsHeader__heading']
 img_apollo==img#xpath#//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
 apollo_favorites_plus==i#xpath#//*[@id="react-root"]/div/div[1]/main/section[1]/div/div[1]/div[2]/div[1]/span/i[@class='flipIconCore__icon icon-plus ']

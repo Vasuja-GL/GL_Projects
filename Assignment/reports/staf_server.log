@@ -21588,3 +21588,327 @@ urllib3.connectionpool | DEBUG | http://127.0.0.1:36521 "GET /session/1ea59b98b8
 urllib3.connectionpool | DEBUG | http://127.0.0.1:36521 "GET /session/1ea59b98b8fac25017beaa3cae81227c/screenshot HTTP/1.1" 200 2029116
 urllib3.connectionpool | DEBUG | http://127.0.0.1:36521 "DELETE /session/1ea59b98b8fac25017beaa3cae81227c HTTP/1.1" 200 14
 urllib3.connectionpool | DEBUG | http://127.0.0.1:36521 "DELETE /session/1ea59b98b8fac25017beaa3cae81227c HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47313 "POST /session/2cdbd6853eb1d35ab6a78522cf2814e2/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:43541
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/execute/sync HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/execute/sync HTTP/1.1" 200 14
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/element/de7fd790-7c54-489f-839b-d6fc477c57a0/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/element/de7fd790-7c54-489f-839b-d6fc477c57a0/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- shows
+WebUIOperation | DEBUG | Click operation                                          successful- shows
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/execute/sync HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/execute/sync HTTP/1.1" 200 14
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//div[@id="show-drop-desktop"]/ul/li[12]/div/a
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//div[@id="show-drop-desktop"]/ul/li[12]/div/a
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/elements HTTP/1.1" 200 12
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "POST /session/3a0f7d85af834c06f50858a057750b17/elements HTTP/1.1" 200 12
+Browser | ERROR | element_finder - No or more than 1 element returned for provided locator(<type 'exceptions.Exception'>, Exception('0 elements found.',), <traceback object at 0x7fb245841b90>)
+Browser | ERROR | element_finder - No or more than 1 element returned for provided locator(<type 'exceptions.Exception'>, Exception('0 elements found.',), <traceback object at 0x7fb245841b90>)
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "GET /session/3a0f7d85af834c06f50858a057750b17/screenshot HTTP/1.1" 200 2357740
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "GET /session/3a0f7d85af834c06f50858a057750b17/screenshot HTTP/1.1" 200 2357740
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "DELETE /session/3a0f7d85af834c06f50858a057750b17 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43541 "DELETE /session/3a0f7d85af834c06f50858a057750b17 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41919 "POST /session/d4c16ff95dc790833d31ce8c68f0ff79/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:35233
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/execute/sync HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/execute/sync HTTP/1.1" 200 14
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/element/28f43619-fd05-48c9-98de-117ca4325e11/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/element/28f43619-fd05-48c9-98de-117ca4325e11/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- shows
+WebUIOperation | DEBUG | Click operation                                          successful- shows
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/execute/sync HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/execute/sync HTTP/1.1" 200 14
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//div[@id="show-drop-desktop"]/ul/li[12]/div/a
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//div[@id="show-drop-desktop"]/ul/li[12]/div/a
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/elements HTTP/1.1" 200 12
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35233 "POST /session/91a7677401331059a7f16d322ffcd1a9/elements HTTP/1.1" 200 12
+Browser | ERROR | element_finder - No or more than 1 element returned for provided locator(<type 'exceptions.Exception'>, Exception('0 elements found.',), <traceback object at 0x7f7906c60950>)
+Browser | ERROR | element_finder - No or more than 1 element returned for provided locator(<type 'exceptions.Exception'>, Exception('0 elements found.',), <traceback object at 0x7f7906c60950>)
+urllib3.connectionpool | DEBUG | Resetting dropped connection: 127.0.0.1
+urllib3.connectionpool | DEBUG | Resetting dropped connection: 127.0.0.1
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/91a7677401331059a7f16d322ffcd1a9/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/91a7677401331059a7f16d322ffcd1a9/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f790738ed50>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/91a7677401331059a7f16d322ffcd1a9/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f790738ed50>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/91a7677401331059a7f16d322ffcd1a9/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (2): 127.0.0.1:35233
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (2): 127.0.0.1:35233
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/91a7677401331059a7f16d322ffcd1a9/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/91a7677401331059a7f16d322ffcd1a9/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7906c04890>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/91a7677401331059a7f16d322ffcd1a9/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7906c04890>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/91a7677401331059a7f16d322ffcd1a9/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (3): 127.0.0.1:35233
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (3): 127.0.0.1:35233
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/91a7677401331059a7f16d322ffcd1a9/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/91a7677401331059a7f16d322ffcd1a9/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7906c04a10>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/91a7677401331059a7f16d322ffcd1a9/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f7906c04a10>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/91a7677401331059a7f16d322ffcd1a9/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (4): 127.0.0.1:35233
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (4): 127.0.0.1:35233
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54811 "POST /session/18db77313602a469e83e507c06ef5b3b/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:45033
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/execute/sync HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/execute/sync HTTP/1.1" 200 14
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element/81b7fb05-67aa-4dd4-b86f-004f54d158be/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element/81b7fb05-67aa-4dd4-b86f-004f54d158be/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- shows
+WebUIOperation | DEBUG | Click operation                                          successful- shows
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/execute/sync HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/execute/sync HTTP/1.1" 200 14
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=(//div/a[contains(text(),'See All Shows')])[1]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=(//div/a[contains(text(),'See All Shows')])[1]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=(//div/a[contains(text(),'See All Shows')])[1]
+Browser | DEBUG | Element identified: By=xpath, ByValue=(//div/a[contains(text(),'See All Shows')])[1]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/actions HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/actions HTTP/1.1" 200 14
+WebUIOperation | DEBUG | mouse_hover operation                                      successful- see_all_shows_link
+WebUIOperation | DEBUG | mouse_hover operation                                      successful- see_all_shows_link
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=(//div/a[contains(text(),'See All Shows')])[1]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=(//div/a[contains(text(),'See All Shows')])[1]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=(//div/a[contains(text(),'See All Shows')])[1]
+Browser | DEBUG | Element identified: By=xpath, ByValue=(//div/a[contains(text(),'See All Shows')])[1]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element/104b9ff3-5759-4868-a683-b7a2acdcba59/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element/104b9ff3-5759-4868-a683-b7a2acdcba59/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- see_all_shows_link
+WebUIOperation | DEBUG | Click operation                                          successful- see_all_shows_link
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/execute/sync HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/execute/sync HTTP/1.1" 200 14
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+Browser | DEBUG | Element identified: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/actions HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/actions HTTP/1.1" 200 14
+WebUIOperation | DEBUG | mouse_hover operation                                      successful- img_apollo
+WebUIOperation | DEBUG | mouse_hover operation                                      successful- img_apollo
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+Browser | DEBUG | Element identified: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+Browser | DEBUG | Element identified: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element/1798a305-f7c5-4648-a03e-bcebabd854af/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element/1798a305-f7c5-4648-a03e-bcebabd854af/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- img_apollo
+WebUIOperation | DEBUG | Click operation                                          successful- img_apollo
+Browser | ERROR | element_finder - No or more than 1 element returned for provided locator(<type 'exceptions.Exception'>, Exception('No element returned for provided locator <favorites_plus>',), <traceback object at 0x7f700ca05368>)
+Browser | ERROR | element_finder - No or more than 1 element returned for provided locator(<type 'exceptions.Exception'>, Exception('No element returned for provided locator <favorites_plus>',), <traceback object at 0x7f700ca05368>)
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "GET /session/2574d4e984f0fa40a2e763981685bd4b/screenshot HTTP/1.1" 200 1552752
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "GET /session/2574d4e984f0fa40a2e763981685bd4b/screenshot HTTP/1.1" 200 1552752
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/execute/sync HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/execute/sync HTTP/1.1" 200 14
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element/0d2f90ec-53cc-442e-9bc5-bfbd726d1915/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element/0d2f90ec-53cc-442e-9bc5-bfbd726d1915/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- shows
+WebUIOperation | DEBUG | Click operation                                          successful- shows
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/execute/sync HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/execute/sync HTTP/1.1" 200 14
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=(//div/a[contains(text(),'See All Shows')])[1]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=(//div/a[contains(text(),'See All Shows')])[1]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=(//div/a[contains(text(),'See All Shows')])[1]
+Browser | DEBUG | Element identified: By=xpath, ByValue=(//div/a[contains(text(),'See All Shows')])[1]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/actions HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/actions HTTP/1.1" 200 14
+WebUIOperation | DEBUG | mouse_hover operation                                      successful- see_all_shows_link
+WebUIOperation | DEBUG | mouse_hover operation                                      successful- see_all_shows_link
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=(//div/a[contains(text(),'See All Shows')])[1]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=(//div/a[contains(text(),'See All Shows')])[1]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=(//div/a[contains(text(),'See All Shows')])[1]
+Browser | DEBUG | Element identified: By=xpath, ByValue=(//div/a[contains(text(),'See All Shows')])[1]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element/61b46273-8d5f-44aa-bdf0-506d8e0f56ae/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element/61b46273-8d5f-44aa-bdf0-506d8e0f56ae/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- see_all_shows_link
+WebUIOperation | DEBUG | Click operation                                          successful- see_all_shows_link
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/execute/sync HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/execute/sync HTTP/1.1" 200 14
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+Browser | DEBUG | Element identified: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/actions HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/actions HTTP/1.1" 200 14
+WebUIOperation | DEBUG | mouse_hover operation                                      successful- img_apollo
+WebUIOperation | DEBUG | mouse_hover operation                                      successful- img_apollo
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+Browser | DEBUG | Element identified: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+Browser | DEBUG | Element identified: By=xpath, ByValue=//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element/207ab7d4-bf30-4b2c-989f-0d8006bc7fcb/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element/207ab7d4-bf30-4b2c-989f-0d8006bc7fcb/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- img_apollo
+WebUIOperation | DEBUG | Click operation                                          successful- img_apollo
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//*[@id="react-root"]/div/div[1]/main/section[1]/div/div[1]/div[2]/div[1]/span/i[@class='flipIconCore__icon icon-plus ']
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//*[@id="react-root"]/div/div[1]/main/section[1]/div/div[1]/div[2]/div[1]/span/i[@class='flipIconCore__icon icon-plus ']
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//*[@id="react-root"]/div/div[1]/main/section[1]/div/div[1]/div[2]/div[1]/span/i[@class='flipIconCore__icon icon-plus ']
+Browser | DEBUG | Element identified: By=xpath, ByValue=//*[@id="react-root"]/div/div[1]/main/section[1]/div/div[1]/div[2]/div[1]/span/i[@class='flipIconCore__icon icon-plus ']
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/execute/sync HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/execute/sync HTTP/1.1" 200 14
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//*[@id="react-root"]/div/div[1]/main/section[1]/div/div[1]/div[2]/div[1]/span/i[@class='flipIconCore__icon icon-plus ']
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//*[@id="react-root"]/div/div[1]/main/section[1]/div/div[1]/div[2]/div[1]/span/i[@class='flipIconCore__icon icon-plus ']
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//*[@id="react-root"]/div/div[1]/main/section[1]/div/div[1]/div[2]/div[1]/span/i[@class='flipIconCore__icon icon-plus ']
+Browser | DEBUG | Element identified: By=xpath, ByValue=//*[@id="react-root"]/div/div[1]/main/section[1]/div/div[1]/div[2]/div[1]/span/i[@class='flipIconCore__icon icon-plus ']
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element/1c0da4ba-4bd0-4e2e-869f-edc5806d4bde/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element/1c0da4ba-4bd0-4e2e-869f-edc5806d4bde/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- apollo_favorites_plus
+WebUIOperation | DEBUG | Click operation                                          successful- apollo_favorites_plus
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//i[@class='flipIconCore__icon icon-minus ']
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//i[@class='flipIconCore__icon icon-minus ']
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//i[@class='flipIconCore__icon icon-minus ']
+Browser | DEBUG | Element identified: By=xpath, ByValue=//i[@class='flipIconCore__icon icon-minus ']
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//i[@class='flipIconCore__icon icon-minus ']
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//i[@class='flipIconCore__icon icon-minus ']
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//i[@class='flipIconCore__icon icon-minus ']
+Browser | DEBUG | Element identified: By=xpath, ByValue=//i[@class='flipIconCore__icon icon-minus ']
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/execute/sync HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/execute/sync HTTP/1.1" 200 14
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element/554a0ab1-d168-4042-b73b-a209f877c6f0/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45033 "POST /session/2574d4e984f0fa40a2e763981685bd4b/element/554a0ab1-d168-4042-b73b-a209f877c6f0/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- shows
+WebUIOperation | DEBUG | Click operation                                          successful- shows
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60151 "POST /session/95cefda4211235b361c49ad272cf227e/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:48895
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48895 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48895 "POST /session/4b0ad163e784f8ca27eb9fe445c1e940/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48895 "POST /session/4b0ad163e784f8ca27eb9fe445c1e940/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48895 "POST /session/4b0ad163e784f8ca27eb9fe445c1e940/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48895 "POST /session/4b0ad163e784f8ca27eb9fe445c1e940/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48895 "POST /session/4b0ad163e784f8ca27eb9fe445c1e940/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48895 "POST /session/4b0ad163e784f8ca27eb9fe445c1e940/element HTTP/1.1" 404 295
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48895 "POST /session/4b0ad163e784f8ca27eb9fe445c1e940/element HTTP/1.1" 404 295
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48895 "POST /session/4b0ad163e784f8ca27eb9fe445c1e940/element HTTP/1.1" 404 295
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48895 "POST /session/4b0ad163e784f8ca27eb9fe445c1e940/element HTTP/1.1" 404 295
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48895 "GET /session/4b0ad163e784f8ca27eb9fe445c1e940/screenshot HTTP/1.1" 200 29620
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48895 "GET /session/4b0ad163e784f8ca27eb9fe445c1e940/screenshot HTTP/1.1" 200 29620
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48895 "DELETE /session/4b0ad163e784f8ca27eb9fe445c1e940 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48895 "DELETE /session/4b0ad163e784f8ca27eb9fe445c1e940 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40147 "POST /session/072065e714bacfb478d904022c31f4a4/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:41163
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41163 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41163 "POST /session/8fe39d8ed6438fccbca671a4b1d1756e/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41163 "POST /session/8fe39d8ed6438fccbca671a4b1d1756e/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41163 "POST /session/8fe39d8ed6438fccbca671a4b1d1756e/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41163 "POST /session/8fe39d8ed6438fccbca671a4b1d1756e/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41163 "POST /session/8fe39d8ed6438fccbca671a4b1d1756e/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41163 "POST /session/8fe39d8ed6438fccbca671a4b1d1756e/element HTTP/1.1" 404 295
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41163 "POST /session/8fe39d8ed6438fccbca671a4b1d1756e/element HTTP/1.1" 404 295
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41163 "POST /session/8fe39d8ed6438fccbca671a4b1d1756e/element HTTP/1.1" 404 295
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41163 "POST /session/8fe39d8ed6438fccbca671a4b1d1756e/element HTTP/1.1" 404 295
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41163 "GET /session/8fe39d8ed6438fccbca671a4b1d1756e/screenshot HTTP/1.1" 200 321412
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41163 "GET /session/8fe39d8ed6438fccbca671a4b1d1756e/screenshot HTTP/1.1" 200 321412
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41163 "DELETE /session/8fe39d8ed6438fccbca671a4b1d1756e HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41163 "DELETE /session/8fe39d8ed6438fccbca671a4b1d1756e HTTP/1.1" 200 14

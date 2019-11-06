@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20191106 11:42:15.923" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
+<robot rpa="false" generated="20191106 14:15:32.348" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
 <suite source="/home/vasuja.kookkal/Desktop/Assignment/automation/TestCases/Discovery/tc_discovery_shows.robot" id="s1" name="Tc Discovery Shows">
 <kw type="setup" name="Set Init Env">
 <kw name="Create Dictionary" library="BuiltIn">
@@ -7,34 +7,34 @@
 <assign>
 <var>${show_details}</var>
 </assign>
-<msg timestamp="20191106 11:42:17.723" level="INFO">${show_details} = {}</msg>
-<status status="PASS" endtime="20191106 11:42:17.723" starttime="20191106 11:42:17.722"></status>
+<msg timestamp="20191106 14:15:33.910" level="INFO">${show_details} = {}</msg>
+<status status="PASS" endtime="20191106 14:15:33.910" starttime="20191106 14:15:33.910"></status>
 </kw>
 <kw name="Create List" library="BuiltIn">
 <doc>Returns a list containing given items.</doc>
 <assign>
 <var>${favorite_selected_list}</var>
 </assign>
-<msg timestamp="20191106 11:42:17.724" level="INFO">${favorite_selected_list} = []</msg>
-<status status="PASS" endtime="20191106 11:42:17.724" starttime="20191106 11:42:17.723"></status>
+<msg timestamp="20191106 14:15:33.911" level="INFO">${favorite_selected_list} = []</msg>
+<status status="PASS" endtime="20191106 14:15:33.911" starttime="20191106 14:15:33.910"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
 <arg>${show_details}</arg>
 </arguments>
-<msg timestamp="20191106 11:42:17.725" level="INFO">${show_details} = {}</msg>
-<status status="PASS" endtime="20191106 11:42:17.725" starttime="20191106 11:42:17.724"></status>
+<msg timestamp="20191106 14:15:33.911" level="INFO">${show_details} = {}</msg>
+<status status="PASS" endtime="20191106 14:15:33.911" starttime="20191106 14:15:33.911"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
 <arg>${favorite_selected_list}</arg>
 </arguments>
-<msg timestamp="20191106 11:42:17.726" level="INFO">${favorite_selected_list} = []</msg>
-<status status="PASS" endtime="20191106 11:42:17.726" starttime="20191106 11:42:17.725"></status>
+<msg timestamp="20191106 14:15:33.912" level="INFO">${favorite_selected_list} = []</msg>
+<status status="PASS" endtime="20191106 14:15:33.912" starttime="20191106 14:15:33.911"></status>
 </kw>
-<status status="PASS" endtime="20191106 11:42:17.726" starttime="20191106 11:42:17.721"></status>
+<status status="PASS" endtime="20191106 14:15:33.912" starttime="20191106 14:15:33.910"></status>
 </kw>
 <test id="s1-t1" name="Verify the favorites status in Discovery.com">
 <kw name="Given I open the web page with ${URL}" library="DiscoveryKeywords">
@@ -49,12 +49,12 @@
 <arguments>
 <arg>${url}</arg>
 </arguments>
-<msg timestamp="20191106 11:42:30.505" level="INFO">Open URL successful</msg>
-<status status="PASS" endtime="20191106 11:42:30.505" starttime="20191106 11:42:17.728"></status>
+<msg timestamp="20191106 14:15:38.488" level="INFO">Open URL successful</msg>
+<status status="PASS" endtime="20191106 14:15:38.489" starttime="20191106 14:15:33.913"></status>
 </kw>
-<status status="PASS" endtime="20191106 11:42:30.505" starttime="20191106 11:42:17.728"></status>
+<status status="PASS" endtime="20191106 14:15:38.490" starttime="20191106 14:15:33.913"></status>
 </kw>
-<status status="PASS" endtime="20191106 11:42:30.506" starttime="20191106 11:42:17.727"></status>
+<status status="PASS" endtime="20191106 14:15:38.491" starttime="20191106 14:15:33.912"></status>
 </kw>
 <kw name="When I switch to &quot;see_all_shows&quot; page" library="DiscoveryKeywords">
 <kw name="Create Dictionary" library="BuiltIn">
@@ -65,8 +65,8 @@
 <assign>
 <var>&amp;{pageSwitch}</var>
 </assign>
-<msg timestamp="20191106 11:42:30.508" level="INFO">&amp;{pageSwitch} = { page=see_all_shows }</msg>
-<status status="PASS" endtime="20191106 11:42:30.508" starttime="20191106 11:42:30.507"></status>
+<msg timestamp="20191106 14:15:38.495" level="INFO">&amp;{pageSwitch} = { page=see_all_shows }</msg>
+<status status="PASS" endtime="20191106 14:15:38.495" starttime="20191106 14:15:38.493"></status>
 </kw>
 <kw name="Run Keyword" library="BuiltIn">
 <doc>Executes the given keyword with the given arguments.</doc>
@@ -79,28 +79,24 @@
 <arguments>
 <arg>&amp;{pageSwitch}</arg>
 </arguments>
-<msg timestamp="20191106 11:42:30.509" level="INFO">{'ELEMENT_TYPE': 'span', 'BY_TYPE': 'xpath', 'BY_VALUE': '//span[@class=\'dscHeaderMain__topNavText\' and contains(text(),"Shows")]'}</msg>
-<msg timestamp="20191106 11:42:30.548" level="INFO">{'ELEMENT_TYPE': 'span', 'BY_TYPE': 'xpath', 'BY_VALUE': '//span[@class=\'dscHeaderMain__topNavText\' and contains(text(),"Shows")]'}</msg>
-<msg timestamp="20191106 11:42:30.712" level="INFO">{'ELEMENT_TYPE': 'div', 'BY_TYPE': 'xpath', 'BY_VALUE': '//div[@id="show-drop-desktop"]'}</msg>
-<msg timestamp="20191106 11:42:31.785" level="INFO">{'ELEMENT_TYPE': 'a', 'BY_TYPE': 'xpath', 'BY_VALUE': '//div[@id="show-drop-desktop"]/ul/li[12]/div/a'}</msg>
-<msg timestamp="20191106 11:42:46.864" level="ERROR">element_finder - No or more than 1 element returned for provided locator(&lt;type 'exceptions.Exception'&gt;, Exception('0 elements found.',), &lt;traceback object at 0x7f151a294cf8&gt;)</msg>
-<msg timestamp="20191106 11:42:47.594" level="INFO">IN MAIN:
+<msg timestamp="20191106 14:15:38.497" level="INFO">{'ELEMENT_TYPE': 'span', 'BY_TYPE': 'xpath', 'BY_VALUE': '//span[@class=\'dscHeaderMain__topNavText\' and contains(text(),"Shows")]'}</msg>
+<msg timestamp="20191106 14:16:27.284" level="INFO">IN MAIN:
 IN COMMON SWITCH
 {u'page': u'see_all_shows'}
-Browser- element_finder - No or more than 1 element returned for provided locator
-Report path not found.Creating...
-/home/vasuja.kookkal/Desktop/Assignment/automation/\reports\report_2019-11-06/switch_page11_42_46.897639.png</msg>
-<msg timestamp="20191106 11:42:47.594" level="FAIL">Page Switch Failed!!</msg>
-<status status="FAIL" endtime="20191106 11:42:47.595" starttime="20191106 11:42:30.508"></status>
+Could not locate element &lt;shows&gt; during explicit wait.Message: 
+
+/home/vasuja.kookkal/Desktop/Assignment/automation/\reports\report_2019-11-06/switch_page14_16_27.009216.png</msg>
+<msg timestamp="20191106 14:16:27.284" level="FAIL">Page Switch Failed!!</msg>
+<status status="FAIL" endtime="20191106 14:16:27.284" starttime="20191106 14:15:38.496"></status>
 </kw>
-<status status="FAIL" endtime="20191106 11:42:47.595" starttime="20191106 11:42:30.508"></status>
+<status status="FAIL" endtime="20191106 14:16:27.284" starttime="20191106 14:15:38.496"></status>
 </kw>
-<status status="FAIL" endtime="20191106 11:42:47.595" starttime="20191106 11:42:30.506"></status>
+<status status="FAIL" endtime="20191106 14:16:27.284" starttime="20191106 14:15:38.492"></status>
 </kw>
 <tags>
 <tag>Discovery</tag>
 </tags>
-<status status="FAIL" endtime="20191106 11:42:47.595" critical="yes" starttime="20191106 11:42:17.726">Page Switch Failed!!</status>
+<status status="FAIL" endtime="20191106 14:16:27.284" critical="yes" starttime="20191106 14:15:33.912">Page Switch Failed!!</status>
 </test>
 <kw type="teardown" name="Close The Browsers" library="DiscoveryKeywords">
 <kw name="Run Keyword" library="BuiltIn">
@@ -110,14 +106,14 @@ Report path not found.Creating...
 </arguments>
 <kw name="Close The Browser" library="DiscoveryComponent">
 <doc>`Description:` Close the browser object</doc>
-<status status="PASS" endtime="20191106 11:42:49.662" starttime="20191106 11:42:47.596"></status>
+<status status="PASS" endtime="20191106 14:16:29.345" starttime="20191106 14:16:27.285"></status>
 </kw>
-<status status="PASS" endtime="20191106 11:42:49.662" starttime="20191106 11:42:47.596"></status>
+<status status="PASS" endtime="20191106 14:16:29.345" starttime="20191106 14:16:27.285"></status>
 </kw>
-<status status="PASS" endtime="20191106 11:42:49.662" starttime="20191106 11:42:47.596"></status>
+<status status="PASS" endtime="20191106 14:16:29.345" starttime="20191106 14:16:27.285"></status>
 </kw>
 <doc>This test case will navigate to "https://go.discovery.com/" and verify the fields</doc>
-<status status="FAIL" endtime="20191106 11:42:49.662" starttime="20191106 11:42:15.924"></status>
+<status status="FAIL" endtime="20191106 14:16:29.345" starttime="20191106 14:15:32.349"></status>
 </suite>
 <statistics>
 <total>
@@ -132,6 +128,5 @@ Report path not found.Creating...
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20191106 11:42:46.864" level="ERROR">element_finder - No or more than 1 element returned for provided locator(&lt;type 'exceptions.Exception'&gt;, Exception('0 elements found.',), &lt;traceback object at 0x7f151a294cf8&gt;)</msg>
 </errors>
 </robot>

@@ -7,6 +7,7 @@ import os
 import sys
 import time,re
 import inspect
+from collections import defaultdict
 
 # sys.path.append(os.path.join(os.path.dirname(os.path.dirname(__file__))))
 # sys.path.append(os.path.join(os.path.dirname(os.path.dirname(__file__)), "utils"))
@@ -45,6 +46,31 @@ class Disc_CommonFunctionality(object):
         """
         self._browser.go_to(url)
         log.mjLog.LogReporter("Disc_CommonFunctionality", "info", "Open URL successful")
+
+    def euro_login(self, **params):
+        """
+        `Description:` Login for Eurosport portal
+
+        `:params` Dictionary contains login details
+
+        `:return:` status - True/False
+
+        `Created by:` Vasuja K
+        """
+        params = defaultdict(lambda: None, params)
+        try:
+            status = True
+            if params["cookie_policy"]:
+                    self.action_ele.click_element("LoginSubmit")
+
+                self.action_ele.clear_input_text("LoginUserName")
+                self.action_ele.clear_input_text("LoginPassword")
+                self.action_ele.input_text("LoginUserName", username)
+                self.action_ele.input_text("LoginPassword", password[0])
+                self.action_ele.click_element("LoginSubmit")
+        except Exception as err:
+            print(err.message)
+            self.action_ele.takeScreenshot(inspect.currentframe().f_code.co_name)
 
     def close_browser(self):
         """
@@ -95,6 +121,8 @@ class Disc_CommonFunctionality(object):
         """
         self.action_ele.explicit_wait("shows")
         self.action_ele.click_element('shows')
+        # import pdb;
+        # pdb.Pdb(stdout=sys.__stdout__).set_trace()
         self.action_ele.explicit_wait("see_all_shows")
         time.sleep(1)
         self.action_ele.mouse_hover('see_all_shows_link')
