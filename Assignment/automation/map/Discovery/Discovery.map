@@ -22,3 +22,7 @@ Global_EuroSport_Verify_Sign_In_Text_xpath==h2#path#//h2[contains(text(),'Sign i
 Global_EuroSport_locator_Discovery_Email_ID_css==input#id#email
 Global_EuroSport_Discovery_Password_css==input#id#password
 Global_Eurosport_Sign_In_Button_xpath==button#xpath#//button[contains(text(),'Sign')]
+
+
+Global_EuroSport_logout==a#xpath#//a[contains(text(), 'Logout')]
+Global_EuroSport_Account==span#xpath#//span[contains(text(), 'Account')]

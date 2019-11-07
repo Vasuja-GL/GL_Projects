@@ -23,10 +23,13 @@ Library  String
 Verify the favorites status in Discovery.com
     [Tags]    Discovery
     When I open the web page with ${URL}
-    Set to Dictionary    ${login_details}    cookie_policy    True
-    Set to Dictionary    ${login_details}    Username    ${Username}
-    Set to Dictionary    ${login_details}    Password    ${Password}
-    Then Login to home page  &{login_details}
+    sleep  10s
+#    Set to Dictionary    ${login_details}    cookie_policy    True
+#    Set to Dictionary    ${login_details}    Username    ${Username}
+#    Set to Dictionary    ${login_details}    Password    ${Password}
+#
+#
+#    Then Login to home page  &{login_details}
 
 
 *** Keywords ***

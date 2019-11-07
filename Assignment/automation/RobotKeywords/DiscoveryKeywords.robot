@@ -7,7 +7,7 @@ Library    Collections
 
 *** Keywords ***
 I open the web page with ${url}
-    Run Keyword      Open Url     ${url}
+    Run Keyword      Open_Url     ${url}
 
 Login to home page
     [Arguments]  &{login_info}

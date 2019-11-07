@@ -22506,3 +22506,939 @@ WebUIOperation | DEBUG | Click operation                                        
 WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
 urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "DELETE /session/d1c23df2453cff303dfaf346de9933f4 HTTP/1.1" 200 14
 urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "DELETE /session/d1c23df2453cff303dfaf346de9933f4 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48197 "POST /session/4d00ad7d0fd4ab47b040eadbd3586983/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:50157
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50157 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50157 "POST /session/64004e56ba7ff09ea5e37192abb9d6e9/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50157 "POST /session/64004e56ba7ff09ea5e37192abb9d6e9/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50157 "POST /session/64004e56ba7ff09ea5e37192abb9d6e9/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50157 "POST /session/64004e56ba7ff09ea5e37192abb9d6e9/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50157 "POST /session/64004e56ba7ff09ea5e37192abb9d6e9/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50157 "DELETE /session/64004e56ba7ff09ea5e37192abb9d6e9 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50157 "DELETE /session/64004e56ba7ff09ea5e37192abb9d6e9 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:44131 "POST /session/147b9c6e85ee945c03ff0a7187d33a36/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:40707
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/element/72e0e5b3-d7ab-4437-acf8-b2cf3eeffa1a/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/element/72e0e5b3-d7ab-4437-acf8-b2cf3eeffa1a/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/element/0e483922-71c6-44dd-9b4b-c3c4d41d783c/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/element/0e483922-71c6-44dd-9b4b-c3c4d41d783c/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=email
+Browser | DEBUG | Element identified: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/element/54233cfb-5b8a-459e-9511-cd42478d37f0/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/element/54233cfb-5b8a-459e-9511-cd42478d37f0/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/element/54233cfb-5b8a-459e-9511-cd42478d37f0/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/element/54233cfb-5b8a-459e-9511-cd42478d37f0/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=password
+Browser | DEBUG | Element identified: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/element/38a18b1e-8952-40b2-935c-7b725d648f47/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/element/38a18b1e-8952-40b2-935c-7b725d648f47/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/element/38a18b1e-8952-40b2-935c-7b725d648f47/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/element/38a18b1e-8952-40b2-935c-7b725d648f47/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/element/dbf8c176-0c59-464b-bc23-a01d59521511/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/element/dbf8c176-0c59-464b-bc23-a01d59521511/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "POST /session/45165c8a2adf11e3047d89f7b7446487/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "GET /session/45165c8a2adf11e3047d89f7b7446487/screenshot HTTP/1.1" 200 320952
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "GET /session/45165c8a2adf11e3047d89f7b7446487/screenshot HTTP/1.1" 200 320952
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "DELETE /session/45165c8a2adf11e3047d89f7b7446487 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40707 "DELETE /session/45165c8a2adf11e3047d89f7b7446487 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50727 "POST /session/eee0a3215d73cef740b5cbee6d1407b4/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:45931
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/element/cded7c56-5392-4fce-be72-9cecbec2de7e/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/element/cded7c56-5392-4fce-be72-9cecbec2de7e/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/element/392751c2-cde9-43fa-8ef8-fe42b758cceb/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/element/392751c2-cde9-43fa-8ef8-fe42b758cceb/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=email
+Browser | DEBUG | Element identified: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/element/5f6f033e-afb7-48f6-a42b-814e6396368d/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/element/5f6f033e-afb7-48f6-a42b-814e6396368d/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/element/5f6f033e-afb7-48f6-a42b-814e6396368d/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/element/5f6f033e-afb7-48f6-a42b-814e6396368d/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=password
+Browser | DEBUG | Element identified: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/element/e3a0ae52-3033-4dd4-b5c4-01614e779d4b/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/element/e3a0ae52-3033-4dd4-b5c4-01614e779d4b/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/element/e3a0ae52-3033-4dd4-b5c4-01614e779d4b/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/element/e3a0ae52-3033-4dd4-b5c4-01614e779d4b/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/element/b35396af-1c7f-4a21-8d44-005b05796e62/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/element/b35396af-1c7f-4a21-8d44-005b05796e62/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "POST /session/e4c0aa76166ade4a03a29125994bd706/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "GET /session/e4c0aa76166ade4a03a29125994bd706/screenshot HTTP/1.1" 200 320852
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "GET /session/e4c0aa76166ade4a03a29125994bd706/screenshot HTTP/1.1" 200 320852
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "DELETE /session/e4c0aa76166ade4a03a29125994bd706 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:45931 "DELETE /session/e4c0aa76166ade4a03a29125994bd706 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53361 "POST /session/92202a62f9079748c6f9b58ec52947e6/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:48955
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/element/e9d6df90-ae55-4455-9c03-c100b1648211/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/element/e9d6df90-ae55-4455-9c03-c100b1648211/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/element/22d97415-9163-41b4-a8e1-40813e728e9e/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/element/22d97415-9163-41b4-a8e1-40813e728e9e/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=email
+Browser | DEBUG | Element identified: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/element/cdff7838-e09d-4be7-90ad-1fe1ce4ebae0/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/element/cdff7838-e09d-4be7-90ad-1fe1ce4ebae0/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/element/cdff7838-e09d-4be7-90ad-1fe1ce4ebae0/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/element/cdff7838-e09d-4be7-90ad-1fe1ce4ebae0/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=password
+Browser | DEBUG | Element identified: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/element/c72e9077-d353-48ee-be65-2a7159253fad/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/element/c72e9077-d353-48ee-be65-2a7159253fad/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/element/c72e9077-d353-48ee-be65-2a7159253fad/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/element/c72e9077-d353-48ee-be65-2a7159253fad/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/element/6b2e6d44-3850-4305-9ef3-7e37fa394cb2/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48955 "POST /session/0ea6474d2827fefac2a0e23894d715c0/element/6b2e6d44-3850-4305-9ef3-7e37fa394cb2/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+urllib3.connectionpool | DEBUG | Resetting dropped connection: 127.0.0.1
+urllib3.connectionpool | DEBUG | Resetting dropped connection: 127.0.0.1
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/0ea6474d2827fefac2a0e23894d715c0/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/0ea6474d2827fefac2a0e23894d715c0/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4bc4972490>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/0ea6474d2827fefac2a0e23894d715c0/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4bc4972490>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/0ea6474d2827fefac2a0e23894d715c0/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (2): 127.0.0.1:48955
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (2): 127.0.0.1:48955
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/0ea6474d2827fefac2a0e23894d715c0/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/0ea6474d2827fefac2a0e23894d715c0/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4bc41e4390>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/0ea6474d2827fefac2a0e23894d715c0/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4bc41e4390>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/0ea6474d2827fefac2a0e23894d715c0/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (3): 127.0.0.1:48955
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (3): 127.0.0.1:48955
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/0ea6474d2827fefac2a0e23894d715c0/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/0ea6474d2827fefac2a0e23894d715c0/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4bc41e4510>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/0ea6474d2827fefac2a0e23894d715c0/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4bc41e4510>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/0ea6474d2827fefac2a0e23894d715c0/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (4): 127.0.0.1:48955
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (4): 127.0.0.1:48955
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52741 "POST /session/fdce844cc372fb5aabf5e31b1e03d9ad/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:54749
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54749 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54749 "POST /session/7ebb03e499a6f36ce128130ac3bc7a12/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54749 "POST /session/7ebb03e499a6f36ce128130ac3bc7a12/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54749 "POST /session/7ebb03e499a6f36ce128130ac3bc7a12/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54749 "POST /session/7ebb03e499a6f36ce128130ac3bc7a12/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54749 "POST /session/7ebb03e499a6f36ce128130ac3bc7a12/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | Resetting dropped connection: 127.0.0.1
+urllib3.connectionpool | DEBUG | Resetting dropped connection: 127.0.0.1
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/7ebb03e499a6f36ce128130ac3bc7a12/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/7ebb03e499a6f36ce128130ac3bc7a12/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f045e8f2ad0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/7ebb03e499a6f36ce128130ac3bc7a12/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f045e8f2ad0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/7ebb03e499a6f36ce128130ac3bc7a12/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (2): 127.0.0.1:54749
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (2): 127.0.0.1:54749
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/7ebb03e499a6f36ce128130ac3bc7a12/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/7ebb03e499a6f36ce128130ac3bc7a12/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f045e1e4550>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/7ebb03e499a6f36ce128130ac3bc7a12/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f045e1e4550>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/7ebb03e499a6f36ce128130ac3bc7a12/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (3): 127.0.0.1:54749
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (3): 127.0.0.1:54749
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/7ebb03e499a6f36ce128130ac3bc7a12/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/7ebb03e499a6f36ce128130ac3bc7a12/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f045e1e4710>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/7ebb03e499a6f36ce128130ac3bc7a12/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f045e1e4710>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/7ebb03e499a6f36ce128130ac3bc7a12/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (4): 127.0.0.1:54749
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (4): 127.0.0.1:54749
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43115 "POST /session/e366bcc417e3c7454df7c1f617b1f9fe/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:52727
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/element/f289f997-7ca7-42df-ba95-2794fb41f44f/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/element/f289f997-7ca7-42df-ba95-2794fb41f44f/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/element/78a1c6d6-ffe3-4c70-856d-337bfacfa0d5/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/element/78a1c6d6-ffe3-4c70-856d-337bfacfa0d5/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=email
+Browser | DEBUG | Element identified: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/element/87babb74-de92-48b3-9a48-d4194c99d648/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/element/87babb74-de92-48b3-9a48-d4194c99d648/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/element/87babb74-de92-48b3-9a48-d4194c99d648/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/element/87babb74-de92-48b3-9a48-d4194c99d648/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=password
+Browser | DEBUG | Element identified: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/element/92099278-217d-4135-b5a2-d5ec1533124a/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/element/92099278-217d-4135-b5a2-d5ec1533124a/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/element/92099278-217d-4135-b5a2-d5ec1533124a/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/element/92099278-217d-4135-b5a2-d5ec1533124a/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/element/38bfdf8c-db7f-49e2-8480-a07761db042b/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/element/38bfdf8c-db7f-49e2-8480-a07761db042b/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/execute/sync HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "POST /session/9a8b82d3256c63a35e76f7b49b2d50b4/execute/sync HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "DELETE /session/9a8b82d3256c63a35e76f7b49b2d50b4 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52727 "DELETE /session/9a8b82d3256c63a35e76f7b49b2d50b4 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:44543 "POST /session/792a95bf8ed7551d1ade04317e784f01/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:60099
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/element/a21a5cfe-6fc4-4e59-8563-a916e32d2a1d/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/element/a21a5cfe-6fc4-4e59-8563-a916e32d2a1d/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/element/3f0d18dd-936b-4984-88bc-8780cdff872e/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/element/3f0d18dd-936b-4984-88bc-8780cdff872e/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=email
+Browser | DEBUG | Element identified: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/element/777cc9c4-824d-4e74-8ba9-2829ac36a409/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/element/777cc9c4-824d-4e74-8ba9-2829ac36a409/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/element/777cc9c4-824d-4e74-8ba9-2829ac36a409/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/element/777cc9c4-824d-4e74-8ba9-2829ac36a409/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=password
+Browser | DEBUG | Element identified: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/element/fed9cdd4-fbe0-4ae6-bb9e-9062bc15911a/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/element/fed9cdd4-fbe0-4ae6-bb9e-9062bc15911a/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/element/fed9cdd4-fbe0-4ae6-bb9e-9062bc15911a/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/element/fed9cdd4-fbe0-4ae6-bb9e-9062bc15911a/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "POST /session/1731dcaf09014b167e9f1b50f6ff1360/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "GET /session/1731dcaf09014b167e9f1b50f6ff1360/screenshot HTTP/1.1" 200 320852
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "GET /session/1731dcaf09014b167e9f1b50f6ff1360/screenshot HTTP/1.1" 200 320852
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "DELETE /session/1731dcaf09014b167e9f1b50f6ff1360 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60099 "DELETE /session/1731dcaf09014b167e9f1b50f6ff1360 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:57103 "POST /session/6aee0aec387ea3581193ec33aebea637/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:43965
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/element/1309981a-c71d-4aa2-973e-83ca9bbb5bbf/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/element/1309981a-c71d-4aa2-973e-83ca9bbb5bbf/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/element/1a961b7e-2a4b-4c26-95ea-1245d35d6f1f/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/element/1a961b7e-2a4b-4c26-95ea-1245d35d6f1f/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=email
+Browser | DEBUG | Element identified: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/element/4e1ca7ff-dace-44f8-93da-593920159860/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/element/4e1ca7ff-dace-44f8-93da-593920159860/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/element/4e1ca7ff-dace-44f8-93da-593920159860/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/element/4e1ca7ff-dace-44f8-93da-593920159860/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=password
+Browser | DEBUG | Element identified: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/element/cec66db0-6afc-488f-be8e-636e7a482a09/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/element/cec66db0-6afc-488f-be8e-636e7a482a09/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/element/cec66db0-6afc-488f-be8e-636e7a482a09/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/element/cec66db0-6afc-488f-be8e-636e7a482a09/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/element/0a9211fe-799c-4833-a5a6-f7becb9a8c11/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/element/0a9211fe-799c-4833-a5a6-f7becb9a8c11/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "POST /session/cc5b3531992e21f1519e0006030774bd/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "GET /session/cc5b3531992e21f1519e0006030774bd/screenshot HTTP/1.1" 200 530108
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "GET /session/cc5b3531992e21f1519e0006030774bd/screenshot HTTP/1.1" 200 530108
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "DELETE /session/cc5b3531992e21f1519e0006030774bd HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43965 "DELETE /session/cc5b3531992e21f1519e0006030774bd HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52915 "POST /session/d639d155bb1f29ecb5c7ffb3f5c59e93/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:37199
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element/da4d2416-5ea4-432a-8eee-918047d12303/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element/da4d2416-5ea4-432a-8eee-918047d12303/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element/59b35fb6-188a-4d27-9bfe-cccfa5a4c164/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element/59b35fb6-188a-4d27-9bfe-cccfa5a4c164/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=email
+Browser | DEBUG | Element identified: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element/5203b845-f552-4afa-b4db-948b0bdb13f3/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element/5203b845-f552-4afa-b4db-948b0bdb13f3/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element/5203b845-f552-4afa-b4db-948b0bdb13f3/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element/5203b845-f552-4afa-b4db-948b0bdb13f3/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=password
+Browser | DEBUG | Element identified: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element/95ef5638-c631-4691-8a95-79ec2cb002ee/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element/95ef5638-c631-4691-8a95-79ec2cb002ee/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element/95ef5638-c631-4691-8a95-79ec2cb002ee/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element/95ef5638-c631-4691-8a95-79ec2cb002ee/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/execute/sync HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/execute/sync HTTP/1.1" 200 14
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element/9809e4b2-a42d-40e6-8b7a-59e9a22bc07a/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element/9809e4b2-a42d-40e6-8b7a-59e9a22bc07a/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37199 "POST /session/3cf9330114a2f46cbd4ac574245344aa/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | Resetting dropped connection: 127.0.0.1
+urllib3.connectionpool | DEBUG | Resetting dropped connection: 127.0.0.1
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/3cf9330114a2f46cbd4ac574245344aa/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/3cf9330114a2f46cbd4ac574245344aa/screenshot'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6877f1490>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/3cf9330114a2f46cbd4ac574245344aa/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6877f1490>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/3cf9330114a2f46cbd4ac574245344aa/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (2): 127.0.0.1:37199
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (2): 127.0.0.1:37199
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/3cf9330114a2f46cbd4ac574245344aa/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/3cf9330114a2f46cbd4ac574245344aa/screenshot'): Retry(total=1, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6877f1150>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/3cf9330114a2f46cbd4ac574245344aa/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6877f1150>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/3cf9330114a2f46cbd4ac574245344aa/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (3): 127.0.0.1:37199
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (3): 127.0.0.1:37199
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/3cf9330114a2f46cbd4ac574245344aa/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+urllib3.util.retry | DEBUG | Incremented Retry for (url='/session/3cf9330114a2f46cbd4ac574245344aa/screenshot'): Retry(total=0, connect=None, read=None, redirect=None, status=None)
+urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6877b85d0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/3cf9330114a2f46cbd4ac574245344aa/screenshot
+urllib3.connectionpool | WARNING | Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc6877b85d0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/3cf9330114a2f46cbd4ac574245344aa/screenshot
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (4): 127.0.0.1:37199
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (4): 127.0.0.1:37199
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47089 "POST /session/b012801becc93640936fafb0e0a066b1/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:47209
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element/180ca6a8-a2d0-4a25-9ac6-74fe7824c527/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element/180ca6a8-a2d0-4a25-9ac6-74fe7824c527/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element/e9234b9d-8530-4e57-a9ff-e857f1216d92/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element/e9234b9d-8530-4e57-a9ff-e857f1216d92/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=email
+Browser | DEBUG | Element identified: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element/75394c92-4cf3-401a-9e82-3469dc3723da/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element/75394c92-4cf3-401a-9e82-3469dc3723da/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element/75394c92-4cf3-401a-9e82-3469dc3723da/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element/75394c92-4cf3-401a-9e82-3469dc3723da/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=password
+Browser | DEBUG | Element identified: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element/9db6e226-5f19-46b9-bbaa-5eb3ad0a94aa/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element/9db6e226-5f19-46b9-bbaa-5eb3ad0a94aa/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element/9db6e226-5f19-46b9-bbaa-5eb3ad0a94aa/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element/9db6e226-5f19-46b9-bbaa-5eb3ad0a94aa/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element HTTP/1.1" 200 88
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/execute/sync HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/execute/sync HTTP/1.1" 200 14
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element/fda66dd6-63c9-4cdf-a232-e2c0bf2dddca/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element/fda66dd6-63c9-4cdf-a232-e2c0bf2dddca/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "POST /session/58d1fe861bf293489c37878fdd0af3f4/element HTTP/1.1" 404 257
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "GET /session/58d1fe861bf293489c37878fdd0af3f4/screenshot HTTP/1.1" 200 574016
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "GET /session/58d1fe861bf293489c37878fdd0af3f4/screenshot HTTP/1.1" 200 574016
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "DELETE /session/58d1fe861bf293489c37878fdd0af3f4 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47209 "DELETE /session/58d1fe861bf293489c37878fdd0af3f4 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50861 "POST /session/67f0716e4713680e6b2131f98b33ca5f/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:33109
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33109 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33109 "POST /session/b7349c33ca0f01aec9e1a58afade9d5e/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33109 "POST /session/b7349c33ca0f01aec9e1a58afade9d5e/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33109 "POST /session/b7349c33ca0f01aec9e1a58afade9d5e/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33109 "POST /session/b7349c33ca0f01aec9e1a58afade9d5e/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33109 "POST /session/b7349c33ca0f01aec9e1a58afade9d5e/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33109 "DELETE /session/b7349c33ca0f01aec9e1a58afade9d5e HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33109 "DELETE /session/b7349c33ca0f01aec9e1a58afade9d5e HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:36477 "POST /session/e9081d7866f9b84004ae030c3d60c92e/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:46065
+urllib3.connectionpool | DEBUG | http://127.0.0.1:46065 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:46065 "POST /session/5d96d3c124c596efb1a9164868e9466c/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:46065 "POST /session/5d96d3c124c596efb1a9164868e9466c/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:46065 "POST /session/5d96d3c124c596efb1a9164868e9466c/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:46065 "POST /session/5d96d3c124c596efb1a9164868e9466c/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:46065 "POST /session/5d96d3c124c596efb1a9164868e9466c/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:46065 "DELETE /session/5d96d3c124c596efb1a9164868e9466c HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:46065 "DELETE /session/5d96d3c124c596efb1a9164868e9466c HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:38101 "POST /session/9af789d28bb5243a511421d39e63bf80/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:54003
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54003 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54003 "POST /session/7a77d3a9f9cc932d7ec963c681a3c654/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54003 "POST /session/7a77d3a9f9cc932d7ec963c681a3c654/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54003 "POST /session/7a77d3a9f9cc932d7ec963c681a3c654/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54003 "POST /session/7a77d3a9f9cc932d7ec963c681a3c654/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54003 "POST /session/7a77d3a9f9cc932d7ec963c681a3c654/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54003 "DELETE /session/7a77d3a9f9cc932d7ec963c681a3c654 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54003 "DELETE /session/7a77d3a9f9cc932d7ec963c681a3c654 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:51297 "POST /session/f92f56a4d3ce7c0eda15ef26b1c79605/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:44939
+urllib3.connectionpool | DEBUG | http://127.0.0.1:44939 "POST /session HTTP/1.1" 500 346
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:48755
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48755 "POST /session HTTP/1.1" 500 346
+urllib3.connectionpool | DEBUG | http://127.0.0.1:38471 "POST /session/68597004d4611f4bfec802444ccc59c5/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:34407
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34407 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34407 "POST /session/3dfbc4f3383903799000ff3ceeb537f7/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34407 "POST /session/3dfbc4f3383903799000ff3ceeb537f7/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34407 "POST /session/3dfbc4f3383903799000ff3ceeb537f7/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34407 "POST /session/3dfbc4f3383903799000ff3ceeb537f7/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34407 "POST /session/3dfbc4f3383903799000ff3ceeb537f7/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34407 "DELETE /session/3dfbc4f3383903799000ff3ceeb537f7 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34407 "DELETE /session/3dfbc4f3383903799000ff3ceeb537f7 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34027 "POST /session/2dd9eab97b0d0e22bc34e71a4324cd20/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:52527
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52527 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52527 "POST /session/19a2eccd6431fb2024c24f92618aa1ad/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52527 "POST /session/19a2eccd6431fb2024c24f92618aa1ad/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52527 "POST /session/19a2eccd6431fb2024c24f92618aa1ad/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52527 "POST /session/19a2eccd6431fb2024c24f92618aa1ad/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52527 "POST /session/19a2eccd6431fb2024c24f92618aa1ad/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52527 "DELETE /session/19a2eccd6431fb2024c24f92618aa1ad HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52527 "DELETE /session/19a2eccd6431fb2024c24f92618aa1ad HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43473 "POST /session/dbd62e9e4c9e778258eb694c290b9bf6/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:60373
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60373 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60373 "POST /session/d470d207dcbadad12fd8d9c249875dd3/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60373 "POST /session/d470d207dcbadad12fd8d9c249875dd3/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60373 "POST /session/d470d207dcbadad12fd8d9c249875dd3/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60373 "POST /session/d470d207dcbadad12fd8d9c249875dd3/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60373 "POST /session/d470d207dcbadad12fd8d9c249875dd3/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60373 "DELETE /session/d470d207dcbadad12fd8d9c249875dd3 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60373 "DELETE /session/d470d207dcbadad12fd8d9c249875dd3 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:55995 "POST /session/45bcf13d4f1c3504489411ff414ac8c5/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:53713
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53713 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53713 "POST /session/15b88ecde903c94b02064c56de2f9907/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53713 "POST /session/15b88ecde903c94b02064c56de2f9907/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53713 "POST /session/15b88ecde903c94b02064c56de2f9907/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53713 "POST /session/15b88ecde903c94b02064c56de2f9907/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53713 "POST /session/15b88ecde903c94b02064c56de2f9907/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53713 "DELETE /session/15b88ecde903c94b02064c56de2f9907 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53713 "DELETE /session/15b88ecde903c94b02064c56de2f9907 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53857 "POST /session/374ea143bf8d61ae2ca31b2d8383cb0c/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:37397
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37397 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37397 "POST /session/cbe1f777789fd24ab51842b9392d6a18/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37397 "POST /session/cbe1f777789fd24ab51842b9392d6a18/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37397 "POST /session/cbe1f777789fd24ab51842b9392d6a18/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37397 "POST /session/cbe1f777789fd24ab51842b9392d6a18/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37397 "POST /session/cbe1f777789fd24ab51842b9392d6a18/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37397 "DELETE /session/cbe1f777789fd24ab51842b9392d6a18 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:37397 "DELETE /session/cbe1f777789fd24ab51842b9392d6a18 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33865 "POST /session/69276c87d8de157b3fa5fac2c5bd98c9/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:49625
+urllib3.connectionpool | DEBUG | http://127.0.0.1:49625 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:49625 "POST /session/0b0142094aaf4404a3eb793ae81d283d/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:49625 "POST /session/0b0142094aaf4404a3eb793ae81d283d/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:49625 "POST /session/0b0142094aaf4404a3eb793ae81d283d/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:49625 "POST /session/0b0142094aaf4404a3eb793ae81d283d/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:49625 "POST /session/0b0142094aaf4404a3eb793ae81d283d/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:49625 "DELETE /session/0b0142094aaf4404a3eb793ae81d283d HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:49625 "DELETE /session/0b0142094aaf4404a3eb793ae81d283d HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43221 "POST /session/f52e6ee95fe9dae8580e8cb011602ede/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:54203
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54203 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54203 "POST /session/e7a3685613ffb39ffe1a6817126cac67/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54203 "POST /session/e7a3685613ffb39ffe1a6817126cac67/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54203 "POST /session/e7a3685613ffb39ffe1a6817126cac67/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54203 "POST /session/e7a3685613ffb39ffe1a6817126cac67/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54203 "POST /session/e7a3685613ffb39ffe1a6817126cac67/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54203 "DELETE /session/e7a3685613ffb39ffe1a6817126cac67 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54203 "DELETE /session/e7a3685613ffb39ffe1a6817126cac67 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48039 "POST /session/3cebdc064ed323520e32785e8c154162/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:34719
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34719 "POST /session HTTP/1.1" 200 654
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34719 "POST /session/42d67a2b80b3d88005e5df02b1cf7985/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34719 "POST /session/42d67a2b80b3d88005e5df02b1cf7985/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34719 "POST /session/42d67a2b80b3d88005e5df02b1cf7985/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34719 "POST /session/42d67a2b80b3d88005e5df02b1cf7985/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34719 "POST /session/42d67a2b80b3d88005e5df02b1cf7985/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34719 "DELETE /session/42d67a2b80b3d88005e5df02b1cf7985 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34719 "DELETE /session/42d67a2b80b3d88005e5df02b1cf7985 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:39037 "POST /session/8c97c92f7071ac4df97f413f573f1fd8/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:39371
+urllib3.connectionpool | DEBUG | http://127.0.0.1:39371 "POST /session HTTP/1.1" 200 649
+urllib3.connectionpool | DEBUG | http://127.0.0.1:39371 "POST /session/21d35a3ed4739ea38cd4d76f31f89370/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:39371 "POST /session/21d35a3ed4739ea38cd4d76f31f89370/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:39371 "POST /session/21d35a3ed4739ea38cd4d76f31f89370/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:39371 "POST /session/21d35a3ed4739ea38cd4d76f31f89370/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:39371 "POST /session/21d35a3ed4739ea38cd4d76f31f89370/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:39371 "DELETE /session/21d35a3ed4739ea38cd4d76f31f89370 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:39371 "DELETE /session/21d35a3ed4739ea38cd4d76f31f89370 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47637 "POST /session/9a74bf62674dc26fe4e2fdfa96bfb57c/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:34099
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34099 "POST /session HTTP/1.1" 200 669
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34099 "POST /session/55f7819d7f6855d1537e782aedadecc3/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34099 "POST /session/55f7819d7f6855d1537e782aedadecc3/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34099 "POST /session/55f7819d7f6855d1537e782aedadecc3/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34099 "POST /session/55f7819d7f6855d1537e782aedadecc3/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34099 "POST /session/55f7819d7f6855d1537e782aedadecc3/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34099 "DELETE /session/55f7819d7f6855d1537e782aedadecc3 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34099 "DELETE /session/55f7819d7f6855d1537e782aedadecc3 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:36087 "POST /session/7886bf6314688218569be2a473bb8813/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:41827
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41827 "POST /session HTTP/1.1" 400 246
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:43135
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43135 "POST /session HTTP/1.1" 400 246
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48953 "POST /session/1e34dffc724a9aec9831d75c84646dd5/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:35809
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35809 "POST /session HTTP/1.1" 400 246
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:36755
+urllib3.connectionpool | DEBUG | http://127.0.0.1:36755 "POST /session HTTP/1.1" 400 246
+urllib3.connectionpool | DEBUG | http://127.0.0.1:36369 "POST /session/d033bd539f5cea4ad3da73ceab973772/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:54509
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54509 "POST /session HTTP/1.1" 200 665
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54509 "POST /session/f2775b58c7b6f249337657479ffd6344/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54509 "POST /session/f2775b58c7b6f249337657479ffd6344/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54509 "POST /session/f2775b58c7b6f249337657479ffd6344/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54509 "POST /session/f2775b58c7b6f249337657479ffd6344/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54509 "POST /session/f2775b58c7b6f249337657479ffd6344/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54509 "DELETE /session/f2775b58c7b6f249337657479ffd6344 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:54509 "DELETE /session/f2775b58c7b6f249337657479ffd6344 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52505 "POST /session/19f6622e0815cdc6b8a95b5f1e9d359c/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:48493
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48493 "POST /session HTTP/1.1" 200 660
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48493 "POST /session/ecdbc3fe0a3186ce43693bdb19a50ad8/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48493 "POST /session/ecdbc3fe0a3186ce43693bdb19a50ad8/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48493 "POST /session/ecdbc3fe0a3186ce43693bdb19a50ad8/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48493 "POST /session/ecdbc3fe0a3186ce43693bdb19a50ad8/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48493 "POST /session/ecdbc3fe0a3186ce43693bdb19a50ad8/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48493 "DELETE /session/ecdbc3fe0a3186ce43693bdb19a50ad8 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:48493 "DELETE /session/ecdbc3fe0a3186ce43693bdb19a50ad8 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34355 "POST /session/b04e29c9238c3db6606882c4422273ba/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:59075
+urllib3.connectionpool | DEBUG | http://127.0.0.1:59075 "POST /session HTTP/1.1" 200 669
+urllib3.connectionpool | DEBUG | http://127.0.0.1:59075 "POST /session/6e2efe171651d3c96b8d5d2056b14cd5/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:59075 "POST /session/6e2efe171651d3c96b8d5d2056b14cd5/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:59075 "POST /session/6e2efe171651d3c96b8d5d2056b14cd5/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:59075 "POST /session/6e2efe171651d3c96b8d5d2056b14cd5/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:59075 "POST /session/6e2efe171651d3c96b8d5d2056b14cd5/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:59075 "DELETE /session/6e2efe171651d3c96b8d5d2056b14cd5 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:59075 "DELETE /session/6e2efe171651d3c96b8d5d2056b14cd5 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:59151 "POST /session/8c73cbefe5c368d91ff53f59e766aa5c/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:49789
+urllib3.connectionpool | DEBUG | http://127.0.0.1:49789 "POST /session HTTP/1.1" 400 246
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:36569
+urllib3.connectionpool | DEBUG | http://127.0.0.1:36569 "POST /session HTTP/1.1" 400 246
+urllib3.connectionpool | DEBUG | http://127.0.0.1:59117 "POST /session/10187a50450ce0afde197abcf57d3020/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:50843
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50843 "POST /session HTTP/1.1" 200 669
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50843 "POST /session/29efde39debb2d7a81ff13f6bd4db4a6/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50843 "POST /session/29efde39debb2d7a81ff13f6bd4db4a6/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50843 "POST /session/29efde39debb2d7a81ff13f6bd4db4a6/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50843 "POST /session/29efde39debb2d7a81ff13f6bd4db4a6/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50843 "POST /session/29efde39debb2d7a81ff13f6bd4db4a6/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50843 "DELETE /session/29efde39debb2d7a81ff13f6bd4db4a6 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:50843 "DELETE /session/29efde39debb2d7a81ff13f6bd4db4a6 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:47343 "POST /session/96e9a98345ca59462085342b599a2673/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:41269
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41269 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41269 "POST /session/56d799395a1ae105c512bbd0f94961af/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41269 "POST /session/56d799395a1ae105c512bbd0f94961af/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41269 "POST /session/56d799395a1ae105c512bbd0f94961af/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41269 "POST /session/56d799395a1ae105c512bbd0f94961af/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41269 "POST /session/56d799395a1ae105c512bbd0f94961af/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41269 "DELETE /session/56d799395a1ae105c512bbd0f94961af HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:41269 "DELETE /session/56d799395a1ae105c512bbd0f94961af HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:55779 "POST /session/7dfbfca5139e7ca225923f292239976c/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:33697
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33697 "POST /session HTTP/1.1" 200 669
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33697 "POST /session/bddbf2d792eb8cc420cbfc539b35920f/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33697 "POST /session/bddbf2d792eb8cc420cbfc539b35920f/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33697 "POST /session/bddbf2d792eb8cc420cbfc539b35920f/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33697 "POST /session/bddbf2d792eb8cc420cbfc539b35920f/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33697 "POST /session/bddbf2d792eb8cc420cbfc539b35920f/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33697 "DELETE /session/bddbf2d792eb8cc420cbfc539b35920f HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33697 "DELETE /session/bddbf2d792eb8cc420cbfc539b35920f HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52163 "POST /session/e1ff658a9fca7e7e40ab185afcbddec6/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:40415
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40415 "POST /session HTTP/1.1" 400 246
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:55851
+urllib3.connectionpool | DEBUG | http://127.0.0.1:55851 "POST /session HTTP/1.1" 400 246
+urllib3.connectionpool | DEBUG | http://127.0.0.1:42119 "POST /session/aa814529bcb4021be9c6f5d4430559fa/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:60213
+urllib3.connectionpool | DEBUG | http://127.0.0.1:60213 "POST /session HTTP/1.1" 400 246
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:56195
+urllib3.connectionpool | DEBUG | http://127.0.0.1:56195 "POST /session HTTP/1.1" 400 246
+urllib3.connectionpool | DEBUG | http://127.0.0.1:44595 "POST /session/e8ae38cb433ba8a3cb8b8d1924f27c06/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:53349
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53349 "POST /session HTTP/1.1" 200 665
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53349 "POST /session/5a42b3a3e67cb7b935b09dae2943c627/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53349 "POST /session/5a42b3a3e67cb7b935b09dae2943c627/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53349 "POST /session/5a42b3a3e67cb7b935b09dae2943c627/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53349 "POST /session/5a42b3a3e67cb7b935b09dae2943c627/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53349 "POST /session/5a42b3a3e67cb7b935b09dae2943c627/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53349 "DELETE /session/5a42b3a3e67cb7b935b09dae2943c627 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:53349 "DELETE /session/5a42b3a3e67cb7b935b09dae2943c627 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:36911 "POST /session/e77a303cf7682fa075b860b9fbb2e4f9/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:34655
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34655 "POST /session HTTP/1.1" 200 662
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34655 "POST /session/26dc02df71adb0cb773f4bacab3d223c/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34655 "POST /session/26dc02df71adb0cb773f4bacab3d223c/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34655 "POST /session/26dc02df71adb0cb773f4bacab3d223c/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34655 "POST /session/26dc02df71adb0cb773f4bacab3d223c/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34655 "POST /session/26dc02df71adb0cb773f4bacab3d223c/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34655 "DELETE /session/26dc02df71adb0cb773f4bacab3d223c HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:34655 "DELETE /session/26dc02df71adb0cb773f4bacab3d223c HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:36405 "POST /session/20e85b5fdacf614214f3100387ee1e7a/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:46077
+urllib3.connectionpool | DEBUG | http://127.0.0.1:46077 "POST /session HTTP/1.1" 200 668
+urllib3.connectionpool | DEBUG | http://127.0.0.1:46077 "POST /session/f10cf9489ae92273b4b778cc7ffb9429/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:46077 "POST /session/f10cf9489ae92273b4b778cc7ffb9429/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:46077 "POST /session/f10cf9489ae92273b4b778cc7ffb9429/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:46077 "POST /session/f10cf9489ae92273b4b778cc7ffb9429/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:46077 "POST /session/f10cf9489ae92273b4b778cc7ffb9429/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+urllib3.connectionpool | DEBUG | http://127.0.0.1:46077 "DELETE /session/f10cf9489ae92273b4b778cc7ffb9429 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:46077 "DELETE /session/f10cf9489ae92273b4b778cc7ffb9429 HTTP/1.1" 200 14

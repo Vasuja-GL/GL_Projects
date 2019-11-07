@@ -79,7 +79,13 @@ class LocalBrowser(Browser):
 
         if browser == 'chrome' and sys.platform == "linux2":
             options = webdriver.ChromeOptions()
-            options.add_argument(r"--no-sandbox")
+
+            #options.add_argument(r"--no-sandbox")
+           # options.add_argument('--profile-directory=Test')
+            options.add_argument("--user-data-dir=/home/vasuja.kookkal/.cache/google-chrome/Default/Cache")
+            options.add_argument("--profile-directory=Default")
+            # options.add_argument('--user-data-dir=/home/vasuja.kookkal/.config/google-chrome/Profile 1')
+            # options.add_argument('--args --profile-directory="Profile 1"')
             testdriver = webdriver.Chrome(self._BROWSER_INFO[browser]['webdriver_path'], chrome_options=options)
 
         else:
@@ -92,10 +98,12 @@ class LocalBrowser(Browser):
                 if notifications == "allow":
                     notif_index = 1
                 else:
-                    notif_index = 2
+                    pass
+                    # notif_index = 2
                 prefs = {"profile.default_content_setting_values.notifications": notif_index}
             else:
-                prefs = {"profile.default_content_setting_values.notifications": 2}
+                pass
+                # prefs = {"profile.default_content_setting_values.notifications": 2}
             options.add_experimental_option("prefs", prefs)
 
             service_args = []

@@ -70,7 +70,10 @@ class Disc_CommonFunctionality(object):
             # self.action_ele.clear_input_text("Global_EuroSport_Discovery_Password_css")
             self.action_ele.input_text("Global_EuroSport_locator_Discovery_Email_ID_css", params["Username"])
             self.action_ele.input_text("Global_EuroSport_Discovery_Password_css", params["Password"])
+            self.action_ele.explicit_wait("Global_Eurosport_Sign_In_Button_xpath")
             self.action_ele.click_element("Global_Eurosport_Sign_In_Button_xpath")
+            self.action_ele.explicit_wait("Global_EuroSport_Account")
+
 
         except Exception as err:
             status = False
