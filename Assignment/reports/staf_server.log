@@ -22242,3 +22242,267 @@ urllib3.connectionpool | DEBUG | http://127.0.0.1:54125 "POST /session/d7282fc22
 urllib3.connectionpool | DEBUG | http://127.0.0.1:54125 "POST /session/d7282fc2204b7f5c3af557ae09b1aada/element/6fb24aec-e026-45a9-a3df-3497837a4741/click HTTP/1.1" 200 14
 WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
 WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+urllib3.connectionpool | DEBUG | http://127.0.0.1:55415 "POST /session/d07c976cd286a1971670d3883d588de5/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:40701
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/element/4c7166f5-65a8-45d4-aaac-02fe22af5262/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/element/4c7166f5-65a8-45d4-aaac-02fe22af5262/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/element/863b2e49-cbf1-4455-b8ec-a712533d93e8/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/element/863b2e49-cbf1-4455-b8ec-a712533d93e8/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=email
+Browser | DEBUG | Element identified: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/element/9e3936f5-1d35-4e58-81c1-c73ad229c006/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/element/9e3936f5-1d35-4e58-81c1-c73ad229c006/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/element/9e3936f5-1d35-4e58-81c1-c73ad229c006/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/element/9e3936f5-1d35-4e58-81c1-c73ad229c006/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=password
+Browser | DEBUG | Element identified: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/element/cc743875-bf69-4570-90f2-e846b9641a76/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/element/cc743875-bf69-4570-90f2-e846b9641a76/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/element/cc743875-bf69-4570-90f2-e846b9641a76/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/element/cc743875-bf69-4570-90f2-e846b9641a76/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/element/cb483f3c-d55d-4827-a2a4-77f472e1d700/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "POST /session/8604fe5d0041d10223c978344312d8cc/element/cb483f3c-d55d-4827-a2a4-77f472e1d700/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "DELETE /session/8604fe5d0041d10223c978344312d8cc HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:40701 "DELETE /session/8604fe5d0041d10223c978344312d8cc HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:43129 "POST /session/7be7f24064cdda8b1138c1ddc8b69e83/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:33361
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/element/2f17cdcb-8f53-4abc-818c-9812ef4e2e25/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/element/2f17cdcb-8f53-4abc-818c-9812ef4e2e25/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/element/5372f609-7a97-46a4-ba68-021f3d4e33d5/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/element/5372f609-7a97-46a4-ba68-021f3d4e33d5/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=email
+Browser | DEBUG | Element identified: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/element/bc1570fe-06d8-4fab-af1e-b2edeb5bbd0d/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/element/bc1570fe-06d8-4fab-af1e-b2edeb5bbd0d/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/element/bc1570fe-06d8-4fab-af1e-b2edeb5bbd0d/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/element/bc1570fe-06d8-4fab-af1e-b2edeb5bbd0d/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=password
+Browser | DEBUG | Element identified: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/element/828e941a-23aa-4a78-9937-764a9749b6bd/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/element/828e941a-23aa-4a78-9937-764a9749b6bd/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/element/828e941a-23aa-4a78-9937-764a9749b6bd/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/element/828e941a-23aa-4a78-9937-764a9749b6bd/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/element/801225df-16b2-455c-a1a5-bf1d6de9637e/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "POST /session/1f5d9c6f7c461d5bb13205d051b44a2f/element/801225df-16b2-455c-a1a5-bf1d6de9637e/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "DELETE /session/1f5d9c6f7c461d5bb13205d051b44a2f HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:33361 "DELETE /session/1f5d9c6f7c461d5bb13205d051b44a2f HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:52967 "POST /session/a4c84617e3ae01a76a6970f9d9fcac90/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:35973
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/element/011bd544-a1d1-4d51-a1ee-644faca01d7b/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/element/011bd544-a1d1-4d51-a1ee-644faca01d7b/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/element/1ea39762-8078-464c-b2d7-731c753f4c04/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/element/1ea39762-8078-464c-b2d7-731c753f4c04/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=email
+Browser | DEBUG | Element identified: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/element/188dc380-f785-4f0a-84d5-4cdbda3d41b0/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/element/188dc380-f785-4f0a-84d5-4cdbda3d41b0/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/element/188dc380-f785-4f0a-84d5-4cdbda3d41b0/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/element/188dc380-f785-4f0a-84d5-4cdbda3d41b0/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=password
+Browser | DEBUG | Element identified: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/element/71863dfb-146e-4a76-a5dd-e7c73093d0f9/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/element/71863dfb-146e-4a76-a5dd-e7c73093d0f9/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/element/71863dfb-146e-4a76-a5dd-e7c73093d0f9/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/element/71863dfb-146e-4a76-a5dd-e7c73093d0f9/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/element/e5692139-41f1-43ec-b59e-19fbee4cfa60/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "POST /session/712829d971e6ec842acda301a04615b6/element/e5692139-41f1-43ec-b59e-19fbee4cfa60/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "DELETE /session/712829d971e6ec842acda301a04615b6 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:35973 "DELETE /session/712829d971e6ec842acda301a04615b6 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:32961 "POST /session/9791df7990c1083cdfeb41f7b3750e45/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | Starting new HTTP connection (1): 127.0.0.1:58491
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session HTTP/1.1" 200 643
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/timeouts HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/window/maximize HTTP/1.1" 200 52
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/url HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/url HTTP/1.1" 200 14
+Disc_CommonFunctionality | INFO  | Open URL successful
+Disc_CommonFunctionality | INFO  | Open URL successful
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(@class,'styles-btn-jMjlofIP')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/element/9f7c83d6-f27c-4e4e-96b8-0f0a67924e39/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/element/9f7c83d6-f27c-4e4e-96b8-0f0a67924e39/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Cookie_Policy_Accept_Button_xpath
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//span[contains(text(),'Sign in')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/element/ad83b04e-d9b7-4348-a6d8-0cd9c604ca0c/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/element/ad83b04e-d9b7-4348-a6d8-0cd9c604ca0c/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_EuroSport_Sign_In_Link_xpath
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=email
+Browser | DEBUG | Element identified: By=id, ByValue=email
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/element/2dad3d65-9957-49bf-a9f7-52ca7a880150/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/element/2dad3d65-9957-49bf-a9f7-52ca7a880150/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/element/2dad3d65-9957-49bf-a9f7-52ca7a880150/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/element/2dad3d65-9957-49bf-a9f7-52ca7a880150/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_locator_Discovery_Email_ID_css
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+Browser | DEBUG | Browser.get_elements: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=id, ByValue=password
+Browser | DEBUG | Element identified: By=id, ByValue=password
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/element/d14b29e5-e927-4958-8bf5-93d4dbe42fdd/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/element/d14b29e5-e927-4958-8bf5-93d4dbe42fdd/clear HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/element/d14b29e5-e927-4958-8bf5-93d4dbe42fdd/value HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/element/d14b29e5-e927-4958-8bf5-93d4dbe42fdd/value HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+WebUIOperation | DEBUG | Input_text operation                                     successful- Global_EuroSport_Discovery_Password_css
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Browser.get_elements: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/elements HTTP/1.1" 200 90
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/elements HTTP/1.1" 200 90
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+Browser | DEBUG | Element identified: By=xpath, ByValue=//button[contains(text(),'Sign')]
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/element/cb02797c-6fb9-4505-abda-09264269ff34/click HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "POST /session/d1c23df2453cff303dfaf346de9933f4/element/cb02797c-6fb9-4505-abda-09264269ff34/click HTTP/1.1" 200 14
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+WebUIOperation | DEBUG | Click operation                                          successful- Global_Eurosport_Sign_In_Button_xpath
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "DELETE /session/d1c23df2453cff303dfaf346de9933f4 HTTP/1.1" 200 14
+urllib3.connectionpool | DEBUG | http://127.0.0.1:58491 "DELETE /session/d1c23df2453cff303dfaf346de9933f4 HTTP/1.1" 200 14

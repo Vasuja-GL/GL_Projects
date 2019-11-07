@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20191107 11:34:00.111" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
+<suite source="/home/vasuja.kookkal/Desktop/GL_Projects/Assignment/automation/TestCases/Discovery/tc_eurosports_login.robot" id="s1" name="Tc Eurosports Login">
+<kw type="setup" name="Set Init Env">
+<kw name="Create Dictionary" library="BuiltIn">
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<assign>
+<var>${login_details}</var>
+</assign>
+<msg timestamp="20191107 11:34:01.673" level="INFO">${login_details} = {}</msg>
+<status status="PASS" endtime="20191107 11:34:01.674" starttime="20191107 11:34:01.673"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${logindetails}</arg>
+</arguments>
+<msg timestamp="20191107 11:34:01.674" level="INFO">${logindetails} = {}</msg>
+<status status="PASS" endtime="20191107 11:34:01.674" starttime="20191107 11:34:01.674"></status>
+</kw>
+<status status="PASS" endtime="20191107 11:34:01.674" starttime="20191107 11:34:01.673"></status>
+</kw>
+<test id="s1-t1" name="Verify the favorites status in Discovery.com">
+<kw name="When I open the web page with ${URL}" library="DiscoveryKeywords">
+<kw name="Run Keyword" library="BuiltIn">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>Open Url</arg>
+<arg>${url}</arg>
+</arguments>
+<kw name="Open Url" library="DiscoveryComponent">
+<doc>`Description:` This function is used to open Discovery portal page</doc>
+<arguments>
+<arg>${url}</arg>
+</arguments>
+<msg timestamp="20191107 11:34:06.403" level="INFO">Open URL successful</msg>
+<status status="PASS" endtime="20191107 11:34:06.404" starttime="20191107 11:34:01.676"></status>
+</kw>
+<status status="PASS" endtime="20191107 11:34:06.404" starttime="20191107 11:34:01.675"></status>
+</kw>
+<status status="PASS" endtime="20191107 11:34:06.405" starttime="20191107 11:34:01.675"></status>
+</kw>
+<kw name="Set To Dictionary" library="Collections">
+<doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
+<arguments>
+<arg>${login_details}</arg>
+<arg>cookie_policy</arg>
+<arg>True</arg>
+</arguments>
+<status status="PASS" endtime="20191107 11:34:06.407" starttime="20191107 11:34:06.406"></status>
+</kw>
+<kw name="Set To Dictionary" library="Collections">
+<doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
+<arguments>
+<arg>${login_details}</arg>
+<arg>Username</arg>
+<arg>${Username}</arg>
+</arguments>
+<status status="PASS" endtime="20191107 11:34:06.409" starttime="20191107 11:34:06.408"></status>
+</kw>
+<kw name="Set To Dictionary" library="Collections">
+<doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
+<arguments>
+<arg>${login_details}</arg>
+<arg>Password</arg>
+<arg>${Password}</arg>
+</arguments>
+<status status="PASS" endtime="20191107 11:34:06.411" starttime="20191107 11:34:06.410"></status>
+</kw>
+<kw name="Then Login to home page" library="DiscoveryKeywords">
+<arguments>
+<arg>&amp;{login_details}</arg>
+</arguments>
+<kw name="Run Keyword" library="BuiltIn">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>euro_login</arg>
+<arg>&amp;{login_info}</arg>
+</arguments>
+<assign>
+<var>${result}</var>
+</assign>
+<kw name="Euro Login" library="DiscoveryComponent">
+<doc>`Description:` Login for Eurosport portal</doc>
+<arguments>
+<arg>&amp;{login_info}</arg>
+</arguments>
+<msg timestamp="20191107 11:34:06.418" level="INFO">{'ELEMENT_TYPE': 'button', 'BY_TYPE': 'xpath', 'BY_VALUE': "//button[contains(@class,'styles-btn-jMjlofIP')]"}</msg>
+<msg timestamp="20191107 11:34:10.817" level="INFO">{'ELEMENT_TYPE': 'a', 'BY_TYPE': 'xpath', 'BY_VALUE': "//span[contains(text(),'Sign in')]"}</msg>
+<msg timestamp="20191107 11:34:13.812" level="INFO">{'ELEMENT_TYPE': 'input', 'BY_TYPE': 'id', 'BY_VALUE': 'email'}</msg>
+<msg timestamp="20191107 11:34:14.831" level="INFO">{'ELEMENT_TYPE': 'input', 'BY_TYPE': 'id', 'BY_VALUE': 'password'}</msg>
+<msg timestamp="20191107 11:34:15.078" level="INFO">{'ELEMENT_TYPE': 'button', 'BY_TYPE': 'xpath', 'BY_VALUE': "//button[contains(text(),'Sign')]"}</msg>
+<status status="PASS" endtime="20191107 11:34:15.175" starttime="20191107 11:34:06.417"></status>
+</kw>
+<msg timestamp="20191107 11:34:15.175" level="INFO">${result} = True</msg>
+<status status="PASS" endtime="20191107 11:34:15.176" starttime="20191107 11:34:06.416"></status>
+</kw>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>${result}</arg>
+</arguments>
+<status status="PASS" endtime="20191107 11:34:15.177" starttime="20191107 11:34:15.176"></status>
+</kw>
+<status status="PASS" endtime="20191107 11:34:15.177" starttime="20191107 11:34:06.412"></status>
+</kw>
+<tags>
+<tag>Discovery</tag>
+</tags>
+<status status="PASS" endtime="20191107 11:34:15.177" critical="yes" starttime="20191107 11:34:01.674"></status>
+</test>
+<kw type="teardown" name="Close The Browsers" library="DiscoveryKeywords">
+<kw name="Run Keyword" library="BuiltIn">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>Close The Browser</arg>
+</arguments>
+<kw name="Close The Browser" library="DiscoveryComponent">
+<doc>`Description:` Close the browser object</doc>
+<status status="PASS" endtime="20191107 11:34:17.242" starttime="20191107 11:34:15.180"></status>
+</kw>
+<status status="PASS" endtime="20191107 11:34:17.242" starttime="20191107 11:34:15.179"></status>
+</kw>
+<status status="PASS" endtime="20191107 11:34:17.242" starttime="20191107 11:34:15.178"></status>
+</kw>
+<doc>This test case will navigate to "https://go.discovery.com/" and verify the fields</doc>
+<status status="PASS" endtime="20191107 11:34:17.242" starttime="20191107 11:34:00.112"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">Discovery</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Tc Eurosports Login" pass="1">Tc Eurosports Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -63,6 +63,17 @@ class WebElementAction:
                 log.mjLog.LogReporter("WebUIOperation", "debug", "Click operation \
                                          successful- %s" % (locator))
 
+    def input_text(self,locator, Text):
+        """Types the given `text` into text field identified by `locator`.
+
+        """
+        self.element = self._element_finder(locator)
+        if self.element:
+            self.element.clear()
+            self.element.send_keys(Text)
+            log.mjLog.LogReporter("WebUIOperation","debug","Input_text operation \
+                                    successful- %s" %(locator))
+
     def explicit_wait(self, element, waittime=20, replace_dict=None, ec='visibility_of_element_located', msg=None, msg_to_verify=None, condition_category="until"):
         """
         explicit_wait() is used to wait until element is displayed & enabled

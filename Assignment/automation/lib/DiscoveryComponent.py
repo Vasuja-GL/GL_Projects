@@ -56,8 +56,6 @@ class DiscoveryComponent():
         `Created by:` Vasuja K
         """
         try:
-            import pdb;
-            pdb.Pdb(stdout=sys.__stdout__).set_trace()
             status = self.discovery_page.commonfun.euro_login(params)
             return status
         except:

@@ -22,11 +22,11 @@ Library  String
 *** Test Cases ***
 Verify the favorites status in Discovery.com
     [Tags]    Discovery
-    Given I open the web page with ${URL}
+    When I open the web page with ${URL}
     Set to Dictionary    ${login_details}    cookie_policy    True
     Set to Dictionary    ${login_details}    Username    ${Username}
     Set to Dictionary    ${login_details}    Password    ${Password}
-    When Login to home page  &{login_details}
+    Then Login to home page  &{login_details}
 
 
 *** Keywords ***

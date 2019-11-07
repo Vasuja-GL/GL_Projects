@@ -59,8 +59,8 @@ class Disc_CommonFunctionality(object):
         """
         try:
             params = defaultdict(lambda: None, params)
-            import pdb;
-            pdb.Pdb(stdout=sys.__stdout__).set_trace()
+            # import pdb;
+            # pdb.Pdb(stdout=sys.__stdout__).set_trace()
             status = True
             if params["cookie_policy"]:
                 self.action_ele.click_element("Global_EuroSport_Cookie_Policy_Accept_Button_xpath")
@@ -73,9 +73,11 @@ class Disc_CommonFunctionality(object):
             self.action_ele.click_element("Global_Eurosport_Sign_In_Button_xpath")
 
         except Exception as err:
+            status = False
             print(err.message)
             self.action_ele.takeScreenshot(inspect.currentframe().f_code.co_name)
             raise Exception("Login failed!!")
+        return status
 
     def close_browser(self):
         """
