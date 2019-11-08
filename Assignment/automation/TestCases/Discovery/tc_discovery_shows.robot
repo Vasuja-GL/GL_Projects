@@ -5,7 +5,7 @@ Documentation     This test case will navigate to "https://go.discovery.com/" an
 
 #Suite Setup and Teardown
 Suite Setup       Set Init Env
-Suite Teardown    Close The Browsers
+#Suite Teardown    Close The Browsers
 
 
 #Keywords Definition file

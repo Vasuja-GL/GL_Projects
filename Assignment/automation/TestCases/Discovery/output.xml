@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20191108 11:58:57.266" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
+<suite source="/home/syprus.ithuriel/Desktop/GL_Projects/Assignment/automation/TestCases/Discovery/tc_discovery_shows.robot" id="s1" name="Tc Discovery Shows">
+<kw type="setup" name="Set Init Env">
+<kw name="Create Dictionary" library="BuiltIn">
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<assign>
+<var>${show_details}</var>
+</assign>
+<msg timestamp="20191108 11:58:58.886" level="INFO">${show_details} = {}</msg>
+<status status="PASS" endtime="20191108 11:58:58.886" starttime="20191108 11:58:58.886"></status>
+</kw>
+<kw name="Create List" library="BuiltIn">
+<doc>Returns a list containing given items.</doc>
+<assign>
+<var>${favorite_selected_list}</var>
+</assign>
+<msg timestamp="20191108 11:58:58.887" level="INFO">${favorite_selected_list} = []</msg>
+<status status="PASS" endtime="20191108 11:58:58.887" starttime="20191108 11:58:58.887"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${show_details}</arg>
+</arguments>
+<msg timestamp="20191108 11:58:58.888" level="INFO">${show_details} = {}</msg>
+<status status="PASS" endtime="20191108 11:58:58.888" starttime="20191108 11:58:58.887"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${favorite_selected_list}</arg>
+</arguments>
+<msg timestamp="20191108 11:58:58.891" level="INFO">${favorite_selected_list} = []</msg>
+<status status="PASS" endtime="20191108 11:58:58.892" starttime="20191108 11:58:58.889"></status>
+</kw>
+<status status="PASS" endtime="20191108 11:58:58.893" starttime="20191108 11:58:58.884"></status>
+</kw>
+<test id="s1-t1" name="Verify the favorites status in Discovery.com">
+<kw name="Given I open the web page with ${URL}" library="DiscoveryKeywords">
+<kw name="Run Keyword" library="BuiltIn">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>Open_Url</arg>
+<arg>${url}</arg>
+</arguments>
+<kw name="Open Url" library="DiscoveryComponent">
+<doc>`Description:` This function is used to open Discovery portal page</doc>
+<arguments>
+<arg>${url}</arg>
+</arguments>
+<msg timestamp="20191108 11:59:03.774" level="INFO">Open URL successful</msg>
+<status status="PASS" endtime="20191108 11:59:03.775" starttime="20191108 11:58:58.895"></status>
+</kw>
+<status status="PASS" endtime="20191108 11:59:03.775" starttime="20191108 11:58:58.894"></status>
+</kw>
+<status status="PASS" endtime="20191108 11:59:03.776" starttime="20191108 11:58:58.894"></status>
+</kw>
+<kw name="When I switch to &quot;see_all_shows&quot; page" library="DiscoveryKeywords">
+<kw name="Create Dictionary" library="BuiltIn">
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<arguments>
+<arg>page=${myNewPage}</arg>
+</arguments>
+<assign>
+<var>&amp;{pageSwitch}</var>
+</assign>
+<msg timestamp="20191108 11:59:03.781" level="INFO">&amp;{pageSwitch} = { page=see_all_shows }</msg>
+<status status="PASS" endtime="20191108 11:59:03.781" starttime="20191108 11:59:03.778"></status>
+</kw>
+<kw name="Run Keyword" library="BuiltIn">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>Switch Page</arg>
+<arg>&amp;{pageSwitch}</arg>
+</arguments>
+<kw name="Switch Page" library="DiscoveryComponent">
+<doc>`Description:` Switch any page</doc>
+<arguments>
+<arg>&amp;{pageSwitch}</arg>
+</arguments>
+<msg timestamp="20191108 11:59:03.786" level="INFO">{'ELEMENT_TYPE': 'span', 'BY_TYPE': 'xpath', 'BY_VALUE': '//span[@class=\'dscHeaderMain__topNavText\' and contains(text(),"Shows")]'}</msg>
+<msg timestamp="20191108 11:59:11.119" level="INFO">IN MAIN:
+IN COMMON SWITCH
+{u'page': u'see_all_shows'}
+Could not locate element &lt;shows&gt; during explicit wait.'NoneType' object has no attribute 'is_displayed'
+/home/syprus.ithuriel/Desktop/GL_Projects/Assignment/automation/\reports\report_2019-11-08/switch_page11_59_11.116238.png
+Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.87)</msg>
+<msg timestamp="20191108 11:59:11.120" level="FAIL">Page Switch Failed!!</msg>
+<status status="FAIL" endtime="20191108 11:59:11.120" starttime="20191108 11:59:03.784"></status>
+</kw>
+<status status="FAIL" endtime="20191108 11:59:11.120" starttime="20191108 11:59:03.782"></status>
+</kw>
+<status status="FAIL" endtime="20191108 11:59:11.121" starttime="20191108 11:59:03.777"></status>
+</kw>
+<tags>
+<tag>Discovery</tag>
+</tags>
+<status status="FAIL" endtime="20191108 11:59:11.121" critical="yes" starttime="20191108 11:58:58.893">Page Switch Failed!!</status>
+</test>
+<doc>This test case will navigate to "https://go.discovery.com/" and verify the fields</doc>
+<status status="FAIL" endtime="20191108 11:59:11.122" starttime="20191108 11:58:57.267"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+<stat fail="1" pass="0">Discovery</stat>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Tc Discovery Shows" pass="0">Tc Discovery Shows</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
