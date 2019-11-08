@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20191108 11:58:57.266" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
+<robot rpa="false" generated="20191108 14:38:39.979" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
 <suite source="/home/syprus.ithuriel/Desktop/GL_Projects/Assignment/automation/TestCases/Discovery/tc_discovery_shows.robot" id="s1" name="Tc Discovery Shows">
 <kw type="setup" name="Set Init Env">
 <kw name="Create Dictionary" library="BuiltIn">
@@ -7,34 +7,34 @@
 <assign>
 <var>${show_details}</var>
 </assign>
-<msg timestamp="20191108 11:58:58.886" level="INFO">${show_details} = {}</msg>
-<status status="PASS" endtime="20191108 11:58:58.886" starttime="20191108 11:58:58.886"></status>
+<msg timestamp="20191108 14:38:40.043" level="INFO">${show_details} = {}</msg>
+<status status="PASS" endtime="20191108 14:38:40.043" starttime="20191108 14:38:40.043"></status>
 </kw>
 <kw name="Create List" library="BuiltIn">
 <doc>Returns a list containing given items.</doc>
 <assign>
 <var>${favorite_selected_list}</var>
 </assign>
-<msg timestamp="20191108 11:58:58.887" level="INFO">${favorite_selected_list} = []</msg>
-<status status="PASS" endtime="20191108 11:58:58.887" starttime="20191108 11:58:58.887"></status>
+<msg timestamp="20191108 14:38:40.044" level="INFO">${favorite_selected_list} = []</msg>
+<status status="PASS" endtime="20191108 14:38:40.044" starttime="20191108 14:38:40.043"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
 <arg>${show_details}</arg>
 </arguments>
-<msg timestamp="20191108 11:58:58.888" level="INFO">${show_details} = {}</msg>
-<status status="PASS" endtime="20191108 11:58:58.888" starttime="20191108 11:58:58.887"></status>
+<msg timestamp="20191108 14:38:40.044" level="INFO">${show_details} = {}</msg>
+<status status="PASS" endtime="20191108 14:38:40.044" starttime="20191108 14:38:40.044"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
 <arg>${favorite_selected_list}</arg>
 </arguments>
-<msg timestamp="20191108 11:58:58.891" level="INFO">${favorite_selected_list} = []</msg>
-<status status="PASS" endtime="20191108 11:58:58.892" starttime="20191108 11:58:58.889"></status>
+<msg timestamp="20191108 14:38:40.045" level="INFO">${favorite_selected_list} = []</msg>
+<status status="PASS" endtime="20191108 14:38:40.045" starttime="20191108 14:38:40.044"></status>
 </kw>
-<status status="PASS" endtime="20191108 11:58:58.893" starttime="20191108 11:58:58.884"></status>
+<status status="PASS" endtime="20191108 14:38:40.045" starttime="20191108 14:38:40.043"></status>
 </kw>
 <test id="s1-t1" name="Verify the favorites status in Discovery.com">
 <kw name="Given I open the web page with ${URL}" library="DiscoveryKeywords">
@@ -44,64 +44,24 @@
 <arg>Open_Url</arg>
 <arg>${url}</arg>
 </arguments>
-<kw name="Open Url" library="DiscoveryComponent">
-<doc>`Description:` This function is used to open Discovery portal page</doc>
+<kw name="Open_Url">
 <arguments>
 <arg>${url}</arg>
 </arguments>
-<msg timestamp="20191108 11:59:03.774" level="INFO">Open URL successful</msg>
-<status status="PASS" endtime="20191108 11:59:03.775" starttime="20191108 11:58:58.895"></status>
+<msg timestamp="20191108 14:38:40.048" level="FAIL">No keyword with name 'Open_Url' found.</msg>
+<status status="FAIL" endtime="20191108 14:38:40.048" starttime="20191108 14:38:40.048"></status>
 </kw>
-<status status="PASS" endtime="20191108 11:59:03.775" starttime="20191108 11:58:58.894"></status>
+<status status="FAIL" endtime="20191108 14:38:40.048" starttime="20191108 14:38:40.046"></status>
 </kw>
-<status status="PASS" endtime="20191108 11:59:03.776" starttime="20191108 11:58:58.894"></status>
-</kw>
-<kw name="When I switch to &quot;see_all_shows&quot; page" library="DiscoveryKeywords">
-<kw name="Create Dictionary" library="BuiltIn">
-<doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<arguments>
-<arg>page=${myNewPage}</arg>
-</arguments>
-<assign>
-<var>&amp;{pageSwitch}</var>
-</assign>
-<msg timestamp="20191108 11:59:03.781" level="INFO">&amp;{pageSwitch} = { page=see_all_shows }</msg>
-<status status="PASS" endtime="20191108 11:59:03.781" starttime="20191108 11:59:03.778"></status>
-</kw>
-<kw name="Run Keyword" library="BuiltIn">
-<doc>Executes the given keyword with the given arguments.</doc>
-<arguments>
-<arg>Switch Page</arg>
-<arg>&amp;{pageSwitch}</arg>
-</arguments>
-<kw name="Switch Page" library="DiscoveryComponent">
-<doc>`Description:` Switch any page</doc>
-<arguments>
-<arg>&amp;{pageSwitch}</arg>
-</arguments>
-<msg timestamp="20191108 11:59:03.786" level="INFO">{'ELEMENT_TYPE': 'span', 'BY_TYPE': 'xpath', 'BY_VALUE': '//span[@class=\'dscHeaderMain__topNavText\' and contains(text(),"Shows")]'}</msg>
-<msg timestamp="20191108 11:59:11.119" level="INFO">IN MAIN:
-IN COMMON SWITCH
-{u'page': u'see_all_shows'}
-Could not locate element &lt;shows&gt; during explicit wait.'NoneType' object has no attribute 'is_displayed'
-/home/syprus.ithuriel/Desktop/GL_Projects/Assignment/automation/\reports\report_2019-11-08/switch_page11_59_11.116238.png
-Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=78.0.3904.87)</msg>
-<msg timestamp="20191108 11:59:11.120" level="FAIL">Page Switch Failed!!</msg>
-<status status="FAIL" endtime="20191108 11:59:11.120" starttime="20191108 11:59:03.784"></status>
-</kw>
-<status status="FAIL" endtime="20191108 11:59:11.120" starttime="20191108 11:59:03.782"></status>
-</kw>
-<status status="FAIL" endtime="20191108 11:59:11.121" starttime="20191108 11:59:03.777"></status>
+<status status="FAIL" endtime="20191108 14:38:40.048" starttime="20191108 14:38:40.045"></status>
 </kw>
 <tags>
 <tag>Discovery</tag>
 </tags>
-<status status="FAIL" endtime="20191108 11:59:11.121" critical="yes" starttime="20191108 11:58:58.893">Page Switch Failed!!</status>
+<status status="FAIL" endtime="20191108 14:38:40.048" critical="yes" starttime="20191108 14:38:40.045">No keyword with name 'Open_Url' found.</status>
 </test>
 <doc>This test case will navigate to "https://go.discovery.com/" and verify the fields</doc>
-<status status="FAIL" endtime="20191108 11:59:11.122" starttime="20191108 11:58:57.267"></status>
+<status status="FAIL" endtime="20191108 14:38:40.048" starttime="20191108 14:38:39.980"></status>
 </suite>
 <statistics>
 <total>
@@ -116,5 +76,31 @@ from unknown error: web view not found
 </suite>
 </statistics>
 <errors>
+<msg timestamp="20191108 14:38:40.038" level="ERROR">Error in file '/home/syprus.ithuriel/Desktop/GL_Projects/Assignment/automation/TestCases/Discovery/tc_discovery_shows.robot': Importing test library '/home/syprus.ithuriel/Desktop/GL_Projects/Assignment/automation/lib/DiscoveryComponent.py' failed: ImportError: No module named utils.confMgr
+Traceback (most recent call last):
+  File "/home/syprus.ithuriel/Desktop/GL_Projects/Assignment/automation/lib/DiscoveryComponent.py", line 7, in &lt;module&gt;
+    from web_wrappers.selenium_wrappers import LocalBrowser
+  File "/home/syprus.ithuriel/Desktop/GL_Projects/Assignment/Selenium_Lib/web_wrappers/selenium_wrappers/__init__.py", line 4, in &lt;module&gt;
+    from WebElementAction import WebElementAction
+  File "/home/syprus.ithuriel/Desktop/GL_Projects/Assignment/Selenium_Lib/web_wrappers/selenium_wrappers/WebElementAction.py", line 15, in &lt;module&gt;
+    from log import log
+  File "/home/syprus.ithuriel/Desktop/GL_Projects/Assignment/Selenium_Lib/log/__init__.py", line 1, in &lt;module&gt;
+    from log import log
+  File "/home/syprus.ithuriel/Desktop/GL_Projects/Assignment/Selenium_Lib/log/log.py", line 12, in &lt;module&gt;
+    from utils.confMgr import confMgr
+PYTHONPATH:
+  /usr/lib/python2.7
+  /usr/lib/python2.7/plat-x86_64-linux-gnu
+  /usr/lib/python2.7/lib-tk
+  /usr/lib/python2.7/lib-old
+  /usr/lib/python2.7/lib-dynload
+  /home/syprus.ithuriel/.local/lib/python2.7/site-packages
+  /usr/local/lib/python2.7/dist-packages
+  /usr/lib/python2.7/dist-packages
+  /home/syprus.ithuriel/Desktop/GL_Projects/Assignment/automation
+  /home/syprus.ithuriel/Desktop/GL_Projects/Assignment/automation/page
+  /home/syprus.ithuriel/Desktop/GL_Projects/Assignment/Selenium_Lib
+  /home/syprus.ithuriel/Desktop/GL_Projects/Assignment/Selenium_Lib/utils
+  /home/syprus.ithuriel/Desktop/GL_Projects/Assignment/Selenium_Lib/web_wrappers</msg>
 </errors>
 </robot>
