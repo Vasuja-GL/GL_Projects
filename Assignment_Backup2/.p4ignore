@@ -1,0 +1,8 @@
+*.html
+*.iml
+*.log
+*.out
+*.png
+*.pyc
+*.xml
+reports/

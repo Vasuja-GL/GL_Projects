@@ -1,0 +1,28 @@
+shows==span#xpath#//span[@class='dscHeaderMain__topNavText' and contains(text(),"Shows")]
+see_all_shows==div#xpath#//div[@id="show-drop-desktop"]
+see_all_shows_link==a#xpath#(//div/a[contains(text(),'See All Shows')])[1]
+tv_shows==h1#xpath#//h1[@class='allShowsHeader__heading']
+img_apollo==img#xpath#//img[@src='https://api.discovery.com/v1/images/5d3502ef85aeee0ab80c0c2b?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+apollo_favorites_plus==i#xpath#//*[@id="react-root"]/div/div[1]/main/section[1]/div/div[1]/div[2]/div[1]/span/i[@class='flipIconCore__icon icon-plus ']
+favorites_minus==i#xpath#//i[@class='flipIconCore__icon icon-minus ']
+img_savage_builds==img#xpath#//img[@src='https://api.discovery.com/v1/images/5cf96cc885aeee22b74239c3?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+img_serengeti==img#xpath#//img[@src='https://api.discovery.com/v1/images/5d4310d685aeee0ab80c173f?aspectRatio=16x9&width=462&key=3020a40c2356a645b4b4']
+savage_builds_favorites_plus==i#xpath#//*[@id="react-root"]/div/div[1]/main/section[1]/div/div[1]/div[2]/div[1]/span/i[@class='flipIconCore__icon icon-plus ']
+serengethi_favorites_plus==i#xpath#//*[@id="react-root"]/div/div[1]/main/section[1]/div/div/div[1]/div/section/div[1]/a/div[1]/div[1]/div[1]/div/span/i[@class='flipIconCore__icon icon-plus ']
+dscHeaderMain__hideMobile==nav#xpath#//nav[@class='dscHeaderMain__topLinks dscHeaderMain__mainTopLinks']/ul/li[@class='dscHeaderMain__hideMobile']
+my_vedios==a#xpath#//a[@href='/my-videos']
+my_vedios_title==h1#xpath#//h1[@class='myVideosLayout__title']
+img_savage_builds2==img#xpath#//img[@src='https://api.discovery.com/v1/images/5cf96c8385aeee22b74239c2?aspectRatio=original&width=&height=45&key=3020a40c2356a645b4b4']
+FavoriteShowsCarousel==section#xpath#//section[@class='tile showTileSquare__main transition-in']
+
+
+Global_EuroSport_Cookie_Policy_Accept_Button_xpath==button#xpath#//button[contains(@class,'styles-btn-jMjlofIP')]
+Global_EuroSport_Sign_In_Link_xpath==a#xpath#//span[contains(text(),'Sign in')]
+Global_EuroSport_Verify_Sign_In_Text_xpath==h2#path#//h2[contains(text(),'Sign in')]
+Global_EuroSport_locator_Discovery_Email_ID_css==input#id#email
+Global_EuroSport_Discovery_Password_css==input#id#password
+Global_Eurosport_Sign_In_Button_xpath==button#xpath#//button[contains(text(),'Sign')]
+
+
+Global_EuroSport_logout==a#xpath#//a[contains(text(), 'Logout')]
+Global_EuroSport_Account==span#xpath#//span[contains(text(), 'Account')]

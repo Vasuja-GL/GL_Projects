@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20191111 12:23:41.356" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
+<suite source="/home/vasuja.kookkal/Desktop/GL_Projects/Eurosport_Automation/Robot_Framework/TestCases/Discovery/tc_discovery_shows.robot" id="s1" name="Tc Discovery Shows">
+<kw type="setup" name="Set Init Env">
+<kw name="Create Dictionary" library="BuiltIn">
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<assign>
+<var>${show_details}</var>
+</assign>
+<msg timestamp="20191111 12:23:42.895" level="INFO">${show_details} = {}</msg>
+<status status="PASS" endtime="20191111 12:23:42.895" starttime="20191111 12:23:42.894"></status>
+</kw>
+<kw name="Create List" library="BuiltIn">
+<doc>Returns a list containing given items.</doc>
+<assign>
+<var>${favorite_selected_list}</var>
+</assign>
+<msg timestamp="20191111 12:23:42.895" level="INFO">${favorite_selected_list} = []</msg>
+<status status="PASS" endtime="20191111 12:23:42.895" starttime="20191111 12:23:42.895"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${show_details}</arg>
+</arguments>
+<msg timestamp="20191111 12:23:42.895" level="INFO">${show_details} = {}</msg>
+<status status="PASS" endtime="20191111 12:23:42.895" starttime="20191111 12:23:42.895"></status>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${favorite_selected_list}</arg>
+</arguments>
+<msg timestamp="20191111 12:23:42.896" level="INFO">${favorite_selected_list} = []</msg>
+<status status="PASS" endtime="20191111 12:23:42.896" starttime="20191111 12:23:42.896"></status>
+</kw>
+<status status="PASS" endtime="20191111 12:23:42.896" starttime="20191111 12:23:42.894"></status>
+</kw>
+<test id="s1-t1" name="Verify the favorites status in Discovery.com">
+<kw name="Given I open the web page with ${URL}" library="DiscoveryKeywords">
+<kw name="Run Keyword" library="BuiltIn">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>Open_Url</arg>
+<arg>${url}</arg>
+</arguments>
+<kw name="Open Url" library="DiscoveryComponent">
+<doc>`Description:` This function is used to open Discovery portal page</doc>
+<arguments>
+<arg>${url}</arg>
+</arguments>
+<msg timestamp="20191111 12:23:52.622" level="INFO">Open URL successful</msg>
+<status status="PASS" endtime="20191111 12:23:52.622" starttime="20191111 12:23:42.897"></status>
+</kw>
+<status status="PASS" endtime="20191111 12:23:52.623" starttime="20191111 12:23:42.897"></status>
+</kw>
+<status status="PASS" endtime="20191111 12:23:52.623" starttime="20191111 12:23:42.897"></status>
+</kw>
+<kw name="When I switch to &quot;see_all_shows&quot; page" library="DiscoveryKeywords">
+<kw name="Create Dictionary" library="BuiltIn">
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<arguments>
+<arg>page=${myNewPage}</arg>
+</arguments>
+<assign>
+<var>&amp;{pageSwitch}</var>
+</assign>
+<msg timestamp="20191111 12:23:52.627" level="INFO">&amp;{pageSwitch} = { page=see_all_shows }</msg>
+<status status="PASS" endtime="20191111 12:23:52.627" starttime="20191111 12:23:52.624"></status>
+</kw>
+<kw name="Run Keyword" library="BuiltIn">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>Switch Page</arg>
+<arg>&amp;{pageSwitch}</arg>
+</arguments>
+<kw name="Switch Page" library="DiscoveryComponent">
+<doc>`Description:` Switch any page</doc>
+<arguments>
+<arg>&amp;{pageSwitch}</arg>
+</arguments>
+<msg timestamp="20191111 12:23:52.630" level="INFO">{'ELEMENT_TYPE': 'span', 'BY_TYPE': 'xpath', 'BY_VALUE': '//span[@class=\'dscHeaderMain__topNavText\' and contains(text(),"Shows")]'}</msg>
+<msg timestamp="20191111 12:23:52.680" level="INFO">{'ELEMENT_TYPE': 'span', 'BY_TYPE': 'xpath', 'BY_VALUE': '//span[@class=\'dscHeaderMain__topNavText\' and contains(text(),"Shows")]'}</msg>
+<msg timestamp="20191111 12:23:52.824" level="INFO">{'ELEMENT_TYPE': 'div', 'BY_TYPE': 'xpath', 'BY_VALUE': '//div[@id="show-drop-desktop"]'}</msg>
+<msg timestamp="20191111 12:23:53.902" level="INFO">{'ELEMENT_TYPE': 'a', 'BY_TYPE': 'xpath', 'BY_VALUE': "(//div/a[contains(text(),'See All Shows')])[1]"}</msg>
+<msg timestamp="20191111 12:23:54.232" level="INFO">{'ELEMENT_TYPE': 'a', 'BY_TYPE': 'xpath', 'BY_VALUE': "(//div/a[contains(text(),'See All Shows')])[1]"}</msg>
+<msg timestamp="20191111 12:23:54.465" level="INFO">{'ELEMENT_TYPE': 'h1', 'BY_TYPE': 'xpath', 'BY_VALUE': "//h1[@class='allShowsHeader__heading']"}</msg>
+<msg timestamp="20191111 12:23:56.481" level="INFO">IN MAIN:
+IN COMMON SWITCH
+{u'page': u'see_all_shows'}</msg>
+<status status="PASS" endtime="20191111 12:23:56.481" starttime="20191111 12:23:52.627"></status>
+</kw>
+<status status="PASS" endtime="20191111 12:23:56.481" starttime="20191111 12:23:52.627"></status>
+</kw>
+<status status="PASS" endtime="20191111 12:23:56.481" starttime="20191111 12:23:52.623"></status>
+</kw>
+<tags>
+<tag>Discovery</tag>
+</tags>
+<status status="PASS" endtime="20191111 12:23:56.482" critical="yes" starttime="20191111 12:23:42.896"></status>
+</test>
+<doc>This test case will navigate to "https://go.discovery.com/" and verify the fields</doc>
+<status status="PASS" endtime="20191111 12:23:56.482" starttime="20191111 12:23:41.357"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">Discovery</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Tc Discovery Shows" pass="1">Tc Discovery Shows</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
