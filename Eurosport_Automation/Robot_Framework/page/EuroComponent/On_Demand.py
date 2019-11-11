@@ -12,7 +12,7 @@ import inspect
 __author__ = "Vasuja"
 
 
-class Discovery_page(object):
+class On_Demand(object):
 
     def __init__(self, browser):
         self._browser = browser

@@ -66,7 +66,7 @@ class LocalBrowser(Browser):
             "text"          : self._browser.find_element_by_link_text,
             "css_selector"  : self._browser.find_elements_by_css_selector
         }
-        log.setLogHandlers()
+        #log.setLogHandlers()
 
     # def create_webdriver(self, browser="chrome", crx=None, notifications=None):
     #     """

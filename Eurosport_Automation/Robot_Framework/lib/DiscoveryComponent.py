@@ -5,7 +5,7 @@ import stafenv
 import sys
 
 from web_wrappers.selenium_wrappers import LocalBrowser
-from page.DiscoveryComponent import DiscoveryPage
+from page.EuroComponent import EuroPage
 
 _DEFAULT_TIMEOUT = 3
 
@@ -20,7 +20,7 @@ class DiscoveryComponent():
         self._browser = LocalBrowser(self.browsertype)
         browser_obj = self._browser.get_current_browser()
         browser_obj.maximize_window()
-        self.discovery_page = DiscoveryPage(self._browser)
+        self.euro_page = EuroPage(self._browser)
 
     def close_and_reopen_browser(self):
         self._browser.quit()
@@ -28,7 +28,7 @@ class DiscoveryComponent():
         # open a new browser
         self._browser = LocalBrowser(self.browsertype)
         self._browser.get_current_browser().maximize_window()
-        self.discovery_page = DiscoveryPage(self._browser)
+        self.euro_page = EuroPage(self._browser)
 
     def open_url(self,url):
         """
@@ -41,7 +41,7 @@ class DiscoveryComponent():
         `Created by:` Vasuja K
         """
         try:
-            self.discovery_page.commonfun.open_url(url)
+            self.euro_page.common_fun.open_url(url)
         except Exception as e:
             print(e)
 
@@ -56,7 +56,7 @@ class DiscoveryComponent():
         `Created by:` Vasuja K
         """
         try:
-            status = self.discovery_page.commonfun.euro_login(params)
+            status = self.euro_page.common_fun.euro_login(params)
             return status
         except:
             raise AssertionError("Login Failed!!")
@@ -74,7 +74,7 @@ class DiscoveryComponent():
         try:
             print("IN MAIN:")
             if params.keys():
-                self.discovery_page.commonfun.switch_page(**params)
+                self.euro_page.common_fun.switch_page(**params)
             else:
                 print("Please check that the input parameters have been provided",
                         self.switch_page.__doc__)
@@ -93,7 +93,7 @@ class DiscoveryComponent():
     #     """
     #     try:
     #         print("IN MAIN:")
-    #         status = self.discovery_page.Disc_obj.select_show_and_return_title(params)
+    #         status = self.euro_page.on_demand.select_show_and_return_title(params)
     #         return status
     #     except:
     #         raise AssertionError("Selecting the show Failed!!")
@@ -110,7 +110,7 @@ class DiscoveryComponent():
         """
         try:
             time.sleep(2)
-            self.discovery_page.commonfun.close_browser()
+            self.euro_page.common_fun.close_browser()
         except:
             raise AssertionError("Close browser Failed!!")
 

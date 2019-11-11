@@ -1,6 +1,6 @@
 ## Module: LoggerModule
 ## File name: LoggerModule.py
-## Description: Creating Console Log and Rotating Log files for STAF tool.
+## Description: Creating Console Log and Rotating Log files.
 ##
 ###############################################################################
 

@@ -9,9 +9,6 @@ import time,re
 import inspect
 from collections import defaultdict
 
-# sys.path.append(os.path.join(os.path.dirname(os.path.dirname(__file__))))
-# sys.path.append(os.path.join(os.path.dirname(os.path.dirname(__file__)), "utils"))
-
 import web_wrappers.selenium_wrappers as base
 
 from log import log
@@ -27,7 +24,7 @@ _RETRY_COUNT = 3
 Initial_Login = False
 
 
-class Disc_CommonFunctionality(object):
+class Euro_CommonFunctionality(object):
 
     def __init__(self, browser):
         self._browser = browser
@@ -79,7 +76,7 @@ class Disc_CommonFunctionality(object):
             status = False
             print(err.message)
             self.action_ele.takeScreenshot(inspect.currentframe().f_code.co_name)
-            raise Exception("Login failed!!")
+            raise Exception("Login failed   !!")
         return status
 
     def close_browser(self):
@@ -130,6 +127,8 @@ class Disc_CommonFunctionality(object):
         `Created by:` Vasuja K
         """
         self.action_ele.explicit_wait("shows")
+        # import pdb;
+        # pdb.Pdb(stdout=sys.__stdout__).set_trace()
         self.action_ele.click_element('shows')
         # import pdb;
         # pdb.Pdb(stdout=sys.__stdout__).set_trace()
