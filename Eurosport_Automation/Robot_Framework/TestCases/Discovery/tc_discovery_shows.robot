@@ -9,14 +9,14 @@ Suite Teardown    Close The Browsers
 
 
 #Keywords Definition file
-Resource           ../../RobotKeywords/DiscoveryKeywords.robot
+Resource           ../../RobotKeywords/EuroKeywords.robot
 
 #Variable files
 Resource           ../../Variables/EnvVariables.robot
 
 
 #Discovery Component
-Library			  ../../lib/DiscoveryComponent.py    browser=${BROWSER}
+Library			  ../../lib/EuroComponent.py    browser=${BROWSER}
 Library  String
 
 *** Test Cases ***

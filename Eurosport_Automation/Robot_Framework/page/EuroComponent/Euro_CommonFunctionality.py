@@ -5,7 +5,7 @@
 
 import os
 import sys
-import time,re
+import time, re
 import inspect
 from collections import defaultdict
 
@@ -42,7 +42,7 @@ class Euro_CommonFunctionality(object):
         `Created by:` Vasuja K
         """
         self._browser.go_to(url)
-        log.mjLog.LogReporter("Disc_CommonFunctionality", "info", "Open URL successful")
+        log.mjLog.LogReporter("Euro_CommonFunctionality", "info", "Open URL successful")
 
     def euro_login(self, params):
         """
@@ -137,3 +137,17 @@ class Euro_CommonFunctionality(object):
         self.action_ele.mouse_hover('see_all_shows_link')
         self.action_ele.click_element("see_all_shows_link")
         self.action_ele.explicit_wait("tv_shows")
+
+    def switch_page_on_demand(self, *options):
+        """
+        `Description:` Switch to See All Shows page
+
+        `Param:`  None
+
+        `Returns:` None
+
+        `Created by:` Vasuja K
+        """
+        self.action_ele.explicit_wait("EuroSport_on_demand")
+
+        self.action_ele.click_element('EuroSport_on_demand')
