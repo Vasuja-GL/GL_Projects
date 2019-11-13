@@ -8,5 +8,5 @@ ${URL}                     https://www.eurosportplayer.com/
 ${Username}                ch@test.com
 ${Password}                testES1
 ${BROWSER}                firefox    #chrome  #canary
-${Firefox_Profile_path}    /home/vasuja.kookkal/.mozilla/firefox/y3035bsl.default
+${Firefox_Profile_path}     /home/syprus.ithuriel/.mozilla/firefox/2pkaxhsh.default
 @{favorite_show_list}=    APOLLO    SAVAGE_BUILDS  #  SERENGETI

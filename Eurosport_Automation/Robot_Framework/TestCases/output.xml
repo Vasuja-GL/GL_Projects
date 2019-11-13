@@ -1,184 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20191113 15:59:48.620" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
-<suite source="/home/vasuja.kookkal/Desktop/GL_Projects/Eurosport_Automation/Robot_Framework/TestCases/Discovery/tc_eurosports_login.robot" id="s1" name="Tc Eurosports Login">
+<robot rpa="false" generated="20191113 17:11:24.808" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
+<suite source="/home/syprus.ithuriel/Desktop/GL_Projects/Eurosport_Automation/Robot_Framework/TestCases/Discovery/tc_discovery_shows.robot" id="s1" name="Tc Discovery Shows">
 <kw type="setup" name="Set Init Env">
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
 <assign>
-<var>${login_details}</var>
+<var>${show_details}</var>
 </assign>
-<msg timestamp="20191113 15:59:56.954" level="INFO">${login_details} = {}</msg>
-<status status="PASS" endtime="20191113 15:59:56.954" starttime="20191113 15:59:56.954"></status>
+<msg timestamp="20191113 17:12:03.217" level="INFO">${show_details} = {}</msg>
+<status status="PASS" endtime="20191113 17:12:03.217" starttime="20191113 17:12:03.216"></status>
 </kw>
-<kw name="Set Suite Variable" library="BuiltIn">
-<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
-<arguments>
-<arg>${logindetails}</arg>
-</arguments>
-<msg timestamp="20191113 15:59:56.955" level="INFO">${logindetails} = {}</msg>
-<status status="PASS" endtime="20191113 15:59:56.955" starttime="20191113 15:59:56.954"></status>
-</kw>
-<kw name="Create Dictionary" library="BuiltIn">
-<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<kw name="Create List" library="BuiltIn">
+<doc>Returns a list containing given items.</doc>
 <assign>
-<var>${video_details}</var>
+<var>${favorite_selected_list}</var>
 </assign>
-<msg timestamp="20191113 15:59:56.955" level="INFO">${video_details} = {}</msg>
-<status status="PASS" endtime="20191113 15:59:56.955" starttime="20191113 15:59:56.955"></status>
+<msg timestamp="20191113 17:12:03.217" level="INFO">${favorite_selected_list} = []</msg>
+<status status="PASS" endtime="20191113 17:12:03.217" starttime="20191113 17:12:03.217"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
-<arg>${video_details}</arg>
+<arg>${show_details}</arg>
 </arguments>
-<msg timestamp="20191113 15:59:56.955" level="INFO">${video_details} = {}</msg>
-<status status="PASS" endtime="20191113 15:59:56.955" starttime="20191113 15:59:56.955"></status>
+<msg timestamp="20191113 17:12:03.217" level="INFO">${show_details} = {}</msg>
+<status status="PASS" endtime="20191113 17:12:03.217" starttime="20191113 17:12:03.217"></status>
 </kw>
-<status status="PASS" endtime="20191113 15:59:56.956" starttime="20191113 15:59:56.954"></status>
+<kw name="Set Suite Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<arguments>
+<arg>${favorite_selected_list}</arg>
+</arguments>
+<msg timestamp="20191113 17:12:03.218" level="INFO">${favorite_selected_list} = []</msg>
+<status status="PASS" endtime="20191113 17:12:03.218" starttime="20191113 17:12:03.217"></status>
+</kw>
+<status status="PASS" endtime="20191113 17:12:03.218" starttime="20191113 17:12:03.216"></status>
 </kw>
 <test id="s1-t1" name="Verify the favorites status in Discovery.com">
-<kw name="When I open the web page with ${URL}" library="EuroKeywords">
+<kw name="Given I open the web page with ${URL}" library="EuroKeywords">
 <kw name="Run Keyword" library="BuiltIn">
 <doc>Executes the given keyword with the given arguments.</doc>
 <arguments>
 <arg>Open_Url</arg>
 <arg>${url}</arg>
 </arguments>
-<kw name="Open Url" library="EuroComponent">
-<doc>`Description:` This function is used to open Discovery portal page</doc>
+<kw name="Open_Url">
 <arguments>
 <arg>${url}</arg>
 </arguments>
-<msg timestamp="20191113 16:00:09.572" level="INFO">Open URL successful</msg>
-<status status="PASS" endtime="20191113 16:00:09.572" starttime="20191113 15:59:56.957"></status>
+<msg timestamp="20191113 17:12:03.221" level="FAIL">No keyword with name 'Open_Url' found.</msg>
+<status status="FAIL" endtime="20191113 17:12:03.221" starttime="20191113 17:12:03.221"></status>
 </kw>
-<status status="PASS" endtime="20191113 16:00:09.572" starttime="20191113 15:59:56.956"></status>
+<status status="FAIL" endtime="20191113 17:12:03.221" starttime="20191113 17:12:03.218"></status>
 </kw>
-<status status="PASS" endtime="20191113 16:00:09.573" starttime="20191113 15:59:56.956"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>10s</arg>
-</arguments>
-<msg timestamp="20191113 16:00:19.574" level="INFO">Slept 10 seconds</msg>
-<status status="PASS" endtime="20191113 16:00:19.574" starttime="20191113 16:00:09.573"></status>
-</kw>
-<kw name="Set To Dictionary" library="Collections">
-<doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
-<arguments>
-<arg>${login_details}</arg>
-<arg>cookie_policy</arg>
-<arg>True</arg>
-</arguments>
-<status status="PASS" endtime="20191113 16:00:19.575" starttime="20191113 16:00:19.575"></status>
-</kw>
-<kw name="Set To Dictionary" library="Collections">
-<doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
-<arguments>
-<arg>${login_details}</arg>
-<arg>Username</arg>
-<arg>${Username}</arg>
-</arguments>
-<status status="PASS" endtime="20191113 16:00:19.575" starttime="20191113 16:00:19.575"></status>
-</kw>
-<kw name="Set To Dictionary" library="Collections">
-<doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
-<arguments>
-<arg>${login_details}</arg>
-<arg>Password</arg>
-<arg>${Password}</arg>
-</arguments>
-<status status="PASS" endtime="20191113 16:00:19.576" starttime="20191113 16:00:19.576"></status>
-</kw>
-<kw name="When I switch to &quot;on_demand&quot; page" library="EuroKeywords">
-<kw name="Create Dictionary" library="BuiltIn">
-<doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<arguments>
-<arg>page=${myNewPage}</arg>
-</arguments>
-<assign>
-<var>&amp;{pageSwitch}</var>
-</assign>
-<msg timestamp="20191113 16:00:19.577" level="INFO">&amp;{pageSwitch} = { page=on_demand }</msg>
-<status status="PASS" endtime="20191113 16:00:19.577" starttime="20191113 16:00:19.576"></status>
-</kw>
-<kw name="Run Keyword" library="BuiltIn">
-<doc>Executes the given keyword with the given arguments.</doc>
-<arguments>
-<arg>Switch Page</arg>
-<arg>&amp;{pageSwitch}</arg>
-</arguments>
-<kw name="Switch Page" library="EuroComponent">
-<doc>`Description:` Switch any page</doc>
-<arguments>
-<arg>&amp;{pageSwitch}</arg>
-</arguments>
-<msg timestamp="20191113 16:00:19.578" level="INFO">{'ELEMENT_TYPE': 'a', 'BY_TYPE': 'xpath', 'BY_VALUE': "(//a[contains(text(), 'On Demand')])[1]"}</msg>
-<msg timestamp="20191113 16:00:19.618" level="INFO">{'ELEMENT_TYPE': 'a', 'BY_TYPE': 'xpath', 'BY_VALUE': "(//a[contains(text(), 'On Demand')])[1]"}</msg>
-<msg timestamp="20191113 16:00:19.907" level="INFO">IN MAIN:
-IN COMMON SWITCH
-{u'page': u'on_demand'}</msg>
-<status status="PASS" endtime="20191113 16:00:19.908" starttime="20191113 16:00:19.578"></status>
-</kw>
-<status status="PASS" endtime="20191113 16:00:19.908" starttime="20191113 16:00:19.577"></status>
-</kw>
-<status status="PASS" endtime="20191113 16:00:19.908" starttime="20191113 16:00:19.576"></status>
-</kw>
-<kw name="Set To Dictionary" library="Collections">
-<doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
-<arguments>
-<arg>${video_details}</arg>
-<arg>play_button_xpath</arg>
-<arg>First_video_play_button</arg>
-</arguments>
-<status status="PASS" endtime="20191113 16:00:19.910" starttime="20191113 16:00:19.909"></status>
-</kw>
-<kw name="And I play the video" library="EuroKeywords">
-<arguments>
-<arg>&amp;{video_details}</arg>
-</arguments>
-<kw name="Run Keyword" library="BuiltIn">
-<doc>Executes the given keyword with the given arguments.</doc>
-<arguments>
-<arg>play video</arg>
-<arg>&amp;{video_details}</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<kw name="Play Video" library="EuroComponent">
-<doc>`Description:` To play any video</doc>
-<arguments>
-<arg>&amp;{video_details}</arg>
-</arguments>
-<msg timestamp="20191113 16:00:19.916" level="INFO">{'ELEMENT_TYPE': 'span', 'BY_TYPE': 'xpath', 'BY_VALUE': "(//span[@data-sonic-attribute='play-button'])[1]"}</msg>
-<status status="PASS" endtime="20191113 16:00:20.667" starttime="20191113 16:00:19.915"></status>
-</kw>
-<msg timestamp="20191113 16:00:20.667" level="INFO">${result} = True</msg>
-<status status="PASS" endtime="20191113 16:00:20.667" starttime="20191113 16:00:19.914"></status>
-</kw>
-<kw name="Should Be True" library="BuiltIn">
-<doc>Fails if the given condition is not true.</doc>
-<arguments>
-<arg>${result}</arg>
-</arguments>
-<status status="PASS" endtime="20191113 16:00:20.669" starttime="20191113 16:00:20.668"></status>
-</kw>
-<status status="PASS" endtime="20191113 16:00:20.669" starttime="20191113 16:00:19.911"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>5s</arg>
-</arguments>
-<msg timestamp="20191113 16:00:25.671" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" endtime="20191113 16:00:25.671" starttime="20191113 16:00:20.670"></status>
+<status status="FAIL" endtime="20191113 17:12:03.221" starttime="20191113 17:12:03.218"></status>
 </kw>
 <tags>
-<tag>Euro</tag>
+<tag>Discovery</tag>
 </tags>
-<status status="PASS" endtime="20191113 16:00:25.671" critical="yes" starttime="20191113 15:59:56.956"></status>
+<status status="FAIL" endtime="20191113 17:12:03.222" critical="yes" starttime="20191113 17:12:03.218">No keyword with name 'Open_Url' found.</status>
 </test>
 <kw type="teardown" name="Close The Browsers" library="EuroKeywords">
 <kw name="Run Keyword" library="BuiltIn">
@@ -186,29 +66,45 @@ IN COMMON SWITCH
 <arguments>
 <arg>Close The Browser</arg>
 </arguments>
-<kw name="Close The Browser" library="EuroComponent">
-<doc>`Description:` Close the browser object</doc>
-<status status="PASS" endtime="20191113 16:00:28.292" starttime="20191113 16:00:25.673"></status>
+<kw name="Close The Browser">
+<msg timestamp="20191113 17:12:03.224" level="FAIL">No keyword with name 'Close The Browser' found. Did you mean:
+    EuroKeywords.Close The Browsers</msg>
+<status status="FAIL" endtime="20191113 17:12:03.224" starttime="20191113 17:12:03.224"></status>
 </kw>
-<status status="PASS" endtime="20191113 16:00:28.292" starttime="20191113 16:00:25.672"></status>
+<status status="FAIL" endtime="20191113 17:12:03.224" starttime="20191113 17:12:03.222"></status>
 </kw>
-<status status="PASS" endtime="20191113 16:00:28.293" starttime="20191113 16:00:25.672"></status>
+<status status="FAIL" endtime="20191113 17:12:03.224" starttime="20191113 17:12:03.222">No keyword with name 'Close The Browser' found. Did you mean:
+    EuroKeywords.Close The Browsers</status>
 </kw>
-<doc>This test case will navigate to "https://www.eurosportplayer.com/" and verify the fields</doc>
-<status status="PASS" endtime="20191113 16:00:28.293" starttime="20191113 15:59:48.635"></status>
+<doc>This test case will navigate to "https://go.discovery.com/" and verify the fields</doc>
+<status status="FAIL" endtime="20191113 17:12:03.224" starttime="20191113 17:11:24.809">Suite teardown failed:
+No keyword with name 'Close The Browser' found. Did you mean:
+    EuroKeywords.Close The Browsers</status>
 </suite>
 <statistics>
 <total>
-<stat fail="0" pass="1">Critical Tests</stat>
-<stat fail="0" pass="1">All Tests</stat>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
 </total>
 <tag>
-<stat fail="0" pass="1">Euro</stat>
+<stat fail="1" pass="0">Discovery</stat>
 </tag>
 <suite>
-<stat fail="0" id="s1" name="Tc Eurosports Login" pass="1">Tc Eurosports Login</stat>
+<stat fail="1" id="s1" name="Tc Discovery Shows" pass="0">Tc Discovery Shows</stat>
 </suite>
 </statistics>
 <errors>
+<msg timestamp="20191113 17:12:03.209" level="ERROR">Error in file '/home/syprus.ithuriel/Desktop/GL_Projects/Eurosport_Automation/Robot_Framework/TestCases/Discovery/tc_discovery_shows.robot': Initializing test library 'EuroComponent' with arguments [ browser=firefox ] failed: OSError: [Errno 2] No such file or directory: ''
+Traceback (most recent call last):
+  File "/home/syprus.ithuriel/Desktop/GL_Projects/Eurosport_Automation/Robot_Framework/lib/EuroComponent.py", line 23, in __init__
+    self._browser = LocalBrowser(self.browsertype, self.profile_path)
+  File "/home/syprus.ithuriel/Desktop/GL_Projects/Eurosport_Automation/Selenium_Lib/web_wrappers/selenium_wrappers/LocalBrowser.py", line 54, in __init__
+    self._browser = self.create_webdriver(self.browsertype, self.profile_path, crx, notifications)
+  File "/home/syprus.ithuriel/Desktop/GL_Projects/Eurosport_Automation/Selenium_Lib/web_wrappers/selenium_wrappers/LocalBrowser.py", line 85, in create_webdriver
+    profile = FirefoxProfile(profile_path)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/firefox/firefox_profile.py", line 80, in __init__
+    ignore=shutil.ignore_patterns("parent.lock", "lock", ".parentlock"))
+  File "/usr/lib/python2.7/shutil.py", line 185, in copytree
+    names = os.listdir(src)</msg>
 </errors>
 </robot>

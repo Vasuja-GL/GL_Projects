@@ -37,8 +37,8 @@ class LocalBrowser(Browser):
         }
 
     def __init__(self, browser="chrome", profile_path= None, crx=None, notifications=None):
-        import pdb;
-        pdb.Pdb(stdout=sys.__stdout__).set_trace()
+        #import pdb;
+       # pdb.Pdb(stdout=sys.__stdout__).set_trace()
         selenium_logger = logging.getLogger("selenium.webdriver.remote.remote_connection")
         selenium_logger.setLevel(logging.WARNING)
         self.console_log = tempfile.NamedTemporaryFile(delete=False, suffix=".log")
@@ -74,8 +74,8 @@ class LocalBrowser(Browser):
                 Returns:
                     Webdriver(object) depending on the type of the browser
         """
-        import pdb;
-        pdb.Pdb(stdout=sys.__stdout__).set_trace()
+        #import pdb;
+       # pdb.Pdb(stdout=sys.__stdout__).set_trace()
         if browser == 'chrome' and sys.platform == "linux2":
             options = webdriver.ChromeOptions()
             options.add_argument(r"--no-sandbox")
