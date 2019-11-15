@@ -7,7 +7,6 @@ import sys
 from web_wrappers.selenium_wrappers import LocalBrowser
 from page.EuroComponent import EuroPage
 
-_DEFAULT_TIMEOUT = 3
 
 class EuroComponent():
     ''' Discovery Component Interface to interact with the ROBOT keywords
@@ -16,23 +15,11 @@ class EuroComponent():
     ROBOT_LIBRARY_SCOPE = 'TEST SUITE'
 
     def __init__(self, **params):
-        import pdb;
-        pdb.Pdb(stdout=sys.__stdout__).set_trace()
         self.browsertype = params.get('browser', 'chrome').lower()
         self.profile_path = params.get('profile_path', '').lower()
         self._browser = LocalBrowser(self.browsertype, self.profile_path)
-        #self.profile_path = params.get('profile_path', '').lower()
         browser_obj = self._browser.get_current_browser()
         browser_obj.maximize_window()
-        #self._browser.profile_path = self.profile_path
-        self.euro_page = EuroPage(self._browser)
-
-    def close_and_reopen_browser(self):
-        self._browser.quit()
-        time.sleep(2)
-        # open a new browser
-        self._browser = LocalBrowser(self.browsertype)
-        self._browser.get_current_browser().maximize_window()
         self.euro_page = EuroPage(self._browser)
 
     def open_url(self,url):
@@ -43,7 +30,7 @@ class EuroComponent():
 
         `:return:` None
 
-        `Created by:` Vasuja K
+        `Created by:`
         """
         try:
             self.euro_page.common_fun.open_url(url)
@@ -86,23 +73,6 @@ class EuroComponent():
         except:
             raise AssertionError("Page Switch Failed!!")
 
-    # def select_show_and_return_title(self, **params):
-    #     """
-    #     `Description:` To select any show
-    #
-    #     `:param` params: name of the show which need to be Selected
-    #
-    #     `:return:` status
-    #
-    #     `Created by:` Vasuja K
-    #     """
-    #     try:
-    #         print("IN MAIN:")
-    #         status = self.euro_page.on_demand.select_show_and_return_title(params)
-    #         return status
-    #     except:
-    #         raise AssertionError("Selecting the show Failed!!")
-
     def close_the_browser(self, **params):
         """
         `Description:` Close the browser object
@@ -111,7 +81,7 @@ class EuroComponent():
 
         `:return:` None
 
-        `Created by:` Vasuja K
+        `Created by:`
         """
         try:
             time.sleep(2)

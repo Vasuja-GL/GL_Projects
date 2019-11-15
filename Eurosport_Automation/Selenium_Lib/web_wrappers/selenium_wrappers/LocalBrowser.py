@@ -37,8 +37,6 @@ class LocalBrowser(Browser):
         }
 
     def __init__(self, browser="chrome", profile_path= None, crx=None, notifications=None):
-        import pdb;
-        pdb.Pdb(stdout=sys.__stdout__).set_trace()
         selenium_logger = logging.getLogger("selenium.webdriver.remote.remote_connection")
         selenium_logger.setLevel(logging.WARNING)
         self.console_log = tempfile.NamedTemporaryFile(delete=False, suffix=".log")
@@ -46,8 +44,10 @@ class LocalBrowser(Browser):
         if sys.platform == "win32":
             self._BROWSER_INFO = self._BROWSER_INFO_WIN
             self.user_data_dir = "C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\User Data"
+
         elif sys.platform == "linux2":
             self._BROWSER_INFO = self._BROWSER_INFO_LINUX
+
         self.browsertype = browser
         self.profile_path = profile_path
         if self.browsertype in self._BROWSER_INFO.keys():
@@ -74,8 +74,6 @@ class LocalBrowser(Browser):
                 Returns:
                     Webdriver(object) depending on the type of the browser
         """
-        import pdb;
-        pdb.Pdb(stdout=sys.__stdout__).set_trace()
         if browser == 'chrome' and sys.platform == "linux2":
             options = webdriver.ChromeOptions()
             options.add_argument(r"--no-sandbox")
@@ -83,9 +81,9 @@ class LocalBrowser(Browser):
 
         elif browser == 'firefox':
             profile = FirefoxProfile(profile_path)
-            executable_path2= self._BROWSER_INFO[browser]['webdriver_path']
+            webdriver_path = self._BROWSER_INFO[browser]['webdriver_path']
             testdriver = webdriver.Firefox(firefox_profile=profile,
-                                       executable_path=executable_path2)
+                                       executable_path=webdriver_path)
 
         else:
             options = webdriver.ChromeOptions()

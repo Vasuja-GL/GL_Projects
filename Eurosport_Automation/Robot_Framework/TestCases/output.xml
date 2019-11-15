@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20191113 15:59:48.620" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
-<suite source="/home/vasuja.kookkal/Desktop/GL_Projects/Eurosport_Automation/Robot_Framework/TestCases/Discovery/tc_eurosports_login.robot" id="s1" name="Tc Eurosports Login">
+<robot rpa="false" generated="20191114 16:08:12.134" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
+<suite source="/home/vasuja.kookkal/Desktop/GL_Projects/Eurosport_Automation/Robot_Framework/TestCases/Eurosport/tc_eurosports_login.robot" id="s1" name="Tc Eurosports Login">
 <kw type="setup" name="Set Init Env">
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
 <assign>
 <var>${login_details}</var>
 </assign>
-<msg timestamp="20191113 15:59:56.954" level="INFO">${login_details} = {}</msg>
-<status status="PASS" endtime="20191113 15:59:56.954" starttime="20191113 15:59:56.954"></status>
+<msg timestamp="20191114 16:10:01.050" level="INFO">${login_details} = {}</msg>
+<status status="PASS" endtime="20191114 16:10:01.050" starttime="20191114 16:10:01.049"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
 <arg>${logindetails}</arg>
 </arguments>
-<msg timestamp="20191113 15:59:56.955" level="INFO">${logindetails} = {}</msg>
-<status status="PASS" endtime="20191113 15:59:56.955" starttime="20191113 15:59:56.954"></status>
+<msg timestamp="20191114 16:10:01.050" level="INFO">${logindetails} = {}</msg>
+<status status="PASS" endtime="20191114 16:10:01.050" starttime="20191114 16:10:01.050"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
 <assign>
 <var>${video_details}</var>
 </assign>
-<msg timestamp="20191113 15:59:56.955" level="INFO">${video_details} = {}</msg>
-<status status="PASS" endtime="20191113 15:59:56.955" starttime="20191113 15:59:56.955"></status>
+<msg timestamp="20191114 16:10:01.051" level="INFO">${video_details} = {}</msg>
+<status status="PASS" endtime="20191114 16:10:01.051" starttime="20191114 16:10:01.051"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
 <arg>${video_details}</arg>
 </arguments>
-<msg timestamp="20191113 15:59:56.955" level="INFO">${video_details} = {}</msg>
-<status status="PASS" endtime="20191113 15:59:56.955" starttime="20191113 15:59:56.955"></status>
+<msg timestamp="20191114 16:10:01.051" level="INFO">${video_details} = {}</msg>
+<status status="PASS" endtime="20191114 16:10:01.052" starttime="20191114 16:10:01.051"></status>
 </kw>
-<status status="PASS" endtime="20191113 15:59:56.956" starttime="20191113 15:59:56.954"></status>
+<status status="PASS" endtime="20191114 16:10:01.052" starttime="20191114 16:10:01.049"></status>
 </kw>
-<test id="s1-t1" name="Verify the favorites status in Discovery.com">
+<test id="s1-t1" name="Login to Eurosport and play video">
 <kw name="When I open the web page with ${URL}" library="EuroKeywords">
 <kw name="Run Keyword" library="BuiltIn">
 <doc>Executes the given keyword with the given arguments.</doc>
@@ -49,49 +49,14 @@
 <arguments>
 <arg>${url}</arg>
 </arguments>
-<msg timestamp="20191113 16:00:09.572" level="INFO">Open URL successful</msg>
-<status status="PASS" endtime="20191113 16:00:09.572" starttime="20191113 15:59:56.957"></status>
+<msg timestamp="20191114 16:10:40.642" level="INFO">Open URL successful</msg>
+<status status="PASS" endtime="20191114 16:10:40.642" starttime="20191114 16:10:01.054"></status>
 </kw>
-<status status="PASS" endtime="20191113 16:00:09.572" starttime="20191113 15:59:56.956"></status>
+<status status="PASS" endtime="20191114 16:10:40.643" starttime="20191114 16:10:01.053"></status>
 </kw>
-<status status="PASS" endtime="20191113 16:00:09.573" starttime="20191113 15:59:56.956"></status>
+<status status="PASS" endtime="20191114 16:10:40.643" starttime="20191114 16:10:01.053"></status>
 </kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>10s</arg>
-</arguments>
-<msg timestamp="20191113 16:00:19.574" level="INFO">Slept 10 seconds</msg>
-<status status="PASS" endtime="20191113 16:00:19.574" starttime="20191113 16:00:09.573"></status>
-</kw>
-<kw name="Set To Dictionary" library="Collections">
-<doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
-<arguments>
-<arg>${login_details}</arg>
-<arg>cookie_policy</arg>
-<arg>True</arg>
-</arguments>
-<status status="PASS" endtime="20191113 16:00:19.575" starttime="20191113 16:00:19.575"></status>
-</kw>
-<kw name="Set To Dictionary" library="Collections">
-<doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
-<arguments>
-<arg>${login_details}</arg>
-<arg>Username</arg>
-<arg>${Username}</arg>
-</arguments>
-<status status="PASS" endtime="20191113 16:00:19.575" starttime="20191113 16:00:19.575"></status>
-</kw>
-<kw name="Set To Dictionary" library="Collections">
-<doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
-<arguments>
-<arg>${login_details}</arg>
-<arg>Password</arg>
-<arg>${Password}</arg>
-</arguments>
-<status status="PASS" endtime="20191113 16:00:19.576" starttime="20191113 16:00:19.576"></status>
-</kw>
-<kw name="When I switch to &quot;on_demand&quot; page" library="EuroKeywords">
+<kw name="When I switch to &quot;OnDemand&quot; page" library="EuroKeywords">
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
 <arguments>
@@ -100,8 +65,8 @@
 <assign>
 <var>&amp;{pageSwitch}</var>
 </assign>
-<msg timestamp="20191113 16:00:19.577" level="INFO">&amp;{pageSwitch} = { page=on_demand }</msg>
-<status status="PASS" endtime="20191113 16:00:19.577" starttime="20191113 16:00:19.576"></status>
+<msg timestamp="20191114 16:10:40.645" level="INFO">&amp;{pageSwitch} = { page=OnDemand }</msg>
+<status status="PASS" endtime="20191114 16:10:40.645" starttime="20191114 16:10:40.644"></status>
 </kw>
 <kw name="Run Keyword" library="BuiltIn">
 <doc>Executes the given keyword with the given arguments.</doc>
@@ -114,16 +79,16 @@
 <arguments>
 <arg>&amp;{pageSwitch}</arg>
 </arguments>
-<msg timestamp="20191113 16:00:19.578" level="INFO">{'ELEMENT_TYPE': 'a', 'BY_TYPE': 'xpath', 'BY_VALUE': "(//a[contains(text(), 'On Demand')])[1]"}</msg>
-<msg timestamp="20191113 16:00:19.618" level="INFO">{'ELEMENT_TYPE': 'a', 'BY_TYPE': 'xpath', 'BY_VALUE': "(//a[contains(text(), 'On Demand')])[1]"}</msg>
-<msg timestamp="20191113 16:00:19.907" level="INFO">IN MAIN:
+<msg timestamp="20191114 16:10:40.646" level="INFO">{'ELEMENT_TYPE': 'a', 'BY_TYPE': 'xpath', 'BY_VALUE': "(//a[contains(text(), 'On Demand')])[1]"}</msg>
+<msg timestamp="20191114 16:10:45.264" level="INFO">{'ELEMENT_TYPE': 'a', 'BY_TYPE': 'xpath', 'BY_VALUE': "(//a[contains(text(), 'On Demand')])[1]"}</msg>
+<msg timestamp="20191114 16:10:45.493" level="INFO">IN MAIN:
 IN COMMON SWITCH
-{u'page': u'on_demand'}</msg>
-<status status="PASS" endtime="20191113 16:00:19.908" starttime="20191113 16:00:19.578"></status>
+{u'page': u'OnDemand'}</msg>
+<status status="PASS" endtime="20191114 16:10:45.493" starttime="20191114 16:10:40.645"></status>
 </kw>
-<status status="PASS" endtime="20191113 16:00:19.908" starttime="20191113 16:00:19.577"></status>
+<status status="PASS" endtime="20191114 16:10:45.493" starttime="20191114 16:10:40.645"></status>
 </kw>
-<status status="PASS" endtime="20191113 16:00:19.908" starttime="20191113 16:00:19.576"></status>
+<status status="PASS" endtime="20191114 16:10:45.494" starttime="20191114 16:10:40.643"></status>
 </kw>
 <kw name="Set To Dictionary" library="Collections">
 <doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
@@ -132,7 +97,7 @@ IN COMMON SWITCH
 <arg>play_button_xpath</arg>
 <arg>First_video_play_button</arg>
 </arguments>
-<status status="PASS" endtime="20191113 16:00:19.910" starttime="20191113 16:00:19.909"></status>
+<status status="PASS" endtime="20191114 16:10:45.494" starttime="20191114 16:10:45.494"></status>
 </kw>
 <kw name="And I play the video" library="EuroKeywords">
 <arguments>
@@ -152,33 +117,33 @@ IN COMMON SWITCH
 <arguments>
 <arg>&amp;{video_details}</arg>
 </arguments>
-<msg timestamp="20191113 16:00:19.916" level="INFO">{'ELEMENT_TYPE': 'span', 'BY_TYPE': 'xpath', 'BY_VALUE': "(//span[@data-sonic-attribute='play-button'])[1]"}</msg>
-<status status="PASS" endtime="20191113 16:00:20.667" starttime="20191113 16:00:19.915"></status>
+<msg timestamp="20191114 16:10:45.495" level="INFO">{'ELEMENT_TYPE': 'span', 'BY_TYPE': 'xpath', 'BY_VALUE': "(//span[@data-sonic-attribute='play-button'])[1]"}</msg>
+<status status="PASS" endtime="20191114 16:10:46.461" starttime="20191114 16:10:45.495"></status>
 </kw>
-<msg timestamp="20191113 16:00:20.667" level="INFO">${result} = True</msg>
-<status status="PASS" endtime="20191113 16:00:20.667" starttime="20191113 16:00:19.914"></status>
+<msg timestamp="20191114 16:10:46.461" level="INFO">${result} = True</msg>
+<status status="PASS" endtime="20191114 16:10:46.461" starttime="20191114 16:10:45.495"></status>
 </kw>
 <kw name="Should Be True" library="BuiltIn">
 <doc>Fails if the given condition is not true.</doc>
 <arguments>
 <arg>${result}</arg>
 </arguments>
-<status status="PASS" endtime="20191113 16:00:20.669" starttime="20191113 16:00:20.668"></status>
+<status status="PASS" endtime="20191114 16:10:46.462" starttime="20191114 16:10:46.461"></status>
 </kw>
-<status status="PASS" endtime="20191113 16:00:20.669" starttime="20191113 16:00:19.911"></status>
+<status status="PASS" endtime="20191114 16:10:46.462" starttime="20191114 16:10:45.494"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
-<arg>5s</arg>
+<arg>10s</arg>
 </arguments>
-<msg timestamp="20191113 16:00:25.671" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" endtime="20191113 16:00:25.671" starttime="20191113 16:00:20.670"></status>
+<msg timestamp="20191114 16:10:56.463" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" endtime="20191114 16:10:56.463" starttime="20191114 16:10:46.462"></status>
 </kw>
 <tags>
-<tag>Euro</tag>
+<tag>playback_video</tag>
 </tags>
-<status status="PASS" endtime="20191113 16:00:25.671" critical="yes" starttime="20191113 15:59:56.956"></status>
+<status status="PASS" endtime="20191114 16:10:56.464" critical="yes" starttime="20191114 16:10:01.052"></status>
 </test>
 <kw type="teardown" name="Close The Browsers" library="EuroKeywords">
 <kw name="Run Keyword" library="BuiltIn">
@@ -188,14 +153,14 @@ IN COMMON SWITCH
 </arguments>
 <kw name="Close The Browser" library="EuroComponent">
 <doc>`Description:` Close the browser object</doc>
-<status status="PASS" endtime="20191113 16:00:28.292" starttime="20191113 16:00:25.673"></status>
+<status status="PASS" endtime="20191114 16:11:00.149" starttime="20191114 16:10:56.468"></status>
 </kw>
-<status status="PASS" endtime="20191113 16:00:28.292" starttime="20191113 16:00:25.672"></status>
+<status status="PASS" endtime="20191114 16:11:00.149" starttime="20191114 16:10:56.466"></status>
 </kw>
-<status status="PASS" endtime="20191113 16:00:28.293" starttime="20191113 16:00:25.672"></status>
+<status status="PASS" endtime="20191114 16:11:00.149" starttime="20191114 16:10:56.465"></status>
 </kw>
 <doc>This test case will navigate to "https://www.eurosportplayer.com/" and verify the fields</doc>
-<status status="PASS" endtime="20191113 16:00:28.293" starttime="20191113 15:59:48.635"></status>
+<status status="PASS" endtime="20191114 16:11:00.149" starttime="20191114 16:08:12.135"></status>
 </suite>
 <statistics>
 <total>
@@ -203,7 +168,7 @@ IN COMMON SWITCH
 <stat fail="0" pass="1">All Tests</stat>
 </total>
 <tag>
-<stat fail="0" pass="1">Euro</stat>
+<stat fail="0" pass="1">playback_video</stat>
 </tag>
 <suite>
 <stat fail="0" id="s1" name="Tc Eurosports Login" pass="1">Tc Eurosports Login</stat>

@@ -90,13 +90,12 @@ class Euro_CommonFunctionality(object):
         `Created by:` Vasuja K
         """
         # time.sleep(2)
-        self._browser.quit()
-        if self._browser.console_log:
-            path = self._browser.console_log.name
-            self._browser.console_log.close()
-            os.unlink(path)
-        self.Initial_Login = False
-
+        try:
+            self._browser.quit()
+        except Exception as err:
+            print(err.message)
+            self.action_ele.takeScreenshot(inspect.currentframe().f_code.co_name)
+            raise Exception("Failed to close browser!!")
     def switch_page(self, **params):
         """
         `Description:` To switch to other pages based on given name
@@ -116,7 +115,8 @@ class Euro_CommonFunctionality(object):
             self.action_ele.takeScreenshot(inspect.currentframe().f_code.co_name)
             raise Exception("Switch page failed!!")
 
-    def switch_page_see_all_shows(self, *options):
+
+    def switch_page_OnDemand(self, *options):
         """
         `Description:` Switch to See All Shows page
 
@@ -126,28 +126,12 @@ class Euro_CommonFunctionality(object):
 
         `Created by:` Vasuja K
         """
-        self.action_ele.explicit_wait("shows")
-        # import pdb;
-        # pdb.Pdb(stdout=sys.__stdout__).set_trace()
-        self.action_ele.click_element('shows')
-        # import pdb;
-        # pdb.Pdb(stdout=sys.__stdout__).set_trace()
-        self.action_ele.explicit_wait("see_all_shows")
-        time.sleep(1)
-        self.action_ele.mouse_hover('see_all_shows_link')
-        self.action_ele.click_element("see_all_shows_link")
-        self.action_ele.explicit_wait("tv_shows")
+        try:
+            self.action_ele.explicit_wait("EuroSport_on_demand")
 
-    def switch_page_on_demand(self, *options):
-        """
-        `Description:` Switch to See All Shows page
+            self.action_ele.click_element('EuroSport_on_demand')
 
-        `Param:`  None
-
-        `Returns:` None
-
-        `Created by:` Vasuja K
-        """
-        self.action_ele.explicit_wait("EuroSport_on_demand")
-
-        self.action_ele.click_element('EuroSport_on_demand')
+        except Exception as err:
+            print(err.message)
+            self.action_ele.takeScreenshot(inspect.currentframe().f_code.co_name)
+            raise Exception("Switch to OnDemand page failed!!")
