@@ -37,39 +37,41 @@ class LocalBrowser(Browser):
         }
 
     def __init__(self, browser="chrome", profile_path= None, crx=None, notifications=None):
-<<<<<<< HEAD
-=======
-        #import pdb;
-       # pdb.Pdb(stdout=sys.__stdout__).set_trace()
->>>>>>> cbbeae97bf99b17b43569f47645e2947b65c1338
+
         selenium_logger = logging.getLogger("selenium.webdriver.remote.remote_connection")
         selenium_logger.setLevel(logging.WARNING)
         self.console_log = tempfile.NamedTemporaryFile(delete=False, suffix=".log")
         # initializing based on platform
-        if sys.platform == "win32":
-            self._BROWSER_INFO = self._BROWSER_INFO_WIN
-            self.user_data_dir = "C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\User Data"
+    def go_to(self, url,browser):
+        '''
+            go_to() method goes to the specific URL after the browser instance launches
+        '''
+        browser.get(url)
 
-        elif sys.platform == "linux2":
-            self._BROWSER_INFO = self._BROWSER_INFO_LINUX
 
-        self.browsertype = browser
+    def launch_browser(self,browsertype,profile_path):
+        #
+        self._BROWSER_INFO = self._BROWSER_INFO_LINUX
+
+        self.browsertype = browsertype
         self.profile_path = profile_path
-        if self.browsertype in self._BROWSER_INFO.keys():
-            self._browser = self.create_webdriver(self.browsertype, self.profile_path, crx, notifications)
-        else:
-            raise Exception("\nBrowser not supported. Supported browsers: %s\n" %
-                            self._BROWSER_INFO.keys())
+        profile = FirefoxProfile(profile_path)
+# browser = webdriver.Firefox(firefox_profile=profile)
+        webdriver_path = self._BROWSER_INFO[self.browsertype]['webdriver_path']
 
-        self.elements = {
-            "id"            : self._browser.find_elements_by_id,
-            "name"          : self._browser.find_elements_by_name,
-            "xpath"         : self._browser.find_elements_by_xpath,
-            "tag"           : self._browser.find_elements_by_tag_name,
-            "css_class"     : self._browser.find_elements_by_class_name,
-            "text"          : self._browser.find_element_by_link_text,
-            "css_selector"  : self._browser.find_elements_by_css_selector
-        }
+        driver = webdriver.Firefox(firefox_profile=self.profile_path,
+                                   executable_path=webdriver_path)
+        return driver
+
+        # self.elements = {
+        #     "id"            : self._browser.find_elements_by_id,
+        #     "name"          : self._browser.find_elements_by_name,
+        #     "xpath"         : self._browser.find_elements_by_xpath,
+        #     "tag"           : self._browser.find_elements_by_tag_name,
+        #     "css_class"     : self._browser.find_elements_by_class_name,
+        #     "text"          : self._browser.find_element_by_link_text,
+        #     "css_selector"  : self._browser.find_elements_by_css_selector
+        # }
 
     def create_webdriver(self, browser="chrome", profile_path= "", crx=None, notifications=None):
         """
@@ -79,11 +81,7 @@ class LocalBrowser(Browser):
                 Returns:
                     Webdriver(object) depending on the type of the browser
         """
-<<<<<<< HEAD
-=======
-        #import pdb;
-       # pdb.Pdb(stdout=sys.__stdout__).set_trace()
->>>>>>> cbbeae97bf99b17b43569f47645e2947b65c1338
+
         if browser == 'chrome' and sys.platform == "linux2":
             options = webdriver.ChromeOptions()
             options.add_argument(r"--no-sandbox")
@@ -121,4 +119,3 @@ class LocalBrowser(Browser):
                                           chrome_options=options)
         testdriver.implicitly_wait(self._DEFAULT_TIMEOUT)
         return testdriver
-

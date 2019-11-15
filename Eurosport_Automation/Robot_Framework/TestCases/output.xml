@@ -1,93 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<robot rpa="false" generated="20191114 16:08:12.134" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
-<suite source="/home/vasuja.kookkal/Desktop/GL_Projects/Eurosport_Automation/Robot_Framework/TestCases/Eurosport/tc_eurosports_login.robot" id="s1" name="Tc Eurosports Login">
-=======
-<robot rpa="false" generated="20191113 17:11:24.808" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
-<suite source="/home/syprus.ithuriel/Desktop/GL_Projects/Eurosport_Automation/Robot_Framework/TestCases/Discovery/tc_discovery_shows.robot" id="s1" name="Tc Discovery Shows">
->>>>>>> cbbeae97bf99b17b43569f47645e2947b65c1338
+<robot rpa="false" generated="20191115 13:28:41.007" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
+<suite source="/home/syam.s/Desktop/GL_Projects/Eurosport_Automation/Robot_Framework/TestCases/Eurosport/tc_eurosports_login.robot" id="s1" name="Tc Eurosports Login">
 <kw type="setup" name="Set Init Env">
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
 <assign>
-<var>${show_details}</var>
+<var>${login_details}</var>
 </assign>
-<<<<<<< HEAD
-<msg timestamp="20191114 16:10:01.050" level="INFO">${login_details} = {}</msg>
-<status status="PASS" endtime="20191114 16:10:01.050" starttime="20191114 16:10:01.049"></status>
-=======
-<msg timestamp="20191113 17:12:03.217" level="INFO">${show_details} = {}</msg>
-<status status="PASS" endtime="20191113 17:12:03.217" starttime="20191113 17:12:03.216"></status>
-</kw>
-<kw name="Create List" library="BuiltIn">
-<doc>Returns a list containing given items.</doc>
-<assign>
-<var>${favorite_selected_list}</var>
-</assign>
-<msg timestamp="20191113 17:12:03.217" level="INFO">${favorite_selected_list} = []</msg>
-<status status="PASS" endtime="20191113 17:12:03.217" starttime="20191113 17:12:03.217"></status>
->>>>>>> cbbeae97bf99b17b43569f47645e2947b65c1338
+<msg timestamp="20191115 13:28:41.084" level="INFO">${login_details} = {}</msg>
+<status status="PASS" endtime="20191115 13:28:41.084" starttime="20191115 13:28:41.083"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
-<arg>${show_details}</arg>
+<arg>${logindetails}</arg>
 </arguments>
-<<<<<<< HEAD
-<msg timestamp="20191114 16:10:01.050" level="INFO">${logindetails} = {}</msg>
-<status status="PASS" endtime="20191114 16:10:01.050" starttime="20191114 16:10:01.050"></status>
+<msg timestamp="20191115 13:28:41.084" level="INFO">${logindetails} = {}</msg>
+<status status="PASS" endtime="20191115 13:28:41.084" starttime="20191115 13:28:41.084"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
 <assign>
 <var>${video_details}</var>
 </assign>
-<msg timestamp="20191114 16:10:01.051" level="INFO">${video_details} = {}</msg>
-<status status="PASS" endtime="20191114 16:10:01.051" starttime="20191114 16:10:01.051"></status>
-=======
-<msg timestamp="20191113 17:12:03.217" level="INFO">${show_details} = {}</msg>
-<status status="PASS" endtime="20191113 17:12:03.217" starttime="20191113 17:12:03.217"></status>
->>>>>>> cbbeae97bf99b17b43569f47645e2947b65c1338
+<msg timestamp="20191115 13:28:41.085" level="INFO">${video_details} = {}</msg>
+<status status="PASS" endtime="20191115 13:28:41.085" starttime="20191115 13:28:41.085"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
-<arg>${favorite_selected_list}</arg>
+<arg>${video_details}</arg>
 </arguments>
-<<<<<<< HEAD
-<msg timestamp="20191114 16:10:01.051" level="INFO">${video_details} = {}</msg>
-<status status="PASS" endtime="20191114 16:10:01.052" starttime="20191114 16:10:01.051"></status>
+<msg timestamp="20191115 13:28:41.085" level="INFO">${video_details} = {}</msg>
+<status status="PASS" endtime="20191115 13:28:41.085" starttime="20191115 13:28:41.085"></status>
 </kw>
-<status status="PASS" endtime="20191114 16:10:01.052" starttime="20191114 16:10:01.049"></status>
+<status status="PASS" endtime="20191115 13:28:41.085" starttime="20191115 13:28:41.083"></status>
 </kw>
 <test id="s1-t1" name="Login to Eurosport and play video">
 <kw name="When I open the web page with ${URL}" library="EuroKeywords">
-=======
-<msg timestamp="20191113 17:12:03.218" level="INFO">${favorite_selected_list} = []</msg>
-<status status="PASS" endtime="20191113 17:12:03.218" starttime="20191113 17:12:03.217"></status>
-</kw>
-<status status="PASS" endtime="20191113 17:12:03.218" starttime="20191113 17:12:03.216"></status>
-</kw>
-<test id="s1-t1" name="Verify the favorites status in Discovery.com">
-<kw name="Given I open the web page with ${URL}" library="EuroKeywords">
->>>>>>> cbbeae97bf99b17b43569f47645e2947b65c1338
 <kw name="Run Keyword" library="BuiltIn">
 <doc>Executes the given keyword with the given arguments.</doc>
 <arguments>
 <arg>Open_Url</arg>
 <arg>${url}</arg>
 </arguments>
-<kw name="Open_Url">
+<kw name="Open Url" library="EuroComponent">
+<doc>`Description:` This function is used to open Discovery portal page</doc>
 <arguments>
 <arg>${url}</arg>
 </arguments>
-<<<<<<< HEAD
-<msg timestamp="20191114 16:10:40.642" level="INFO">Open URL successful</msg>
-<status status="PASS" endtime="20191114 16:10:40.642" starttime="20191114 16:10:01.054"></status>
+<msg timestamp="20191115 13:29:03.605" level="INFO">Message: Reached error page: about:neterror?e=netTimeout&amp;u=https%3A//www.eurosportplayer.com/&amp;c=UTF-8&amp;f=regular&amp;d=The%20server%20at%20www.eurosportplayer.com%20is%20taking%20too%20long%20to%20respond.</msg>
+<status status="PASS" endtime="20191115 13:29:03.605" starttime="20191115 13:28:41.086"></status>
 </kw>
-<status status="PASS" endtime="20191114 16:10:40.643" starttime="20191114 16:10:01.053"></status>
+<status status="PASS" endtime="20191115 13:29:03.605" starttime="20191115 13:28:41.086"></status>
 </kw>
-<status status="PASS" endtime="20191114 16:10:40.643" starttime="20191114 16:10:01.053"></status>
+<status status="PASS" endtime="20191115 13:29:03.606" starttime="20191115 13:28:41.086"></status>
 </kw>
 <kw name="When I switch to &quot;OnDemand&quot; page" library="EuroKeywords">
 <kw name="Create Dictionary" library="BuiltIn">
@@ -98,8 +65,8 @@
 <assign>
 <var>&amp;{pageSwitch}</var>
 </assign>
-<msg timestamp="20191114 16:10:40.645" level="INFO">&amp;{pageSwitch} = { page=OnDemand }</msg>
-<status status="PASS" endtime="20191114 16:10:40.645" starttime="20191114 16:10:40.644"></status>
+<msg timestamp="20191115 13:29:03.609" level="INFO">&amp;{pageSwitch} = { page=OnDemand }</msg>
+<status status="PASS" endtime="20191115 13:29:03.609" starttime="20191115 13:29:03.607"></status>
 </kw>
 <kw name="Run Keyword" library="BuiltIn">
 <doc>Executes the given keyword with the given arguments.</doc>
@@ -112,84 +79,24 @@
 <arguments>
 <arg>&amp;{pageSwitch}</arg>
 </arguments>
-<msg timestamp="20191114 16:10:40.646" level="INFO">{'ELEMENT_TYPE': 'a', 'BY_TYPE': 'xpath', 'BY_VALUE': "(//a[contains(text(), 'On Demand')])[1]"}</msg>
-<msg timestamp="20191114 16:10:45.264" level="INFO">{'ELEMENT_TYPE': 'a', 'BY_TYPE': 'xpath', 'BY_VALUE': "(//a[contains(text(), 'On Demand')])[1]"}</msg>
-<msg timestamp="20191114 16:10:45.493" level="INFO">IN MAIN:
+<msg timestamp="20191115 13:29:03.850" level="INFO">IN MAIN:
 IN COMMON SWITCH
-{u'page': u'OnDemand'}</msg>
-<status status="PASS" endtime="20191114 16:10:45.493" starttime="20191114 16:10:40.645"></status>
+{u'page': u'OnDemand'}
+'WebDriver' object has no attribute '_map_converter'
+/home/syam.s/Desktop/GL_Projects/Eurosport_Automation/Robot_Framework/\reports\report_2019-11-15/switch_page_OnDemand13_29_03.641392.png
+Switch to OnDemand page failed!!
+/home/syam.s/Desktop/GL_Projects/Eurosport_Automation/Robot_Framework/\reports\report_2019-11-15/switch_page13_29_03.750329.png</msg>
+<msg timestamp="20191115 13:29:03.851" level="FAIL">Page Switch Failed!!</msg>
+<status status="FAIL" endtime="20191115 13:29:03.851" starttime="20191115 13:29:03.610"></status>
 </kw>
-<status status="PASS" endtime="20191114 16:10:45.493" starttime="20191114 16:10:40.645"></status>
+<status status="FAIL" endtime="20191115 13:29:03.851" starttime="20191115 13:29:03.610"></status>
 </kw>
-<status status="PASS" endtime="20191114 16:10:45.494" starttime="20191114 16:10:40.643"></status>
-</kw>
-<kw name="Set To Dictionary" library="Collections">
-<doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
-<arguments>
-<arg>${video_details}</arg>
-<arg>play_button_xpath</arg>
-<arg>First_video_play_button</arg>
-</arguments>
-<status status="PASS" endtime="20191114 16:10:45.494" starttime="20191114 16:10:45.494"></status>
-</kw>
-<kw name="And I play the video" library="EuroKeywords">
-<arguments>
-<arg>&amp;{video_details}</arg>
-</arguments>
-<kw name="Run Keyword" library="BuiltIn">
-<doc>Executes the given keyword with the given arguments.</doc>
-<arguments>
-<arg>play video</arg>
-<arg>&amp;{video_details}</arg>
-</arguments>
-<assign>
-<var>${result}</var>
-</assign>
-<kw name="Play Video" library="EuroComponent">
-<doc>`Description:` To play any video</doc>
-<arguments>
-<arg>&amp;{video_details}</arg>
-</arguments>
-<msg timestamp="20191114 16:10:45.495" level="INFO">{'ELEMENT_TYPE': 'span', 'BY_TYPE': 'xpath', 'BY_VALUE': "(//span[@data-sonic-attribute='play-button'])[1]"}</msg>
-<status status="PASS" endtime="20191114 16:10:46.461" starttime="20191114 16:10:45.495"></status>
-</kw>
-<msg timestamp="20191114 16:10:46.461" level="INFO">${result} = True</msg>
-<status status="PASS" endtime="20191114 16:10:46.461" starttime="20191114 16:10:45.495"></status>
-</kw>
-<kw name="Should Be True" library="BuiltIn">
-<doc>Fails if the given condition is not true.</doc>
-<arguments>
-<arg>${result}</arg>
-</arguments>
-<status status="PASS" endtime="20191114 16:10:46.462" starttime="20191114 16:10:46.461"></status>
-</kw>
-<status status="PASS" endtime="20191114 16:10:46.462" starttime="20191114 16:10:45.494"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>10s</arg>
-</arguments>
-<msg timestamp="20191114 16:10:56.463" level="INFO">Slept 10 seconds</msg>
-<status status="PASS" endtime="20191114 16:10:56.463" starttime="20191114 16:10:46.462"></status>
+<status status="FAIL" endtime="20191115 13:29:03.851" starttime="20191115 13:29:03.606"></status>
 </kw>
 <tags>
 <tag>playback_video</tag>
 </tags>
-<status status="PASS" endtime="20191114 16:10:56.464" critical="yes" starttime="20191114 16:10:01.052"></status>
-=======
-<msg timestamp="20191113 17:12:03.221" level="FAIL">No keyword with name 'Open_Url' found.</msg>
-<status status="FAIL" endtime="20191113 17:12:03.221" starttime="20191113 17:12:03.221"></status>
-</kw>
-<status status="FAIL" endtime="20191113 17:12:03.221" starttime="20191113 17:12:03.218"></status>
-</kw>
-<status status="FAIL" endtime="20191113 17:12:03.221" starttime="20191113 17:12:03.218"></status>
-</kw>
-<tags>
-<tag>Discovery</tag>
-</tags>
-<status status="FAIL" endtime="20191113 17:12:03.222" critical="yes" starttime="20191113 17:12:03.218">No keyword with name 'Open_Url' found.</status>
->>>>>>> cbbeae97bf99b17b43569f47645e2947b65c1338
+<status status="FAIL" endtime="20191115 13:29:03.851" critical="yes" starttime="20191115 13:28:41.085">Page Switch Failed!!</status>
 </test>
 <kw type="teardown" name="Close The Browsers" library="EuroKeywords">
 <kw name="Run Keyword" library="BuiltIn">
@@ -197,33 +104,16 @@ IN COMMON SWITCH
 <arguments>
 <arg>Close The Browser</arg>
 </arguments>
-<<<<<<< HEAD
 <kw name="Close The Browser" library="EuroComponent">
 <doc>`Description:` Close the browser object</doc>
-<status status="PASS" endtime="20191114 16:11:00.149" starttime="20191114 16:10:56.468"></status>
+<status status="PASS" endtime="20191115 13:29:08.447" starttime="20191115 13:29:03.853"></status>
 </kw>
-<status status="PASS" endtime="20191114 16:11:00.149" starttime="20191114 16:10:56.466"></status>
+<status status="PASS" endtime="20191115 13:29:08.447" starttime="20191115 13:29:03.853"></status>
 </kw>
-<status status="PASS" endtime="20191114 16:11:00.149" starttime="20191114 16:10:56.465"></status>
+<status status="PASS" endtime="20191115 13:29:08.447" starttime="20191115 13:29:03.852"></status>
 </kw>
 <doc>This test case will navigate to "https://www.eurosportplayer.com/" and verify the fields</doc>
-<status status="PASS" endtime="20191114 16:11:00.149" starttime="20191114 16:08:12.135"></status>
-=======
-<kw name="Close The Browser">
-<msg timestamp="20191113 17:12:03.224" level="FAIL">No keyword with name 'Close The Browser' found. Did you mean:
-    EuroKeywords.Close The Browsers</msg>
-<status status="FAIL" endtime="20191113 17:12:03.224" starttime="20191113 17:12:03.224"></status>
-</kw>
-<status status="FAIL" endtime="20191113 17:12:03.224" starttime="20191113 17:12:03.222"></status>
-</kw>
-<status status="FAIL" endtime="20191113 17:12:03.224" starttime="20191113 17:12:03.222">No keyword with name 'Close The Browser' found. Did you mean:
-    EuroKeywords.Close The Browsers</status>
-</kw>
-<doc>This test case will navigate to "https://go.discovery.com/" and verify the fields</doc>
-<status status="FAIL" endtime="20191113 17:12:03.224" starttime="20191113 17:11:24.809">Suite teardown failed:
-No keyword with name 'Close The Browser' found. Did you mean:
-    EuroKeywords.Close The Browsers</status>
->>>>>>> cbbeae97bf99b17b43569f47645e2947b65c1338
+<status status="FAIL" endtime="20191115 13:29:08.447" starttime="20191115 13:28:41.009"></status>
 </suite>
 <statistics>
 <total>
@@ -231,28 +121,12 @@ No keyword with name 'Close The Browser' found. Did you mean:
 <stat fail="1" pass="0">All Tests</stat>
 </total>
 <tag>
-<<<<<<< HEAD
-<stat fail="0" pass="1">playback_video</stat>
-=======
-<stat fail="1" pass="0">Discovery</stat>
->>>>>>> cbbeae97bf99b17b43569f47645e2947b65c1338
+<stat fail="1" pass="0">playback_video</stat>
 </tag>
 <suite>
-<stat fail="1" id="s1" name="Tc Discovery Shows" pass="0">Tc Discovery Shows</stat>
+<stat fail="1" id="s1" name="Tc Eurosports Login" pass="0">Tc Eurosports Login</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20191113 17:12:03.209" level="ERROR">Error in file '/home/syprus.ithuriel/Desktop/GL_Projects/Eurosport_Automation/Robot_Framework/TestCases/Discovery/tc_discovery_shows.robot': Initializing test library 'EuroComponent' with arguments [ browser=firefox ] failed: OSError: [Errno 2] No such file or directory: ''
-Traceback (most recent call last):
-  File "/home/syprus.ithuriel/Desktop/GL_Projects/Eurosport_Automation/Robot_Framework/lib/EuroComponent.py", line 23, in __init__
-    self._browser = LocalBrowser(self.browsertype, self.profile_path)
-  File "/home/syprus.ithuriel/Desktop/GL_Projects/Eurosport_Automation/Selenium_Lib/web_wrappers/selenium_wrappers/LocalBrowser.py", line 54, in __init__
-    self._browser = self.create_webdriver(self.browsertype, self.profile_path, crx, notifications)
-  File "/home/syprus.ithuriel/Desktop/GL_Projects/Eurosport_Automation/Selenium_Lib/web_wrappers/selenium_wrappers/LocalBrowser.py", line 85, in create_webdriver
-    profile = FirefoxProfile(profile_path)
-  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/firefox/firefox_profile.py", line 80, in __init__
-    ignore=shutil.ignore_patterns("parent.lock", "lock", ".parentlock"))
-  File "/usr/lib/python2.7/shutil.py", line 185, in copytree
-    names = os.listdir(src)</msg>
 </errors>
 </robot>

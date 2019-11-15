@@ -6,3 +6,4 @@
 *.pyc
 *.xml
 reports/
+Eurosport_Automation/Selenium_Lib/log/

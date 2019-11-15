@@ -31,7 +31,7 @@ class Euro_CommonFunctionality(object):
         self.action_ele = base.WebElementAction(self._browser)
         self.Initial_Login = False
 
-    def open_url(self, url):
+    def open_url(self, url,browser):
         """
         `Description:` To open Discovery portal.
 
@@ -41,7 +41,9 @@ class Euro_CommonFunctionality(object):
 
         `Created by:` Vasuja K
         """
-        self._browser.go_to(url)
+        import pdb;
+        pdb.Pdb(stdout=sys.__stdout__).set_trace()
+        browser.go_to(url,browser)
         log.mjLog.LogReporter("Euro_CommonFunctionality", "info", "Open URL successful")
 
     def euro_login(self, params):

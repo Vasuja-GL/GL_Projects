@@ -3,6 +3,7 @@
 import time
 import stafenv
 import sys
+import selenium
 
 from web_wrappers.selenium_wrappers import LocalBrowser
 from page.EuroComponent import EuroPage
@@ -18,9 +19,7 @@ class EuroComponent():
         self.browsertype = params.get('browser', 'chrome').lower()
         self.profile_path = params.get('profile_path', '').lower()
         self._browser = LocalBrowser(self.browsertype, self.profile_path)
-        browser_obj = self._browser.get_current_browser()
-        browser_obj.maximize_window()
-        self.euro_page = EuroPage(self._browser)
+
 
     def open_url(self,url):
         """
@@ -33,7 +32,15 @@ class EuroComponent():
         `Created by:`
         """
         try:
-            self.euro_page.common_fun.open_url(url)
+
+            browser_obj=self._browser.launch_browser(self.browsertype, self.profile_path)
+            import pdb;
+            pdb.Pdb(stdout=sys.__stdout__).set_trace()
+            # browser_obj = self._browser.get_current_browser()
+            browser_obj.maximize_window()
+            self.euro_page = EuroPage(browser_obj)
+            #self.euro_page.common_fun.open_url(url,browser_obj)
+            browser_obj.get(url)
         except Exception as e:
             print(e)
 
@@ -104,7 +111,3 @@ class EuroComponent():
             return status
         except:
             raise AssertionError("Failed to play video!!")
-
-
-
-
