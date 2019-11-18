@@ -1,11 +1,15 @@
 *** Settings ***
-Documentation     Keywords supported for Discovery portal
+Documentation     Keywords supported for Eurosports portal
 ...               dev- Vasuja
 ...               Comments:
 
 Library    Collections
 
 *** Keywords ***
+I launch the browser
+    [Arguments]  &{Browser_info}
+    Run Keyword    launch_browser  &{Browser_info}
+
 I open the web page with ${url}
     Run Keyword      Open_Url     ${url}
 
@@ -25,6 +29,8 @@ I play the video
     [Arguments]  &{video_details}
     ${result} =    Run Keyword    play video  &{video_details}
     Should be true  ${result}
+
+
 
 
 

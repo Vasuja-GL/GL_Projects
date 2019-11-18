@@ -67,11 +67,11 @@ class Browser:
 
         return self.elements[by.lower()]
 
-    # def go_to(self, url,browser):
-    #     '''
-    #         go_to() method goes to the specific URL after the browser instance launches
-    #     '''
-    #     browser.get(url)
+    def go_to(self, url):
+        '''
+            go_to() method goes to the specific URL after the browser instance launches
+        '''
+        self._browser.get(url)
 
     def get_screenshot_as_file(self, screenshot_file):
         '''

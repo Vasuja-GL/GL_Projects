@@ -1,46 +1,52 @@
-"""Module for Discovery portal functionalities
+"""Module for Eurosport portal functionalities
 """
 import time
 import stafenv
-import sys
-import selenium
-
+from collections import defaultdict
 from web_wrappers.selenium_wrappers import LocalBrowser
-from page.EuroComponent import EuroPage
+from page.PageComponent import EuroPage
 
 
 class EuroComponent():
-    ''' Discovery Component Interface to interact with the ROBOT keywords
+    ''' Euro Component Interface to interact with the ROBOT keywords
     '''
 
     ROBOT_LIBRARY_SCOPE = 'TEST SUITE'
 
-    def __init__(self, **params):
-        self.browsertype = params.get('browser', 'chrome').lower()
-        self.profile_path = params.get('profile_path', '').lower()
-        self._browser = LocalBrowser(self.browsertype, self.profile_path)
+    def __init__(self):
+        print("This is an init method")
 
+    def launch_browser(self, **params):
+        """
+        `Description:` This function is used to launch the browser
+
+        `:params` : Browser name and profile path
+
+        `:return:` None
+
+        `Created by:` Vasuja K
+        """
+        try:
+            params = defaultdict(lambda: None, params)
+            self.browsertype = params["browser"]
+            self.profile_path = params["profile_path"]
+            self._browser = LocalBrowser(self.browsertype, self.profile_path)
+            self.euro_page = EuroPage(self._browser)
+        except Exception as e:
+            print(e)
 
     def open_url(self,url):
         """
-        `Description:` This function is used to open Discovery portal page
+        `Description:` This function is used to open Eurosport portal page
 
-        `:param1` url: URL of Discovery page
+        `:param1` url: URL of Eurosport page
 
         `:return:` None
 
         `Created by:`
         """
         try:
-
-            browser_obj=self._browser.launch_browser(self.browsertype, self.profile_path)
-            import pdb;
-            pdb.Pdb(stdout=sys.__stdout__).set_trace()
-            # browser_obj = self._browser.get_current_browser()
-            browser_obj.maximize_window()
-            self.euro_page = EuroPage(browser_obj)
-            #self.euro_page.common_fun.open_url(url,browser_obj)
-            browser_obj.get(url)
+            self.euro_page.common_fun.open_url(url)
         except Exception as e:
             print(e)
 
@@ -111,3 +117,7 @@ class EuroComponent():
             return status
         except:
             raise AssertionError("Failed to play video!!")
+
+
+
+

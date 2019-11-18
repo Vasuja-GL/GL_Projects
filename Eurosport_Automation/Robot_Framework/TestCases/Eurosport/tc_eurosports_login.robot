@@ -1,7 +1,6 @@
 *** Settings ***
-Documentation     This test case will navigate to "https://www.eurosportplayer.com/" and verify the fields
+Documentation     This test case will navigate to "https://www.eurosportplayer.com/" and play the video
 #...               dev-Vasuja
-#...               Comments: This testcase login to www.eurosportplayer.com and play one video
 
 #Suite Setup and Teardown
 Suite Setup       Set Init Env
@@ -15,15 +14,17 @@ Resource           ../../RobotKeywords/EuroKeywords.robot
 Resource           ../../Variables/EnvVariables.robot
 
 
-#Discovery Component
-Library			  ../../lib/EuroComponent.py    browser=${BROWSER}    profile_path=${Firefox_Profile_path}
-Library  String
+#Eurosports Component
+Library			  ../../lib/EuroComponent.py
 
 *** Test Cases ***
 Login to Eurosport and play video
     [Tags]  playback_video
+
     When I open the web page with ${URL}
+    sleep  3
     When I switch to "OnDemand" page
+    sleep  3
     Set to Dictionary    ${video_details}    play_button_xpath    First_video_play_button
     And I play the video  &{video_details}
 
@@ -39,3 +40,5 @@ Set Init Env
     ${video_details}=    create dictionary
 
     Set suite variable    ${video_details}
+
+    I launch the browser  &{Browser_info}
