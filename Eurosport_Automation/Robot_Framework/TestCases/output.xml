@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.6.8 on linux)" generated="20191118 10:44:35.660" rpa="false">
-<suite id="s1" name="Tc Eurosports Login" source="/home/vasuja.kookkal/Desktop/Eurosports/Demo_code/Eurosport_Automation/Robot_Framework/TestCases/Eurosport/tc_eurosports_login.robot">
-<kw name="Set Init Env" type="setup">
+<robot rpa="false" generated="20191118 16:08:02.259" generator="Robot 3.1.2 (Python 2.7.15+ on linux2)">
+<suite source="/home/vasuja.kookkal/Desktop/GL_Projects/Eurosport_Automation/Robot_Framework/TestCases/Eurosport/tc_eurosports_login.robot" id="s1" name="Tc Eurosports Login">
+<kw type="setup" name="Set Init Env">
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
 <assign>
 <var>${login_details}</var>
 </assign>
-<msg timestamp="20191118 10:44:35.693" level="INFO">${login_details} = {}</msg>
-<status status="PASS" starttime="20191118 10:44:35.693" endtime="20191118 10:44:35.693"></status>
+<msg timestamp="20191118 16:08:02.315" level="INFO">${login_details} = {}</msg>
+<status status="PASS" endtime="20191118 16:08:02.315" starttime="20191118 16:08:02.315"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
 <arg>${logindetails}</arg>
 </arguments>
-<msg timestamp="20191118 10:44:35.693" level="INFO">${logindetails} = {}</msg>
-<status status="PASS" starttime="20191118 10:44:35.693" endtime="20191118 10:44:35.693"></status>
+<msg timestamp="20191118 16:08:02.316" level="INFO">${logindetails} = {}</msg>
+<status status="PASS" endtime="20191118 16:08:02.316" starttime="20191118 16:08:02.315"></status>
 </kw>
 <kw name="Create Dictionary" library="BuiltIn">
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
 <assign>
 <var>${video_details}</var>
 </assign>
-<msg timestamp="20191118 10:44:35.694" level="INFO">${video_details} = {}</msg>
-<status status="PASS" starttime="20191118 10:44:35.694" endtime="20191118 10:44:35.694"></status>
+<msg timestamp="20191118 16:08:02.316" level="INFO">${video_details} = {}</msg>
+<status status="PASS" endtime="20191118 16:08:02.316" starttime="20191118 16:08:02.316"></status>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
 <arguments>
 <arg>${video_details}</arg>
 </arguments>
-<msg timestamp="20191118 10:44:35.694" level="INFO">${video_details} = {}</msg>
-<status status="PASS" starttime="20191118 10:44:35.694" endtime="20191118 10:44:35.694"></status>
+<msg timestamp="20191118 16:08:02.316" level="INFO">${video_details} = {}</msg>
+<status status="PASS" endtime="20191118 16:08:02.316" starttime="20191118 16:08:02.316"></status>
 </kw>
 <kw name="I launch the browser" library="EuroKeywords">
 <arguments>
@@ -44,79 +44,173 @@
 <arg>launch_browser</arg>
 <arg>&amp;{Browser_info}</arg>
 </arguments>
-<kw name="launch_browser">
+<kw name="Launch Browser" library="EuroComponent">
+<doc>`Description:` This function is used to launch the browser</doc>
 <arguments>
 <arg>&amp;{Browser_info}</arg>
 </arguments>
-<msg timestamp="20191118 10:44:35.696" level="FAIL">No keyword with name 'launch_browser' found.</msg>
-<status status="FAIL" starttime="20191118 10:44:35.696" endtime="20191118 10:44:35.696"></status>
+<status status="PASS" endtime="20191118 16:08:05.886" starttime="20191118 16:08:02.317"></status>
 </kw>
-<status status="FAIL" starttime="20191118 10:44:35.695" endtime="20191118 10:44:35.696"></status>
+<status status="PASS" endtime="20191118 16:08:05.886" starttime="20191118 16:08:02.317"></status>
 </kw>
-<status status="FAIL" starttime="20191118 10:44:35.694" endtime="20191118 10:44:35.696"></status>
+<status status="PASS" endtime="20191118 16:08:05.886" starttime="20191118 16:08:02.316"></status>
 </kw>
-<status status="FAIL" starttime="20191118 10:44:35.692" endtime="20191118 10:44:35.696"></status>
+<status status="PASS" endtime="20191118 16:08:05.886" starttime="20191118 16:08:02.315"></status>
 </kw>
 <test id="s1-t1" name="Login to Eurosport and play video">
+<kw name="When I open the web page with ${URL}" library="EuroKeywords">
+<kw name="Run Keyword" library="BuiltIn">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>Open_Url</arg>
+<arg>${url}</arg>
+</arguments>
+<kw name="Open Url" library="EuroComponent">
+<doc>`Description:` This function is used to open Eurosport portal page</doc>
+<arguments>
+<arg>${url}</arg>
+</arguments>
+<msg timestamp="20191118 16:08:10.327" level="INFO">Open URL successful</msg>
+<status status="PASS" endtime="20191118 16:08:10.327" starttime="20191118 16:08:05.887"></status>
+</kw>
+<status status="PASS" endtime="20191118 16:08:10.327" starttime="20191118 16:08:05.887"></status>
+</kw>
+<status status="PASS" endtime="20191118 16:08:10.328" starttime="20191118 16:08:05.887"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20191118 16:08:13.329" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20191118 16:08:13.330" starttime="20191118 16:08:10.328"></status>
+</kw>
+<kw name="When I switch to &quot;OnDemand&quot; page" library="EuroKeywords">
+<kw name="Create Dictionary" library="BuiltIn">
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<arguments>
+<arg>page=${myNewPage}</arg>
+</arguments>
+<assign>
+<var>&amp;{pageSwitch}</var>
+</assign>
+<msg timestamp="20191118 16:08:13.335" level="INFO">&amp;{pageSwitch} = { page=OnDemand }</msg>
+<status status="PASS" endtime="20191118 16:08:13.335" starttime="20191118 16:08:13.332"></status>
+</kw>
+<kw name="Run Keyword" library="BuiltIn">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>Switch Page</arg>
+<arg>&amp;{pageSwitch}</arg>
+</arguments>
+<kw name="Switch Page" library="EuroComponent">
+<doc>`Description:` Switch any page</doc>
+<arguments>
+<arg>&amp;{pageSwitch}</arg>
+</arguments>
+<msg timestamp="20191118 16:08:13.340" level="INFO">{'ELEMENT_TYPE': 'ul', 'BY_TYPE': 'xpath', 'BY_VALUE': '//ul[@class="styles-navItems-3s_CBd8n"]/li[2]'}</msg>
+<msg timestamp="20191118 16:08:13.383" level="INFO">{'ELEMENT_TYPE': 'ul', 'BY_TYPE': 'xpath', 'BY_VALUE': '//ul[@class="styles-navItems-3s_CBd8n"]/li[2]'}</msg>
+<msg timestamp="20191118 16:08:13.614" level="INFO">IN MAIN:
+IN COMMON SWITCH
+{u'page': u'OnDemand'}</msg>
+<status status="PASS" endtime="20191118 16:08:13.614" starttime="20191118 16:08:13.338"></status>
+</kw>
+<status status="PASS" endtime="20191118 16:08:13.614" starttime="20191118 16:08:13.336"></status>
+</kw>
+<status status="PASS" endtime="20191118 16:08:13.615" starttime="20191118 16:08:13.331"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3</arg>
+</arguments>
+<msg timestamp="20191118 16:08:16.615" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20191118 16:08:16.615" starttime="20191118 16:08:13.615"></status>
+</kw>
+<kw name="Set To Dictionary" library="Collections">
+<doc>Adds the given ``key_value_pairs`` and ``items`` to the ``dictionary``.</doc>
+<arguments>
+<arg>${video_details}</arg>
+<arg>play_button_xpath</arg>
+<arg>First_video_play_button</arg>
+</arguments>
+<status status="PASS" endtime="20191118 16:08:16.616" starttime="20191118 16:08:16.616"></status>
+</kw>
+<kw name="And I play the video" library="EuroKeywords">
+<arguments>
+<arg>&amp;{video_details}</arg>
+</arguments>
+<kw name="Run Keyword" library="BuiltIn">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>play video</arg>
+<arg>&amp;{video_details}</arg>
+</arguments>
+<assign>
+<var>${result}</var>
+</assign>
+<kw name="Play Video" library="EuroComponent">
+<doc>`Description:` To play any video</doc>
+<arguments>
+<arg>&amp;{video_details}</arg>
+</arguments>
+<msg timestamp="20191118 16:08:16.619" level="INFO">{'ELEMENT_TYPE': 'span', 'BY_TYPE': 'xpath', 'BY_VALUE': "(//span[@data-sonic-attribute='play-button'])[1]"}</msg>
+<status status="PASS" endtime="20191118 16:08:16.865" starttime="20191118 16:08:16.619"></status>
+</kw>
+<msg timestamp="20191118 16:08:16.865" level="INFO">${result} = True</msg>
+<status status="PASS" endtime="20191118 16:08:16.865" starttime="20191118 16:08:16.618"></status>
+</kw>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>${result}</arg>
+</arguments>
+<status status="PASS" endtime="20191118 16:08:16.866" starttime="20191118 16:08:16.866"></status>
+</kw>
+<status status="PASS" endtime="20191118 16:08:16.866" starttime="20191118 16:08:16.617"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<msg timestamp="20191118 16:08:26.867" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" endtime="20191118 16:08:26.867" starttime="20191118 16:08:16.866"></status>
+</kw>
 <tags>
 <tag>playback_video</tag>
 </tags>
-<status status="FAIL" starttime="20191118 10:44:35.697" endtime="20191118 10:44:35.697" critical="yes">Parent suite setup failed:
-No keyword with name 'launch_browser' found.</status>
+<status status="PASS" endtime="20191118 16:08:26.868" critical="yes" starttime="20191118 16:08:05.886"></status>
 </test>
-<kw name="Close The Browsers" library="EuroKeywords" type="teardown">
+<kw type="teardown" name="Close The Browsers" library="EuroKeywords">
 <kw name="Run Keyword" library="BuiltIn">
 <doc>Executes the given keyword with the given arguments.</doc>
 <arguments>
 <arg>Close The Browser</arg>
 </arguments>
-<kw name="Close The Browser">
-<msg timestamp="20191118 10:44:35.699" level="FAIL">No keyword with name 'Close The Browser' found. Did you mean:
-    EuroKeywords.Close The Browsers</msg>
-<status status="FAIL" starttime="20191118 10:44:35.699" endtime="20191118 10:44:35.699"></status>
+<kw name="Close The Browser" library="EuroComponent">
+<doc>`Description:` Close the browser object</doc>
+<status status="PASS" endtime="20191118 16:08:30.528" starttime="20191118 16:08:26.872"></status>
 </kw>
-<status status="FAIL" starttime="20191118 10:44:35.697" endtime="20191118 10:44:35.699"></status>
+<status status="PASS" endtime="20191118 16:08:30.528" starttime="20191118 16:08:26.871"></status>
 </kw>
-<status status="FAIL" starttime="20191118 10:44:35.697" endtime="20191118 10:44:35.699">No keyword with name 'Close The Browser' found. Did you mean:
-    EuroKeywords.Close The Browsers</status>
+<status status="PASS" endtime="20191118 16:08:30.528" starttime="20191118 16:08:26.870"></status>
 </kw>
 <doc>This test case will navigate to "https://www.eurosportplayer.com/" and play the video</doc>
-<status status="FAIL" starttime="20191118 10:44:35.661" endtime="20191118 10:44:35.699">Suite setup failed:
-No keyword with name 'launch_browser' found.
-
-Also suite teardown failed:
-No keyword with name 'Close The Browser' found. Did you mean:
-    EuroKeywords.Close The Browsers</status>
+<status status="PASS" endtime="20191118 16:08:30.528" starttime="20191118 16:08:02.260"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="0" fail="1">Critical Tests</stat>
-<stat pass="0" fail="1">All Tests</stat>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
 </total>
 <tag>
-<stat pass="0" fail="1">playback_video</stat>
+<stat fail="0" pass="1">playback_video</stat>
 </tag>
 <suite>
-<stat pass="0" fail="1" id="s1" name="Tc Eurosports Login">Tc Eurosports Login</stat>
+<stat fail="0" id="s1" name="Tc Eurosports Login" pass="1">Tc Eurosports Login</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20191118 10:44:35.691" level="ERROR">Error in file '/home/vasuja.kookkal/Desktop/Eurosports/Demo_code/Eurosport_Automation/Robot_Framework/TestCases/Eurosport/tc_eurosports_login.robot': Importing test library '/home/vasuja.kookkal/Desktop/Eurosports/Demo_code/Eurosport_Automation/Robot_Framework/lib/EuroComponent.py' failed: ImportError: bad magic number in 'web_wrappers': b'\x03\xf3\r\n'
-Traceback (most recent call last):
-  File "/home/vasuja.kookkal/Desktop/Eurosports/Demo_code/Eurosport_Automation/Robot_Framework/lib/EuroComponent.py", line 6, in &lt;module&gt;
-    from web_wrappers.selenium_wrappers import LocalBrowser
-PYTHONPATH:
-  /usr/lib/python36.zip
-  /usr/lib/python3.6
-  /usr/lib/python3.6/lib-dynload
-  /home/vasuja.kookkal/.local/lib/python3.6/site-packages
-  /usr/local/lib/python3.6/dist-packages
-  /usr/local/lib/python3.6/dist-packages/setuptools-40.8.0-py3.6.egg
-  /usr/lib/python3/dist-packages
-  /home/vasuja.kookkal/Desktop/Eurosports/Demo_code/Eurosport_Automation/Robot_Framework
-  /home/vasuja.kookkal/Desktop/Eurosports/Demo_code/Eurosport_Automation/Robot_Framework/page
-  /home/vasuja.kookkal/Desktop/Eurosports/Demo_code/Eurosport_Automation/Selenium_Lib
-  /home/vasuja.kookkal/Desktop/Eurosports/Demo_code/Eurosport_Automation/Selenium_Lib/utils
-  /home/vasuja.kookkal/Desktop/Eurosports/Demo_code/Eurosport_Automation/Selenium_Lib/web_wrappers</msg>
 </errors>
 </robot>
