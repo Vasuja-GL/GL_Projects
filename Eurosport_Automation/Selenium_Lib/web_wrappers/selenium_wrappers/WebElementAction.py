@@ -7,13 +7,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC 
 
-import custom_expected_conditions as CEC
+#import custom_expected_conditions as CEC
 
 import os
 import inspect
 import sys
-
-from log import log
+import logging
+#from log import log
 import datetime
 
 
@@ -33,8 +33,8 @@ class WebElementAction:
             self.elements = self._elements_finder(locator, replace_dict)
             if self.elements:
                 self.elements[index].click()
-                log.mjLog.LogReporter("WebUIOperation", "debug", "Click operation \
-                                    successful for locator %s at index %s with no value to match" % (locator, str(index)))
+                logging.error("Click operation successful for locator %s at index %s with no value to match" % (locator, str(index)))
+                #log.mjLog.LogReporter("WebUIOperation", "debug", "Click operation successful for locator %s at index %s with no value to match" % (locator, str(index)))
                 # returning as the element has already been clicked
                 return
         # if a locator returns more than 1 element and some value to match is supplied
@@ -51,18 +51,18 @@ class WebElementAction:
                 # if a locator returns more than 1 element and some value to match is supplied along with some index
                 if index is not None:
                     elements[index].click()
-                    log.mjLog.LogReporter("WebUIOperation", "debug", "Click operation \
-                                        successful for locator %s with value %s and index %s" % (locator, value, str(index)))
+                    logging.debug("Click operation successful for locator %s with value %s and index %s" % (locator, value, str(index)))
+                    #log.mjLog.LogReporter("WebUIOperation", "debug", "Click operation successful for locator %s with value %s and index %s" % (locator, value, str(index)))
                 else:
                     elements[0].click()
-                    log.mjLog.LogReporter("WebUIOperation", "debug", "Click operation \
-                                successful for locator %s with value %s and no index, so clicking the first occurrence" % (locator, value))
+                    logging.debug("Click operation successful for locator %s with value %s and no index, so clicking the first occurrence" % (locator, value))
+                    #log.mjLog.LogReporter("WebUIOperation", "debug", "Click operation successful for locator %s with value %s and no index, so clicking the first occurrence" % (locator, value))
         else:
             self.element = self._element_finder(locator, replace_dict)
             if self.element:
                 self.element.click()
-                log.mjLog.LogReporter("WebUIOperation", "debug", "Click operation \
-                                         successful- %s" % (locator))
+                logging.debug("Click operation successful- %s" % (locator))
+                #log.mjLog.LogReporter("WebUIOperation", "debug", "Click operation successful- %s" % (locator))
 
     def input_text(self,locator, Text):
         """Types the given `text` into text field identified by `locator`.
@@ -72,8 +72,8 @@ class WebElementAction:
         if self.element:
             self.element.clear()
             self.element.send_keys(Text)
-            log.mjLog.LogReporter("WebUIOperation","debug","Input_text operation \
-                                    successful- %s" %(locator))
+            logging.debug("Input_text operation successful- %s" %(locator))
+            #log.mjLog.LogReporter("WebUIOperation","debug","Input_text operation successful- %s" %(locator))
 
     def explicit_wait(self, element, waittime=20, replace_dict=None, ec='visibility_of_element_located', msg=None, msg_to_verify=None, condition_category="until"):
         """
@@ -98,7 +98,8 @@ class WebElementAction:
         try:
             condition = getattr(EC, ec)
         except AttributeError as e:
-            condition = getattr(CEC, ec)
+            logging.error(e)
+            #condition = getattr(CEC, ec)
         locator = getattr(By, self.elementAttr['BY_TYPE'].upper())
         try:
             if msg:
@@ -120,14 +121,15 @@ class WebElementAction:
         self.element = self._element_finder(locator)
         if self.element:
             ActionChains(self._browser.get_current_browser()).move_to_element(self.element).perform()
-            log.mjLog.LogReporter("WebUIOperation","debug","mouse_hover operation \
-                                     successful- %s" %(locator))
+            logging.debug("mouse_hover operation successful- %s" %(locator))
+            #log.mjLog.LogReporter("WebUIOperation","debug","mouse_hover operation successful- %s" %(locator))
 
     def maximize_browser_window(self):
         """Maximizes the currently opened browser window
         """
         self._current_browser().maximize_window()
-        log.mjLog.LogReporter("WebUIOperation","debug","maximize_browser_window - operation successfull")
+        logging.debug("maximize_browser_window - operation successfull")
+        #log.mjLog.LogReporter("WebUIOperation","debug","maximize_browser_window - operation successfull")
 
     def takeScreenshot(self, funcName, location=None):
         """

@@ -12,7 +12,7 @@ import sys
 import os
 import logging
 import tempfile
-from log import log
+#from log import log
 from robot.api import logger
 from selenium import webdriver
 from selenium.webdriver import FirefoxProfile
@@ -35,12 +35,12 @@ class Browser:
         Base class for Web Automation uses python selenium Web Driver for this module
     """
     _DEFAULT_TIMEOUT = 15
-    _BROWSER_INFO_WIN = {
+    BROWSER_INFO_WIN = {
         'chrome': {'webdriver_path': os.path.join(
             os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
             'ext_web_driver', 'windows', 'chromedriver.exe')},
     }
-    _BROWSER_INFO_LINUX = {'firefox': {'webdriver_path': os.path.join(
+    BROWSER_INFO_LINUX = {'firefox': {'webdriver_path': os.path.join(
         os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
         'ext_web_driver', 'linux', 'geckodriver')},
         'chrome': {'webdriver_path': os.path.join(
@@ -52,21 +52,25 @@ class Browser:
         selenium_logger = logging.getLogger("selenium.webdriver.remote.remote_connection")
         selenium_logger.setLevel(logging.WARNING)
         self.console_log = tempfile.NamedTemporaryFile(delete=False, suffix=".log")
+        #import pdb
+        #pdb.Pdb(stdout=sys.__stdout__).set_trace()
+        #logging.info("***********",sys.platform)
+        #self.BROWSER_INFO = self.BROWSER_INFO_LINUX
         # initializing based on platform
         if sys.platform == "win32":
-            self._BROWSER_INFO = self._BROWSER_INFO_WIN
+            self.BROWSER_INFO = self.BROWSER_INFO_WIN
             self.user_data_dir = "C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\User Data"
 
-        elif sys.platform == "linux2":
-            self._BROWSER_INFO = self._BROWSER_INFO_LINUX
+        elif sys.platform == "linux":
+            self.BROWSER_INFO = self.BROWSER_INFO_LINUX
 
         self.browsertype = browser
         self.profile_path = profile_path
-        if self.browsertype in self._BROWSER_INFO.keys():
+        if self.browsertype in self.BROWSER_INFO.keys():
             self._browser = self.create_webdriver(self.browsertype, self.profile_path, crx, notifications)
         else:
             raise Exception("\nBrowser not supported. Supported browsers: %s\n" %
-                            self._BROWSER_INFO.keys())
+                            self.BROWSER_INFO.keys())
         self.elements = {
             "id": self._browser.find_elements_by_id,
             "name": self._browser.find_elements_by_name,
@@ -89,11 +93,11 @@ class Browser:
         if browser == 'chrome' and sys.platform == "linux2":
             options = webdriver.ChromeOptions()
             options.add_argument(r"--no-sandbox")
-            testdriver = webdriver.Chrome(self._BROWSER_INFO[browser]['webdriver_path'], chrome_options=options)
+            testdriver = webdriver.Chrome(self.BROWSER_INFO[browser]['webdriver_path'], chrome_options=options)
 
         elif browser == 'firefox':
             profile = FirefoxProfile(profile_path)
-            webdriver_path = self._BROWSER_INFO[browser]['webdriver_path']
+            webdriver_path = self.BROWSER_INFO[browser]['webdriver_path']
             testdriver = webdriver.Firefox(firefox_profile=profile,
                                        executable_path=webdriver_path)
 
@@ -118,7 +122,7 @@ class Browser:
                 service_args.append("--verbose")
                 service_args.append("--log-path=" + self.console_log.name)
 
-            testdriver = webdriver.Chrome(self._BROWSER_INFO[browser]['webdriver_path'],
+            testdriver = webdriver.Chrome(self.BROWSER_INFO[browser]['webdriver_path'],
                                           service_args=service_args,
                                           chrome_options=options)
         testdriver.implicitly_wait(self._DEFAULT_TIMEOUT)
@@ -132,7 +136,8 @@ class Browser:
         get_locator() will return element identifier object e.g. find_elements_by_id
         '''
         if by is None:
-            log.mjLog.LogReporter("Browser", "error", "Attribute to identify element is empty")
+            logging.error("Attribute to identify element is empty")
+            #log.mjLog.LogReporter("Browser", "error", "Attribute to identify element is empty")
             return None
 
         return self.elements[by.lower()]
@@ -159,7 +164,8 @@ class Browser:
             self.By = By
             self.ByValue = ByValue
             if self.By is None or self.ByValue is None:
-                log.mjLog.LogReporter("Browser", "error", "Element by and Element attribute value is empty")
+                logging.error("Element by and Element attribute value is empty")
+                #log.mjLog.LogReporter("Browser", "error", "Element by and Element attribute value is empty")
                 return None
 
             # Getting element identifier object
@@ -171,17 +177,20 @@ class Browser:
                 return self.elementObjList
             else:
                 if index >= len(self.elementObjList):
-                    log.mjLog.LogReporter("Browser", "error", "Element index is outside of number of elements found")
+                    logging.error("Element index is outside of number of elements found")
+                    #log.mjLog.LogReporter("Browser", "error", "Element index is outside of number of elements found")
                     return None
                 else:
                     if (not self.elementObjList[index].is_displayed()) or (not self.elementObjList[index].is_enabled()):
-                        log.mjLog.LogReporter("Browser", "error", "The element is found but is not enabled/visible.")
+                        logging.error("The element is found but is not enabled/visible.")
+                        #log.mjLog.LogReporter("Browser", "error", "The element is found but is not enabled/visible.")
                         return None
 
                     return [self.elementObjList[index]]
 
         except (WebDriverException, NoSuchElementException) as e:
-            log.mjLog.LogReporter("Browser", "error", "Browser.get_elements: Exception: %s" % str(e))
+            logging.log("Browser.get_elements: Exception: %s" % str(e))
+            #log.mjLog.LogReporter("Browser", "error", "Browser.get_elements: Exception: %s" % str(e))
 
     def get_element(self, By=None, ByValue=None, index=None):
         '''
@@ -190,7 +199,8 @@ class Browser:
             element on call
         '''
         try:
-            log.mjLog.LogReporter("Browser", "debug", "Browser.get_elements: By=%s, ByValue=%s" % (By, ByValue))
+            logging.debug("Browser.get_elements: By=%s, ByValue=%s" % (By, ByValue))
+            #log.mjLog.LogReporter("Browser", "debug", "Browser.get_elements: By=%s, ByValue=%s" % (By, ByValue))
             if index is not None:
                 self.elementRef = self.get_elements(By, ByValue, index)
             else:
@@ -199,12 +209,14 @@ class Browser:
             if len(self.elementRef) == 0:
                 raise Exception("0 elements found.")
             elif len(self.elementRef) > 1:
-                log.mjLog.LogReporter("Browser", "warning",
-                                      ">1 Elements found using : By=%s, ByValue=%s" % (By, ByValue))
+                logging.warning(">1 Elements found using : By=%s, ByValue=%s" % (By, ByValue))
+                #log.mjLog.LogReporter("Browser", "warning",
+                  #                    ">1 Elements found using : By=%s, ByValue=%s" % (By, ByValue))
                 raise AssertionError(">1 element found")
 
             else:
-                log.mjLog.LogReporter("Browser", "debug", "Element identified: By=%s, ByValue=%s" % (By, ByValue))
+                logging.debug("Element identified: By=%s, ByValue=%s" % (By, ByValue))
+                #log.mjLog.LogReporter("Browser", "debug", "Element identified: By=%s, ByValue=%s" % (By, ByValue))
                 return self.elementRef[0]
         except (WebDriverException, NoSuchElementException) as e:
             import traceback
@@ -222,9 +234,11 @@ class Browser:
             try:
                 self._browser.quit()
             except:
-                log.mjLog.LogReporter("Browser", "error", "Webdriver was not able to close browser.")
+                logging.error("Webdriver was not able to close browser.")
+                #log.mjLog.LogReporter("Browser", "error", "Webdriver was not able to close browser.")
                 import traceback
-                log.mjLog.LogReporter("Browser", "debug", " %s" % traceback.format_exc())
+                logging.debug("debug", " %s" % traceback.format_exc())
+                #log.mjLog.LogReporter("Browser", "debug", " %s" % traceback.format_exc())
 
     def close(self):
         '''
@@ -233,9 +247,11 @@ class Browser:
         try:
             self._browser.close()
         except:
-            log.mjLog.LogReporter("Browser", "error", "Webdriver is not able to close corrent browser.")
+            logging.error("Webdriver is not able to close corrent browser.")
+            #log.mjLog.LogReporter("Browser", "error", "Webdriver is not able to close corrent browser.")
             import traceback
-            log.mjLog.LogReporter("Browser", "debug", " %s" % traceback.format_exc())
+            logging.debug(" %s" % traceback.format_exc())
+            #log.mjLog.LogReporter("Browser", "debug", " %s" % traceback.format_exc())
 
     def close_browser(self):
         '''
@@ -245,8 +261,9 @@ class Browser:
             self._browser.close()
         except:
             import traceback
-            log.mjLog.LogReporter("Browser", "error",
-                                  "Error in closing current browser: " + str(traceback.format_exc()))
+            logging.error("Error in closing current browser: " + str(traceback.format_exc()))
+            #log.mjLog.LogReporter("Browser", "error",
+            #                      "Error in closing current browser: " + str(traceback.format_exc()))
 
     def _map_converter(self, locator, replace_dict=None):
         '''
@@ -287,15 +304,17 @@ class Browser:
                                                     ByValue=self.elementAttr["BY_VALUE"],
                                                     index=self.elementAttr["INDEX"])
                 else:
-                    log.mjLog.LogReporter("WebUIOperation", "error",
-                                          "Element property in map file are not proper  - %s" % (locator))
+                    logging.error("Element property in map file are not proper  - %s" % (locator))
+                    #log.mjLog.LogReporter("WebUIOperation", "error",
+                                          #"Element property in map file are not proper  - %s" % (locator))
                     raise AssertionError("Element property in map file are not proper  - %s" % (locator))
                 return self.element
             else:
                 raise Exception("No element returned for provided locator <%s>"%locator)
         except:
-            log.mjLog.LogReporter("Browser", "error",
-                                  "element_finder - No or more than 1 element returned for provided locator" + str(sys.exc_info()))
+            logging.error("element_finder - No or more than 1 element returned for provided locator" + str(sys.exc_info()))
+            #log.mjLog.LogReporter("Browser", "error",
+                                 # "element_finder - No or more than 1 element returned for provided locator" + str(sys.exc_info()))
             raise AssertionError("Browser- element_finder - No or more than 1 element returned for provided locator")
 
     def elements_finder(self, locator, replace_dict=None):
@@ -323,13 +342,15 @@ class Browser:
                                                          ByValue=self.elementAttr["BY_VALUE"],
                                                          index=self.elementAttr["INDEX"])
                 else:
-                    log.mjLog.LogReporter("WebUIOperation", "error",
-                                          "Element property in map file are not proper  - %s" % (locator))
+                    logging.error("Element property in map file are not proper  - %s" % (locator))
+                    #log.mjLog.LogReporter("WebUIOperation", "error",
+                                       #   "Element property in map file are not proper  - %s" % (locator))
                     raise AssertionError("Element property in map file are not proper  - %s" % (locator))
                 return self.elementlist
             else:
                 raise Exception("No element returned for provided locator <%s>" % locator)
         except:
-            log.mjLog.LogReporter("Browser", "error",
-                                  "elements_finder - No element returned for provided locator" + str(sys.exc_info()))
+            logging.error("elements_finder - No element returned for provided locator" + str(sys.exc_info()))
+            #log.mjLog.LogReporter("Browser", "error",
+                                  #"elements_finder - No element returned for provided locator" + str(sys.exc_info()))
             raise AssertionError("Browser- elements_finder - No element returned for provided locator")

@@ -11,7 +11,8 @@ from collections import defaultdict
 
 import web_wrappers.selenium_wrappers as base
 
-from log import log
+#from log import log
+import logging
 from mapMgr import mapMgr
 mapMgr.create_maplist("Eurosports")
 mapDict = mapMgr.getMapDict()
@@ -43,7 +44,8 @@ class Euro_CommonFunctionality(object):
         """
         try:
             self._browser.go_to(url)
-            log.mjLog.LogReporter("Euro_CommonFunctionality", "info", "Open URL successful")
+            logging.info("Open URL successful")
+            #log.mjLog.LogReporter("Euro_CommonFunctionality", "info", "Open URL successful")
         except Exception as err:
             print(err.message)
             self.action_ele.takeScreenshot(inspect.currentframe().f_code.co_name)

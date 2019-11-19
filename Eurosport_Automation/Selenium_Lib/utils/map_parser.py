@@ -3,7 +3,7 @@ import re
 import os
 import sys
 
-from log import log
+#from log import log
 
 
 class mapParser:
@@ -14,7 +14,8 @@ class mapParser:
         self.map_key_list = []
         self.rtool = rtool
         if not filename:
-            log.mjLog.LogReporter("map_parser", "error", "__init__ - File name not mentioned")
+            logging.error("__init__ - File name not mentioned")
+            #log.mjLog.LogReporter("map_parser", "error", "__init__ - File name not mentioned")
 
         try:
             fileobj = open(filename, "r")
@@ -44,12 +45,13 @@ class mapParser:
                                         "BY_VALUE": value_parts[2]
                                     }
                             else:
-                                log.mjLog.LogReporter("map_parser", "error",
-                                                      "duplicate found at line %s in file %s" % (
-                                                      line, filename))
+                                logging.error("duplicate found at line %s in file %s" % (line, filename))
+                                #log.mjLog.LogReporter("map_parser", "error",
+                                                     # "duplicate found at line %s in file %s" % (line, filename))
                     else:
-                        log.mjLog.LogReporter("map_parser", "error",
-                                              "__init__ - Xpath %s in file %s does not contain == or it contain only 1 #" % (line, filename))
+                        logging.error("__init__ - Xpath %s in file %s does not contain == or it contain only 1 #" % (line, filename))
+                        #log.mjLog.LogReporter("map_parser", "error",
+                                            #  "__init__ - Xpath %s in file %s does not contain == or it contain only 1 #" % (line, filename))
 
 
                     if len(value_parts) > 3:
@@ -61,7 +63,8 @@ class mapParser:
                         self.map_key_list.append(key)
             fileobj.close()
         except:
-            log.mjLog.LogReporter("map_parser", "error", "__init__ - Error: " + str(sys.exc_info()))
+            logging.error("__init__ - Error: " + str(sys.exc_info()))
+            #log.mjLog.LogReporter("map_parser", "error", "__init__ - Error: " + str(sys.exc_info()))
             raise Exception
 
     def __str__(self):

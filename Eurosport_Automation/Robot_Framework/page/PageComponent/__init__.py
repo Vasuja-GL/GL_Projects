@@ -1,5 +1,5 @@
-from On_Demand import On_Demand
-from Euro_CommonFunctionality import Euro_CommonFunctionality
+from .On_Demand import On_Demand
+from .Euro_CommonFunctionality import Euro_CommonFunctionality
 
 
 class EuroPage(object):
