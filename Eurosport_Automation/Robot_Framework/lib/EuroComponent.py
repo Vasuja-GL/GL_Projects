@@ -2,8 +2,9 @@
 """
 import time
 import stafenv
+import sys
 from collections import defaultdict
-from web_wrappers.selenium_wrappers import LocalBrowser
+from web_wrappers.selenium_wrappers import Browser
 from page.PageComponent import EuroPage
 
 
@@ -30,7 +31,7 @@ class EuroComponent():
             params = defaultdict(lambda: None, params)
             self.browsertype = params["browser"]
             self.profile_path = params["profile_path"]
-            self._browser = LocalBrowser(self.browsertype, self.profile_path)
+            self._browser = Browser(self.browsertype, self.profile_path)
             self.euro_page = EuroPage(self._browser)
         except Exception as e:
             print(e)

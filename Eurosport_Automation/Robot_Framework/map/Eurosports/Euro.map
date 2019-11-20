@@ -9,5 +9,5 @@ Global_Eurosport_Sign_In_Button_xpath==button#xpath#//button[contains(text(),'Si
 
 Global_EuroSport_logout==a#xpath#//a[contains(text(), 'Logout')]
 Global_EuroSport_Account==span#xpath#//span[contains(text(), 'Account')]
-EuroSport_on_demand==a#xpath#(//a[contains(text(), 'On Demand')])[1]
+EuroSport_on_demand==ul#xpath#//ul[@class="styles-navItems-3s_CBd8n"]/li[2]
 First_video_play_button==span#xpath#(//span[@data-sonic-attribute='play-button'])[1]
