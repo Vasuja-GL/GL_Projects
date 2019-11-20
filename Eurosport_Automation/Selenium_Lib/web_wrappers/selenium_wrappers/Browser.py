@@ -18,7 +18,7 @@ from selenium import webdriver
 from selenium.webdriver import FirefoxProfile
 
 sys.path.append(os.path.join(os.path.dirname((os.path.dirname(os.path.dirname(__file__)))), "utils"))
-from mapMgr import mapMgr
+from locatorMgr import locatorMgr
 
 from selenium.common.exceptions import (
     NoSuchAttributeException,
@@ -265,12 +265,12 @@ class Browser:
             #log.mjLog.LogReporter("Browser", "error",
             #                      "Error in closing current browser: " + str(traceback.format_exc()))
 
-    def _map_converter(self, locator, replace_dict=None):
+    def _locator_converter(self, locator, replace_dict=None):
         '''
-        map_converter() - Gets element attributes from map files
+        locator_converter() - Gets element attributes from locator files
         Return dictionary
         '''
-        self.elementAttr = copy.deepcopy(mapMgr.__getitem__(locator))
+        self.elementAttr = copy.deepcopy(locatorMgr.__getitem__(locator))
         if replace_dict:
             for key in replace_dict:
                 xpath = self.elementAttr['BY_VALUE']
@@ -293,7 +293,7 @@ class Browser:
                     "BY_VALUE": locator
                 }
             else:
-                self.elementAttr = self._map_converter(locator, replace_dict)
+                self.elementAttr = self._locator_converter(locator, replace_dict)
 
             if self.elementAttr:
                 if len(self.elementAttr.keys()) == 3:
@@ -304,10 +304,10 @@ class Browser:
                                                     ByValue=self.elementAttr["BY_VALUE"],
                                                     index=self.elementAttr["INDEX"])
                 else:
-                    logging.error("Element property in map file are not proper  - %s" % (locator))
+                    logging.error("Element property in locator file are not proper  - %s" % (locator))
                     #log.mjLog.LogReporter("WebUIOperation", "error",
-                                          #"Element property in map file are not proper  - %s" % (locator))
-                    raise AssertionError("Element property in map file are not proper  - %s" % (locator))
+                                          #"Element property in locator file are not proper  - %s" % (locator))
+                    raise AssertionError("Element property in locator file are not proper  - %s" % (locator))
                 return self.element
             else:
                 raise Exception("No element returned for provided locator <%s>"%locator)
@@ -331,7 +331,7 @@ class Browser:
                     "BY_VALUE": locator
                 }
             else:
-                self.elementAttr = self._map_converter(locator, replace_dict)
+                self.elementAttr = self._locator_converter(locator, replace_dict)
 
             if self.elementAttr:
                 if len(self.elementAttr.keys()) == 3:
@@ -342,10 +342,10 @@ class Browser:
                                                          ByValue=self.elementAttr["BY_VALUE"],
                                                          index=self.elementAttr["INDEX"])
                 else:
-                    logging.error("Element property in map file are not proper  - %s" % (locator))
+                    logging.error("Element property in locator file are not proper  - %s" % (locator))
                     #log.mjLog.LogReporter("WebUIOperation", "error",
-                                       #   "Element property in map file are not proper  - %s" % (locator))
-                    raise AssertionError("Element property in map file are not proper  - %s" % (locator))
+                                       #   "Element property in locator file are not proper  - %s" % (locator))
+                    raise AssertionError("Element property in locator file are not proper  - %s" % (locator))
                 return self.elementlist
             else:
                 raise Exception("No element returned for provided locator <%s>" % locator)

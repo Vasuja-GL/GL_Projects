@@ -86,7 +86,7 @@ class WebElementAction:
                 "BY_VALUE": element
             }
         else:
-            self.elementAttr = self._browser._map_converter(element, replace_dict)
+            self.elementAttr = self._browser._locator_converter(element, replace_dict)
 
         if 'not' in condition_category:
             wait = WebDriverWait(self._browser.get_current_browser(), waittime).until_not

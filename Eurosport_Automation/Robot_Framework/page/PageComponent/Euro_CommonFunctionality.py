@@ -13,10 +13,10 @@ import web_wrappers.selenium_wrappers as base
 
 #from log import log
 import logging
-from mapMgr import mapMgr
-mapMgr.create_maplist("Eurosports")
-mapDict = mapMgr.getMapDict()
-mapList = mapMgr.getMapKeyList()
+from locatorMgr import locatorMgr
+locatorMgr.create_locatorlist("Eurosports")
+mapDict = locatorMgr.getMapDict()
+mapList = locatorMgr.getMapKeyList()
 
 __author__ = "Vasuja"
 

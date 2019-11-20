@@ -2,12 +2,13 @@
 import re
 import os
 import sys
+import logging
 
 #from log import log
 
 
-class mapParser:
-    """ mapParser class is used to read and write configuration files. """
+class locatorParser:
+    """ locatorParser class is used to read and write configuration files. """
 
     def __init__(self, filename=None, rtool=None):
         self.map_dict = {}
@@ -15,7 +16,6 @@ class mapParser:
         self.rtool = rtool
         if not filename:
             logging.error("__init__ - File name not mentioned")
-            #log.mjLog.LogReporter("map_parser", "error", "__init__ - File name not mentioned")
 
         try:
             fileobj = open(filename, "r")
@@ -46,13 +46,8 @@ class mapParser:
                                     }
                             else:
                                 logging.error("duplicate found at line %s in file %s" % (line, filename))
-                                #log.mjLog.LogReporter("map_parser", "error",
-                                                     # "duplicate found at line %s in file %s" % (line, filename))
                     else:
                         logging.error("__init__ - Xpath %s in file %s does not contain == or it contain only 1 #" % (line, filename))
-                        #log.mjLog.LogReporter("map_parser", "error",
-                                            #  "__init__ - Xpath %s in file %s does not contain == or it contain only 1 #" % (line, filename))
-
 
                     if len(value_parts) > 3:
                         self.map_dict[key]["INDEX"] = int(value_parts[3])
@@ -64,7 +59,6 @@ class mapParser:
             fileobj.close()
         except:
             logging.error("__init__ - Error: " + str(sys.exc_info()))
-            #log.mjLog.LogReporter("map_parser", "error", "__init__ - Error: " + str(sys.exc_info()))
             raise Exception
 
     def __str__(self):
