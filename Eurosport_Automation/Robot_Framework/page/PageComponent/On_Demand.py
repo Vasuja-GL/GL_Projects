@@ -33,6 +33,7 @@ class On_Demand(object):
         status = True
         params = defaultdict(lambda: '', params)
         try:
+            self.action_ele.explicit_wait(params["play_button_xpath"])
             self.action_ele.click_element(params["play_button_xpath"])
         except Exception as e:
             print(e)
