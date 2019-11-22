@@ -2,11 +2,12 @@ from selenium import webdriver
 from selenium.webdriver import FirefoxProfile
 import time
 
-profile = FirefoxProfile('/home/syam.s/.mozilla/firefox/t59w63h4.default')
-cap=webdriver.DesiredCapabilities.FIREFOX.copy()
-remote = webdriver.Remote("http://localhost:4444/wd/hub", desired_capabilities=cap,browser_profile=profile)
+desiredCapabilities={
+"browserName":"firefox"
+}
 
-remote.get('https://www.eurosportplayer.com/')
-time.sleep(20)
+driver = webdriver.Remote(command_executor='http://localhost:4444/wd/hub',desired_capabilities = desiredCapabilities);
+driver.get("https://www.google.co.in/");
+print driver.title;
+driver.quit();
 
-remote.quit()
