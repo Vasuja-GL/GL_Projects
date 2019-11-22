@@ -1,10 +1,13 @@
 from selenium import webdriver
+from time import sleep
 
-desiredCapabilities={
-"browserName":"chrome"
-}
+fp=None
+fp = webdriver.FirefoxProfile()
+fp.set_preference("plugin.state.java", 2)
+cap=webdriver.DesiredCapabilities.FIREFOX.copy()
+remote = webdriver.Remote("http://localhost:4444/wd/hub", desired_capabilities=cap)
 
-driver = webdriver.Remote(command_executor='http://localhost:4444/wd/hub',desired_capabilities = desiredCapabilities);
-driver.get("https://www.google.co.in/");
-print driver.title;
-driver.quit();
+remote.get('https://www.eurosportplayer.com/')
+sleep(10)
+
+remote.quit() 
