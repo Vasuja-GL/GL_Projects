@@ -1,0 +1,636 @@
+{
+  "uid" : "ae6368de9d8f48a2",
+  "name" : "Login to Eurosport and play video",
+  "fullName" : "Tc Eurosports Login.Login to Eurosport and play video",
+  "historyId" : "c86a1840f72260939b760e724e78a9e8",
+  "time" : {
+    "start" : 1574662180668,
+    "stop" : 1574662201159,
+    "duration" : 20491
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Set Init Env",
+    "time" : {
+      "start" : 1574662176371,
+      "stop" : 1574662180666,
+      "duration" : 4295
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "${login_details} = BuiltIn.Create Dictionary",
+      "time" : {
+        "start" : 1574662176372,
+        "stop" : 1574662176372,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "18251269e6a55c6e",
+        "name" : "Keyword Log",
+        "source" : "18251269e6a55c6e.html",
+        "type" : "text/html",
+        "size" : 42
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "BuiltIn.Set Suite Variable",
+      "time" : {
+        "start" : 1574662176373,
+        "stop" : 1574662176374,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2eaabc64b6f2f4d0",
+        "name" : "Keyword Log",
+        "source" : "2eaabc64b6f2f4d0.html",
+        "type" : "text/html",
+        "size" : 41
+      } ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "${logindetails}"
+      } ],
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "${video_details} = BuiltIn.Create Dictionary",
+      "time" : {
+        "start" : 1574662176374,
+        "stop" : 1574662176375,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3c52504ddf906071",
+        "name" : "Keyword Log",
+        "source" : "3c52504ddf906071.html",
+        "type" : "text/html",
+        "size" : 42
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "BuiltIn.Set Suite Variable",
+      "time" : {
+        "start" : 1574662176375,
+        "stop" : 1574662176376,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "45154f5008846ab",
+        "name" : "Keyword Log",
+        "source" : "45154f5008846ab.html",
+        "type" : "text/html",
+        "size" : 42
+      } ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "${video_details}"
+      } ],
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "EuroKeywords.I launch the browser",
+      "time" : {
+        "start" : 1574662176376,
+        "stop" : 1574662180666,
+        "duration" : 4290
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "BuiltIn.Run Keyword",
+        "time" : {
+          "start" : 1574662176377,
+          "stop" : 1574662180666,
+          "duration" : 4289
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "EuroComponent.Launch Browser",
+          "time" : {
+            "start" : 1574662176377,
+            "stop" : 1574662180666,
+            "duration" : 4289
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "arg1",
+            "value" : "&{Browser_info}"
+          } ],
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "launch_browser"
+        }, {
+          "name" : "arg2",
+          "value" : "&{Browser_info}"
+        } ],
+        "attachmentsCount" : 0,
+        "stepsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "&{Browser_info}"
+      } ],
+      "attachmentsCount" : 0,
+      "stepsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "EuroKeywords.When I open the web page with ${URL}",
+      "time" : {
+        "start" : 1574662180668,
+        "stop" : 1574662183454,
+        "duration" : 2786
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "BuiltIn.Run Keyword",
+        "time" : {
+          "start" : 1574662180669,
+          "stop" : 1574662183453,
+          "duration" : 2784
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "EuroComponent.Open Url",
+          "time" : {
+            "start" : 1574662180669,
+            "stop" : 1574662183453,
+            "duration" : 2784
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "3627de6c267c1fbf",
+            "name" : "Keyword Log",
+            "source" : "3627de6c267c1fbf.html",
+            "type" : "text/html",
+            "size" : 40
+          } ],
+          "parameters" : [ {
+            "name" : "arg1",
+            "value" : "${url}"
+          } ],
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "Open_Url"
+        }, {
+          "name" : "arg2",
+          "value" : "${url}"
+        } ],
+        "attachmentsCount" : 1,
+        "stepsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "stepsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "BuiltIn.Sleep",
+      "time" : {
+        "start" : 1574662183455,
+        "stop" : 1574662186457,
+        "duration" : 3002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3cb6a427ac173d33",
+        "name" : "Keyword Log",
+        "source" : "3cb6a427ac173d33.html",
+        "type" : "text/html",
+        "size" : 36
+      } ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "3"
+      } ],
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "EuroKeywords.When I switch to \"OnDemand\" page",
+      "time" : {
+        "start" : 1574662186458,
+        "stop" : 1574662187833,
+        "duration" : 1375
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "&{pageSwitch} = BuiltIn.Create Dictionary",
+        "time" : {
+          "start" : 1574662186460,
+          "stop" : 1574662186462,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6286c08fe717c3f1",
+          "name" : "Keyword Log",
+          "source" : "6286c08fe717c3f1.html",
+          "type" : "text/html",
+          "size" : 54
+        } ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "page=${myNewPage}"
+        } ],
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "BuiltIn.Run Keyword",
+        "time" : {
+          "start" : 1574662186463,
+          "stop" : 1574662187832,
+          "duration" : 1369
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "EuroComponent.Switch Page",
+          "time" : {
+            "start" : 1574662186464,
+            "stop" : 1574662187832,
+            "duration" : 1368
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "97f689c518fddd82",
+            "name" : "Keyword Log",
+            "source" : "97f689c518fddd82.html",
+            "type" : "text/html",
+            "size" : 323
+          } ],
+          "parameters" : [ {
+            "name" : "arg1",
+            "value" : "&{pageSwitch}"
+          } ],
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "Switch Page"
+        }, {
+          "name" : "arg2",
+          "value" : "&{pageSwitch}"
+        } ],
+        "attachmentsCount" : 1,
+        "stepsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "stepsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "BuiltIn.Sleep",
+      "time" : {
+        "start" : 1574662187833,
+        "stop" : 1574662190836,
+        "duration" : 3003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "615b41130962a7c6",
+        "name" : "Keyword Log",
+        "source" : "615b41130962a7c6.html",
+        "type" : "text/html",
+        "size" : 36
+      } ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "3"
+      } ],
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Collections.Set To Dictionary",
+      "time" : {
+        "start" : 1574662190838,
+        "stop" : 1574662190839,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "${video_details}"
+      }, {
+        "name" : "arg2",
+        "value" : "play_button_xpath"
+      }, {
+        "name" : "arg3",
+        "value" : "First_video_play_button"
+      } ],
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "EuroKeywords.And I play the video",
+      "time" : {
+        "start" : 1574662190840,
+        "stop" : 1574662191154,
+        "duration" : 314
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "${result} = BuiltIn.Run Keyword",
+        "time" : {
+          "start" : 1574662190842,
+          "stop" : 1574662191151,
+          "duration" : 309
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "EuroComponent.Play Video",
+          "time" : {
+            "start" : 1574662190844,
+            "stop" : 1574662191149,
+            "duration" : 305
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "4aa1d77ce86b33e4",
+            "name" : "Keyword Log",
+            "source" : "4aa1d77ce86b33e4.html",
+            "type" : "text/html",
+            "size" : 258
+          } ],
+          "parameters" : [ {
+            "name" : "arg1",
+            "value" : "&{video_details}"
+          } ],
+          "attachmentsCount" : 1,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "f76e05c34776166e",
+          "name" : "Keyword Log",
+          "source" : "f76e05c34776166e.html",
+          "type" : "text/html",
+          "size" : 37
+        } ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "play video"
+        }, {
+          "name" : "arg2",
+          "value" : "&{video_details}"
+        } ],
+        "attachmentsCount" : 2,
+        "stepsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "BuiltIn.Should Be True",
+        "time" : {
+          "start" : 1574662191152,
+          "stop" : 1574662191153,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "arg1",
+          "value" : "${result}"
+        } ],
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "&{video_details}"
+      } ],
+      "attachmentsCount" : 2,
+      "stepsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "BuiltIn.Sleep",
+      "time" : {
+        "start" : 1574662191154,
+        "stop" : 1574662201157,
+        "duration" : 10003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d64ff708cfffa87b",
+        "name" : "Keyword Log",
+        "source" : "d64ff708cfffa87b.html",
+        "type" : "text/html",
+        "size" : 37
+      } ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "10s"
+      } ],
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "stepsCount" : 15,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "EuroKeywords.Close The Browsers",
+    "time" : {
+      "start" : 1574662201165,
+      "stop" : 1574662204853,
+      "duration" : 3688
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "BuiltIn.Run Keyword",
+      "time" : {
+        "start" : 1574662201167,
+        "stop" : 1574662204851,
+        "duration" : 3684
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "EuroComponent.Close The Browser",
+        "time" : {
+          "start" : 1574662201168,
+          "stop" : 1574662204851,
+          "duration" : 3683
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "Close The Browser"
+      } ],
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "BuiltIn.Run Keyword",
+      "time" : {
+        "start" : 1574662204852,
+        "stop" : 1574662204853,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "EuroComponent.Generate Allure Report",
+        "time" : {
+          "start" : 1574662204852,
+          "stop" : 1574662204852,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7fc1669ed2600728",
+          "name" : "Keyword Log",
+          "source" : "7fc1669ed2600728.html",
+          "type" : "text/html",
+          "size" : 277
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "arg1",
+        "value" : "generate_allure_report"
+      } ],
+      "attachmentsCount" : 1,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Tc Eurosports Login"
+  }, {
+    "name" : "tag",
+    "value" : "playback_video"
+  }, {
+    "name" : "thread"
+  }, {
+    "name" : "host",
+    "value" : "BLR1-LHP-N68562"
+  }, {
+    "name" : "framework",
+    "value" : "robotframework"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "playback_video" ]
+  },
+  "source" : "ae6368de9d8f48a2.json",
+  "parameterValues" : [ ]
+}

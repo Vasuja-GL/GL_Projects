@@ -1,252 +1,157 @@
-1573810092838	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEujBkB"
-1573810094761	Marionette	INFO	Listening on port 39759
-1573810094816	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1573810094842	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1573810094844	Marionette	WARN	TLS certificate errors will be ignored for this session
-Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
-1573810115415	Marionette	INFO	Stopped listening on port 39759
-[Parent 5327, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574340582953	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYnMGYf"
+1574340585568	Marionette	INFO	Listening on port 39655
+1574340585688	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1574405141447	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileicJCI6"
+1574405143563	Marionette	INFO	Listening on port 45599
+1574405143658	Marionette	WARN	TLS certificate errors will be ignored for this session
+1574405165950	Marionette	INFO	Stopped listening on port 45599
+[Child 14459, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
 
-[Parent 5327, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-1573810355046	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileO7RW0G"
-1573810456701	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaLVZkY"
-1573810458593	Marionette	INFO	Listening on port 45631
-1573810458627	Marionette	WARN	TLS certificate errors will be ignored for this session
-1573810458651	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1573810458684	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1573810475019	Marionette	INFO	Stopped listening on port 45631
+1574414821813	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3P0onS"
+1574414823252	Marionette	INFO	Listening on port 36917
+1574414823333	Marionette	WARN	TLS certificate errors will be ignored for this session
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+1574414854024	Marionette	INFO	Stopped listening on port 36917
+[Parent 18531, Gecko_IOThread] WARNING: pipe error (113): Connection reset by peer: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Child 18591, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+[Child 18591, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+[Child 18591, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+[Child 18591, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+[Child 18591, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
 
-[Parent 6216, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-[Parent 6216, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-1573816591823	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileC8Ekhk"
-1573816594721	Marionette	INFO	Listening on port 39869
-1573816594733	Marionette	WARN	TLS certificate errors will be ignored for this session
-1573816594829	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1573816594913	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1573816597814	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOlnXWA"
-1573816600246	Marionette	INFO	Listening on port 45817
-1573816600327	Marionette	WARN	TLS certificate errors will be ignored for this session
-1573816600345	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1573816600436	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
-Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
-JavaScript warning: https://confluence.globallogic.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
-JavaScript warning: https://confluence.globallogic.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
-JavaScript warning: https://confluence.globallogic.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
-JavaScript warning: https://confluence.globallogic.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
-JavaScript warning: https://confluence.globallogic.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
-JavaScript warning: https://confluence.globallogic.com/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
-JavaScript warning: https://www.ess.adp.in/ESS4/assets/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-JavaScript warning: https://www.ess.adp.in/ESS4/assets/js/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-1573817231128	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek6grFE"
-1573817233972	Marionette	INFO	Listening on port 38899
-1573817234045	Marionette	WARN	TLS certificate errors will be ignored for this session
-1573817234079	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1573817234135	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1573817237128	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileg6rTFc"
-1573817239575	Marionette	INFO	Listening on port 43037
-1573817239638	Marionette	WARN	TLS certificate errors will be ignored for this session
-1573817239668	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1573817239747	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
-[Parent 9477, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-[Parent 9477, Gecko_IOThread] WARNING: pipe error (112): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-1573817249251	Marionette	INFO	Stopped listening on port 45817
-[Parent 8720, Gecko_IOThread] WARNING: pipe error (110): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-[Parent 8720, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-1573817250770	Marionette	INFO	Stopped listening on port 39869
-Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
-1573817255863	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1574415103739	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFZ2RGA"
+1574415105090	Marionette	INFO	Listening on port 41675
+1574415105161	Marionette	WARN	TLS certificate errors will be ignored for this session
+1574415131586	Marionette	INFO	Stopped listening on port 41675
+[Child 19542, MediaDecoderStateMachine #1] WARNING: Decoder=7f6f1e669e00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Parent 19483, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
 
-[Parent 11033, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-[Parent 11033, Gecko_IOThread] WARNING: pipe error (124): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-1573817256058	Marionette	INFO	Stopped listening on port 43037
+1574662178390	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVXiD78"
+1574662180529	Marionette	INFO	Listening on port 35909
+1574662180604	Marionette	WARN	TLS certificate errors will be ignored for this session
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+1574662203177	Marionette	INFO	Stopped listening on port 35909
+[Parent 25497, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
 
-[Parent 10356, Gecko_IOThread] WARNING: pipe error (111): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-[Parent 10356, Gecko_IOThread] WARNING: pipe error (57): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-1573817257308	Marionette	INFO	Stopped listening on port 38899
-1573817312951	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQ0L7WH"
-1573817315775	Marionette	INFO	Listening on port 46637
-1573817315855	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1573817315864	Marionette	WARN	TLS certificate errors will be ignored for this session
-1573817315923	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1573817318963	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIH2j8s"
-1573817321381	Marionette	INFO	Listening on port 42909
-1573817321465	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1573817321476	Marionette	WARN	TLS certificate errors will be ignored for this session
-1573817321568	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
-Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
-[Parent 12452, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574673854565	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeRc9eg"
+1574673855948	Marionette	INFO	Listening on port 43739
+1574673855991	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 4300, Gecko_IOThread] WARNING: pipe error (115): Connection reset by peer: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 4300, Gecko_IOThread] WARNING: pipe error (48): Connection reset by peer: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
 
-[Parent 12452, Gecko_IOThread] WARNING: pipe error (111): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-1573817351416	Marionette	INFO	Stopped listening on port 42909
-[Parent 11782, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-[Parent 11782, Gecko_IOThread] WARNING: pipe error (105): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574673857208	Marionette	INFO	Stopped listening on port 43739
+1574677076787	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileztq5G6"
+1574677078168	Marionette	INFO	Listening on port 33681
+1574677078214	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+1574677101299	Marionette	INFO	Stopped listening on port 33681
+[Child 6855, MediaDecoderStateMachine #1] WARNING: Decoder=7f62f6d29200 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Parent 6793, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+1574677208149	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFisKS3"
+1574677209669	Marionette	INFO	Listening on port 41177
+1574677209757	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+1574677232961	Marionette	INFO	Stopped listening on port 41177
+[Parent 7332, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+[Parent 7332, Gecko_IOThread] WARNING: pipe error (127): Connection reset by peer: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574677711946	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekpMEvl"
+1574677713302	Marionette	INFO	Listening on port 36077
+1574677713357	Marionette	WARN	TLS certificate errors will be ignored for this session
+1574677736607	Marionette	INFO	Stopped listening on port 36077
+[Child 8380, MediaDecoderStateMachine #1] WARNING: Decoder=7ff190bc8e00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - void mozilla::EMEDecryptor::Decrypted(const mozilla::DecryptResult&): decrypted.mStatus=3: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Child 8380, MediaDecoderStateMachine #1] WARNING: Decoder=7ff190bc8e00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3309
+[Parent 8321, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+1574746550900	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5FG0XM"
+1574746552245	Marionette	INFO	Listening on port 45031
+1574746552315	Marionette	WARN	TLS certificate errors will be ignored for this session
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1574746576397	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileT0Biip"
+1574746577906	Marionette	INFO	Listening on port 46435
+1574746578003	Marionette	WARN	TLS certificate errors will be ignored for this session
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+1574746606028	Marionette	INFO	Stopped listening on port 46435
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+[Parent 16068, Gecko_IOThread] WARNING: pipe error (115): Connection reset by peer: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 16068, Gecko_IOThread] WARNING: pipe error (48): Connection reset by peer: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 16068, Gecko_IOThread] WARNING: pipe error (126): Connection reset by peer: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574746776139	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUo4avl"
+1574746777618	Marionette	INFO	Listening on port 34529
+1574746777660	Marionette	WARN	TLS certificate errors will be ignored for this session
+1574746800693	Marionette	INFO	Stopped listening on port 34529
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+[Parent 17054, Gecko_IOThread] WARNING: pipe error (115): Connection reset by peer: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1574746868167	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekHjzST"
+1574746869506	Marionette	INFO	Listening on port 40649
+1574746869578	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+1574746891471	Marionette	INFO	Stopped listening on port 40649
+[Parent 17581, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
+
+1574748190789	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRJoygU"
+1574748192147	Marionette	INFO	Listening on port 35789
+1574748192206	Marionette	WARN	TLS certificate errors will be ignored for this session
+Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+1574748245346	Marionette	INFO	Stopped listening on port 35789
+[Parent 19026, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x36010D,name=PContent::Msg_ReportContentBlockingLog) Closed channel: cannot send/recv
 
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
 
+1574748338255	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2vjv7B"
+1574748339708	Marionette	INFO	Listening on port 39873
+1574748339761	Marionette	WARN	TLS certificate errors will be ignored for this session
+1574748366951	Marionette	INFO	Stopped listening on port 39873
+[Parent 19420, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
 
-1573817352614	Marionette	INFO	Stopped listening on port 46637
-1574056918647	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehKBtno"
-1574056920408	Marionette	INFO	Listening on port 36465
-1574056920452	Marionette	WARN	TLS certificate errors will be ignored for this session
-1574056920467	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1574056920498	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
-1574056943376	Marionette	INFO	Stopped listening on port 36465
+1574751200390	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2lFYH8"
+1574751202495	Marionette	INFO	Listening on port 35853
+1574751202506	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+1574751225232	Marionette	INFO	Stopped listening on port 35853
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 21301, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /build/firefox-y_KX3Y/firefox-69.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 728
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
-
-[Parent 2634, Gecko_IOThread] WARNING: pipe error (121): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-[Parent 2634, Gecko_IOThread] WARNING: pipe error (49): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1574058100452	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBko3Y5"
-1574058102237	Marionette	INFO	Listening on port 37065
-1574058102267	Marionette	WARN	TLS certificate errors will be ignored for this session
-1574058102294	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1574058102325	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
-1574058127015	Marionette	INFO	Stopped listening on port 37065
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
-
-[Parent 3987, Gecko_IOThread] WARNING: pipe error (125): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1574075597907	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegBs15T"
-1574075599730	Marionette	INFO	Listening on port 40029
-1574075599779	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1574075599803	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1574075599815	Marionette	WARN	TLS certificate errors will be ignored for this session
-Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
-1574075622743	Marionette	INFO	Stopped listening on port 40029
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
-
-[Parent 12974, Gecko_IOThread] WARNING: pipe error (103): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1574075663384	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQ3C4p0"
-1574075665183	Marionette	INFO	Listening on port 39823
-1574075665212	Marionette	WARN	TLS certificate errors will be ignored for this session
-1574075665255	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1574075665288	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
-1574075688495	Marionette	INFO	Stopped listening on port 39823
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
-
-[Parent 13710, Gecko_IOThread] WARNING: pipe error (124): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1574156248724	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekzw7k8"
-1574156250513	Marionette	INFO	Listening on port 46531
-1574156250545	Marionette	WARN	TLS certificate errors will be ignored for this session
-1574156250572	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1574156250605	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
-1574156284118	Marionette	INFO	Stopped listening on port 46531
-[Parent 20154, Gecko_IOThread] WARNING: pipe error (122): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
-
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1574156391598	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIoQ59b"
-1574156393416	Marionette	INFO	Listening on port 45859
-1574156393473	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1574156393501	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1574156393505	Marionette	WARN	TLS certificate errors will be ignored for this session
-Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
-[Parent 20913, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-[Parent 20913, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
-
-1574156395830	Marionette	INFO	Stopped listening on port 45859
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1574156576884	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegQ8Trb"
-1574156578659	Marionette	INFO	Listening on port 40307
-1574156578702	Marionette	WARN	TLS certificate errors will be ignored for this session
-1574156578723	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1574156578755	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
-1574156601665	Marionette	INFO	Stopped listening on port 40307
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
-
-[Parent 21796, Gecko_IOThread] WARNING: pipe error (103): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1574156727505	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek1cgVO"
-1574156729355	Marionette	INFO	Listening on port 46709
-1574156729408	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1574156729414	Marionette	WARN	TLS certificate errors will be ignored for this session
-1574156729454	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-[Parent 22566, Gecko_IOThread] WARNING: pipe error (48): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-[Parent 22566, Gecko_IOThread] WARNING: pipe error (125): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
-
-[Parent 22566, Gecko_IOThread] WARNING: pipe error (131): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-1574156729917	Marionette	INFO	Stopped listening on port 46709
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1574156760846	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileV5nwaS"
-1574156762763	Marionette	INFO	Listening on port 38521
-1574156762828	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1574156762866	Marionette	WARN	TLS certificate errors will be ignored for this session
-1574156762890	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
-[Parent 23303, Gecko_IOThread] WARNING: pipe error (124): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-[Parent 23303, Gecko_IOThread] WARNING: pipe error (56): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
-
-1574156786281	Marionette	INFO	Stopped listening on port 38521
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1574156937367	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileruQaiy"
-1574156939335	Marionette	INFO	Listening on port 38139
-1574156939378	Marionette	WARN	TLS certificate errors will be ignored for this session
-1574156939395	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1574156939432	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-Log warning: The log 'Services.Common.RESTRequest' is configured to use the preference 'services.common.log.logger.rest.request' - you must adjust the level by setting this preference, not by using the level setter
-1574156969914	Marionette	INFO	Stopped listening on port 38139
-[Parent 24321, Gecko_IOThread] WARNING: pipe error (114): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x36011E,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 

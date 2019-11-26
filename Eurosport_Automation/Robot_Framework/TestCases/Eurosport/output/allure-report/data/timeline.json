@@ -1,0 +1,116 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "BLR1-LHP-N68562",
+    "children" : [ {
+      "children" : [ {
+        "name" : "Login to Eurosport and play video",
+        "uid" : "bb9ef0d0b834ec69",
+        "parentUid" : "3be4a11fcb5eb1b9458d3c9bd2519687",
+        "status" : "failed",
+        "time" : {
+          "start" : 1574746552355,
+          "stop" : 1574746570206,
+          "duration" : 17851
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login to Eurosport and play video",
+        "uid" : "31973e700f70c14",
+        "parentUid" : "3be4a11fcb5eb1b9458d3c9bd2519687",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574746869613,
+          "stop" : 1574746889448,
+          "duration" : 19835
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login to Eurosport and play video",
+        "uid" : "4040f2e7eb1d5109",
+        "parentUid" : "3be4a11fcb5eb1b9458d3c9bd2519687",
+        "status" : "failed",
+        "time" : {
+          "start" : 1574746578070,
+          "stop" : 1574746604018,
+          "duration" : 25948
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login to Eurosport and play video",
+        "uid" : "3e193279efbce4c6",
+        "parentUid" : "3be4a11fcb5eb1b9458d3c9bd2519687",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574677713394,
+          "stop" : 1574677734588,
+          "duration" : 21194
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login to Eurosport and play video",
+        "uid" : "98daa22b643d9743",
+        "parentUid" : "3be4a11fcb5eb1b9458d3c9bd2519687",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574746777718,
+          "stop" : 1574746798671,
+          "duration" : 20953
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login to Eurosport and play video",
+        "uid" : "ae6368de9d8f48a2",
+        "parentUid" : "3be4a11fcb5eb1b9458d3c9bd2519687",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574662180668,
+          "stop" : 1574662201159,
+          "duration" : 20491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login to Eurosport and play video",
+        "uid" : "1c1a555becd003d1",
+        "parentUid" : "3be4a11fcb5eb1b9458d3c9bd2519687",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574677209818,
+          "stop" : 1574677230936,
+          "duration" : 21118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login to Eurosport and play video",
+        "uid" : "968009e6a45747e3",
+        "parentUid" : "3be4a11fcb5eb1b9458d3c9bd2519687",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574415105223,
+          "stop" : 1574415129570,
+          "duration" : 24347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3be4a11fcb5eb1b9458d3c9bd2519687"
+    } ],
+    "uid" : "394ba2616f33da3d71d181b14e9a72ba"
+  } ],
+  "name" : "timeline"
+}

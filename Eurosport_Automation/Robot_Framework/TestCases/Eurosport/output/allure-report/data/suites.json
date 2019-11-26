@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Tc Eurosports Login",
+    "children" : [ {
+      "name" : "Login to Eurosport and play video",
+      "uid" : "31973e700f70c14",
+      "parentUid" : "b90b65fa4adbd2d495a38b5a86008c4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1574746869613,
+        "stop" : 1574746889448,
+        "duration" : 19835
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b90b65fa4adbd2d495a38b5a86008c4e"
+  } ],
+  "name" : "suites"
+}

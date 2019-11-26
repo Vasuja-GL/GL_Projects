@@ -18,9 +18,8 @@ Resource           ../../Variables/EnvVariables.robot
 Library			  ../../lib/EuroComponent.py
 
 *** Test Cases ***
-Login to Eurosport and play video
+Testcase 1: Login to Eurosport and play video
     [Tags]  playback_video
-
     When I open the web page with ${URL}
     sleep  3
     When I switch to "OnDemand" page

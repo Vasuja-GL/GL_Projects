@@ -1,0 +1,11 @@
+[ {
+  "uid" : "31973e700f70c14",
+  "name" : "Login to Eurosport and play video",
+  "time" : {
+    "start" : 1574746869613,
+    "stop" : 1574746889448,
+    "duration" : 19835
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]
