@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver import FirefoxProfile
 import time
 
-profile = FirefoxProfile('/home/syam.s/.mozilla/firefox/t59w63h4.default')
+profile = FirefoxProfile('/home/vasuja.kookkal/.mozilla/firefox/y3035bsl.default')
 desiredCapabilities={
 "browserName":"firefox"
 }
