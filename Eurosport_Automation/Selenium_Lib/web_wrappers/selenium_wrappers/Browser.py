@@ -97,9 +97,17 @@ class Browser:
 
         elif browser == 'firefox':
             profile = FirefoxProfile(profile_path)
-            webdriver_path = self.BROWSER_INFO[browser]['webdriver_path']
-            testdriver = webdriver.Firefox(firefox_profile=profile,
-                                       executable_path=webdriver_path)
+            # webdriver_path = self.BROWSER_INFO[browser]['webdriver_path']
+            # desiredCapabilities = {
+            #     "browserName": "firefox",
+            #     "binary": webdriver_path,
+            #     "marionette": True
+            #    # webdriver_path = self.BROWSER_INFO[browser]['webdriver_path']
+            # }
+            desiredCapabilities = {
+                "browserName": "firefox"
+            }
+            testdriver = webdriver.Remote("http://localhost:4444/wd/hub", desired_capabilities=desiredCapabilities, browser_profile = profile)
 
         else:
             options = webdriver.ChromeOptions()
